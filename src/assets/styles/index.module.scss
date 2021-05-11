@@ -63,12 +63,32 @@ p {
         padding: 15px 0 20px 0;
         border-bottom: 1px solid var(--beige);
     }
+    img {
+        height: 20px;
+        padding-top: 4px;
+        margin-right: 8px;
+    }
+    a {
+        margin: 8px 0;
+        display: flex;
+        color: var(--beige);
+    }
+    p {
+        padding: 0;
+        margin: 0;
+    }
     .nj {
         margin: 0;
         background: var(--green);
+        .visites {
+            display: flex;
+            margin-top: 60px;
+            padding-bottom: 20px;
+        }
     }
     .nu {
         margin: 0;
         background: var(--brun);
+        padding-bottom: 20px;
     }
 }

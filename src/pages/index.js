@@ -13,12 +13,23 @@ import imagetop from "../assets/images/indextop.jpg";
 import brunc from "../assets/images/icons/brundcircle.svg";
 import greenc from "../assets/images/icons/greendcircle.svg";
 import purplec from "../assets/images/icons/purpledcircle.svg";
+import camera from "../assets/images/icons/camera-with-flash.png";
+import dog from "../assets/images/icons/dog.png";
+import earth from "../assets/images/icons/earth-globe-americas.png";
+import envelope from "../assets/images/icons/envelope.png";
+import calendar from "../assets/images/icons/tear-off-calendar.png";
+import telephone from "../assets/images/icons/telephone-receiver.png";
+import hearts from "../assets/images/icons/two-hearts.png";
 
 // markup
 const IndexPage = () => {
   return (
     <Layout>
-      <img className={componentStyles.topimage} src={imagetop} alt="" />
+      <img
+        className={componentStyles.topimage}
+        src={imagetop}
+        alt="chien colley élevage Jade Québec"
+      />
       <Container>
         <article>
           <p>
@@ -74,13 +85,50 @@ const IndexPage = () => {
         <section className={componentStyles.nj}>
           <Container>
             <h2>Nous Joindre</h2>
-            <Link>418 325-3285</Link>
+            <Link>
+              <img src={telephone} alt="red phone emoji" />
+              <p>418 325-3285</p>
+            </Link>
+            <Link>
+              <img src={envelope} alt="red phone emoji" />
+              <p>info@elevagedejade.com</p>
+            </Link>
+
+            <Link>
+              <img src={earth} alt="red phone emoji" />
+              <p>Sainte-Anne-de-la-Pérade Québec, Canada</p>
+            </Link>
+            <div className={componentStyles.visites}>
+              <img src={calendar} alt="red phone emoji" />
+              <p>
+                <b>Les visites se font uniquement sur rendez-vous</b>
+              </p>
+            </div>
           </Container>
         </section>
         <section className={componentStyles.nu}>
           <Container>
             <h2>Nouvelles</h2>
-            <p>test</p>
+            <Link>
+              <img src={camera} alt="red phone emoji" />
+              <p>This is a new</p>
+            </Link>
+            <Link>
+              <img src={camera} alt="red phone emoji" />
+              <p>This is a new</p>
+            </Link>
+            <Link>
+              <img src={camera} alt="red phone emoji" />
+              <p>This is a new</p>
+            </Link>
+            <Link>
+              <img src={camera} alt="red phone emoji" />
+              <p>This is a new</p>
+            </Link>
+            <Link>
+              <img src={camera} alt="red phone emoji" />
+              <p>This is a new</p>
+            </Link>
           </Container>
         </section>
       </article>

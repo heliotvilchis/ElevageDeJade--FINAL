@@ -44,4 +44,9 @@ a {
 a {
     text-decoration: none;
     color: var(--gray);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
