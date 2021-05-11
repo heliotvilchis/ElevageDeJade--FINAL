@@ -1,7 +1,7 @@
 import React from "react";
 
 //CSS
-import "../layout/layout.module.scss";
+import "./layout.module.scss";
 
 // COMPONENTS
 import NavBar from "../navbar/navbar";
