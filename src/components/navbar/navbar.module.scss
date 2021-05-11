@@ -1,0 +1,72 @@
+@media only screen and (max-width: 575px) {
+    .navbar {
+        padding: 8px 0;
+    }
+    header {
+        padding: 12px 0;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .navbar {
+        padding: 8px 0;
+    }
+    header {
+        padding: 12px 0;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        padding: 12px 0;
+    }
+    header {
+        padding: 12px 0;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .navbar {
+        padding: 16px 0;
+        header {
+            padding: 12px 0;
+            line-height: 24.8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbarIcon {
+            width: 15rem;
+            img {
+                height: 45px;
+            }
+        }
+        ul {
+            font-family: "Montserrat-SemiBold";
+            display: block;
+            line-height: 24.8px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                margin: 0 0.25rem;
+                a {
+                    padding: 0.5rem 0.75rem;
+                    text-decoration: none;
+                    color: #2D2D2D;
+                }
+            }
+        }
+        .navbarEndBtns {
+            width: 15rem;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .navbarButton {
+            border-radius: 0.25rem;
+            border: 1px solid #2D2D2D;
+        }
+    }
+}
