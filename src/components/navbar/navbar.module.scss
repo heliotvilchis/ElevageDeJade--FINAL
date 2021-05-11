@@ -24,10 +24,12 @@
         ul {
             line-height: 24.8px;
             list-style: none;
-            background: var(--green);
         }
         li {
-            padding: 5px 0;
+            padding: 8px 0;
+            img {
+                margin: 0 5px -6px 0;
+            }
         }
     }
     button {
