@@ -4,6 +4,35 @@
     }
     header {
         padding: 12px 0;
+        line-height: 24.8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbarIcon {
+        font-size: 7vw;
+        img {
+            display: none;
+        }
+    }
+    .deskmenu {
+        display: none;
+    }
+    .btnnavclose,
+    .mobilenav {
+        display: none;
+        ul {
+            line-height: 24.8px;
+            list-style: none;
+            background: var(--green);
+        }
+        li {
+            padding: 5px 0;
+        }
+    }
+    button {
+        background: none;
+        border: none;
     }
 }
 
@@ -14,6 +43,11 @@
     header {
         padding: 12px 0;
         display: flex;
+    }
+    .btnnavclose,
+    .btnnavopen,
+    .mobilenav {
+        display: none;
     }
 }
 
@@ -44,7 +78,6 @@
             }
         }
         ul {
-            font-family: "Montserrat-SemiBold";
             display: block;
             line-height: 24.8px;
             list-style: none;
