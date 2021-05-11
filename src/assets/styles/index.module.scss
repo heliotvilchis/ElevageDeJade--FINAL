@@ -93,6 +93,12 @@ p {
     }
 }
 
+@media only screen and (min-width: 576px) {
+    .cont {
+        padding: 0 40px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .tripledots {
         display: flex;
@@ -124,10 +130,29 @@ p {
         .nj {
             width: 50%;
             min-height: 320px;
+            .visites {
+                margin-top: 95px;
+            }
         }
         .nu {
             width: 50%;
             min-height: 320px;
         }
+    }
+    .cont {
+        padding: 0 48px;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .contl {
+        padding: 0 64px;
+        max-width: 576px;
+        margin-left: auto;
+    }
+    .contr {
+        padding: 0 64px;
+        max-width: 576px;
+        margin-right: auto;
     }
 }

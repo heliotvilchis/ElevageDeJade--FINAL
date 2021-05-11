@@ -66,7 +66,6 @@ const IndexPage = () => {
               <h2>Chiots Disponibles</h2>
             </section>
           </Link>
-
           <Link to="/">
             <section className={componentStyles.dotlink2}>
               <img src={greenc} alt="Green double circle" />
@@ -83,7 +82,7 @@ const IndexPage = () => {
       </Container>
       <article className={componentStyles.njn}>
         <section className={componentStyles.nj}>
-          <Container>
+          <div className={componentStyles.contl}>
             <h2>Nous Joindre</h2>
             <Link>
               <img src={telephone} alt="red phone emoji" />
@@ -93,7 +92,6 @@ const IndexPage = () => {
               <img src={envelope} alt="red phone emoji" />
               <p>info@elevagedejade.com</p>
             </Link>
-
             <Link>
               <img src={earth} alt="red phone emoji" />
               <p>Sainte-Anne-de-la-Pérade Québec, Canada</p>
@@ -104,10 +102,10 @@ const IndexPage = () => {
                 <b>Les visites se font uniquement sur rendez-vous</b>
               </p>
             </div>
-          </Container>
+          </div>
         </section>
         <section className={componentStyles.nu}>
-          <Container>
+          <div className={componentStyles.contr}>
             <h2>Nouvelles</h2>
             <Link>
               <img src={camera} alt="red phone emoji" />
@@ -125,7 +123,7 @@ const IndexPage = () => {
               <img src={camera} alt="red phone emoji" />
               <p>This is a new</p>
             </Link>
-          </Container>
+          </div>
         </section>
       </article>
     </Layout>
