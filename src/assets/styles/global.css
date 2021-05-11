@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "RaglanSans";
+    font-style: normal;
+    src: url("../../assets/fonts/RaglanSans-Regular.woff2") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    font-style: normal;
+    src: url("../../assets/fonts/SpaceMono-Regular.woff2") format("truetype");
+    font-display: swap;
+}
+
+:root {
+    --beige: #fefdf7;
+    --gray: #373c42;
+    --green: #4f8680;
+    --brun: #863b09;
+    --purple: #85729b;
+}
+
+body {
+    font-family: "Montserrat-Regular";
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: var(--beige);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "OrelegaOne";
+}
