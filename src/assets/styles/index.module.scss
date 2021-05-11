@@ -93,8 +93,14 @@ p {
     }
 }
 
+.contl,
+.contr {
+    padding: 0 24px;
+}
+
 @media only screen and (min-width: 576px) {
-    .cont {
+    .contl,
+    .contr {
         padding: 0 40px;
     }
 }
@@ -139,7 +145,8 @@ p {
             min-height: 320px;
         }
     }
-    .cont {
+    .contl,
+    .contr {
         padding: 0 48px;
     }
 }
