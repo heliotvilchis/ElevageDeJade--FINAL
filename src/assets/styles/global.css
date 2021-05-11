@@ -13,10 +13,10 @@
 }
 
 :root {
-    --beige: #fefdf7;
+    --beige: #eae8e4;
     --gray: #373c42;
     --green: #4f8680;
-    --brun: #863b09;
+    --brun: #88512c;
     --purple: #85729b;
 }
 
@@ -26,6 +26,9 @@ body {
     margin: 0;
     padding: 0;
     background: var(--beige);
+    background-image: url("../images/jadeletters.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1,
