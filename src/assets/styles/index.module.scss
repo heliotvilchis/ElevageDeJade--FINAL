@@ -1,5 +1,5 @@
 .topimage {
-    max-width: 100%;
+    width: 100%;
 }
 
 p {
@@ -90,5 +90,44 @@ p {
         margin: 0;
         background: var(--brun);
         padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tripledots {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            font-size: 100%;
+            width: 130px;
+            margin: 0;
+        }
+        img {
+            height: 40px;
+            margin-top: 15px;
+        }
+        .dotlink1,
+        .dotlink2,
+        .dotlink3 {
+            border: none;
+            border-left: 2px solid Var(--gray);
+            border-right: 2px solid Var(--gray);
+            padding: 0 20px;
+        }
+    }
+    .njn {
+        display: flex;
+        h2 {
+            text-align: center;
+            font-size: 150%;
+        }
+        .nj {
+            width: 50%;
+            min-height: 320px;
+        }
+        .nu {
+            width: 50%;
+            min-height: 320px;
+        }
     }
 }

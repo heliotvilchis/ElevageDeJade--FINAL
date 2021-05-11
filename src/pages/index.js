@@ -125,10 +125,6 @@ const IndexPage = () => {
               <img src={camera} alt="red phone emoji" />
               <p>This is a new</p>
             </Link>
-            <Link>
-              <img src={camera} alt="red phone emoji" />
-              <p>This is a new</p>
-            </Link>
           </Container>
         </section>
       </article>
