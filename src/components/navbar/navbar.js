@@ -21,7 +21,8 @@ const NavBar = () => {
         <header>
           <div className={componentStyles.navbarIcon}>
             <Link to="/">
-              <img src={logo} alt="Web Longueuil logo" />
+              <img src={logo} alt="Élevage de Jade" />
+              Élevage de Jade
             </Link>
           </div>
           <nav>
@@ -33,16 +34,6 @@ const NavBar = () => {
               ))}
             </ul>
           </nav>
-          <ul className={componentStyles.navbarEndBtns}>
-            <li>
-              <Link to="/">Start free trial</Link>
-            </li>
-            <li>
-              <Link to="/" className={componentStyles.navbarButton}>
-                Log in
-              </Link>
-            </li>
-          </ul>
         </header>
       </Container>
     </div>

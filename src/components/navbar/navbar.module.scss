@@ -37,9 +37,10 @@
             align-items: center;
         }
         .navbarIcon {
-            width: 15rem;
+            font-size: 50px;
             img {
                 height: 45px;
+                margin-right: 10px;
             }
         }
         ul {
@@ -54,19 +55,8 @@
                 margin: 0 0.25rem;
                 a {
                     padding: 0.5rem 0.75rem;
-                    text-decoration: none;
-                    color: #2D2D2D;
                 }
             }
-        }
-        .navbarEndBtns {
-            width: 15rem;
-            display: flex;
-            justify-content: flex-end;
-        }
-        .navbarButton {
-            border-radius: 0.25rem;
-            border: 1px solid #2D2D2D;
         }
     }
 }

@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: "Montserrat-Regular";
+    font-family: "RaglanSans";
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -32,6 +32,13 @@ h1,
 h2,
 h3,
 h4,
-h5 {
-    font-family: "OrelegaOne";
+h5,
+p,
+a {
+    font-family: "RaglanSans";
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray);
 }

@@ -1,24 +1,10 @@
-@media only screen and (max-width: 575px) {
-    .footer {
-        width: 100%;
-        background-color: red;
-    }
+.footer {
+    background-color: var(--gray);
+    color: var(--beige);
+    text-align: center;
+    padding: 15px 0;
 }
 
-@media only screen and (min-width: 576px) {
-    .footer {
-        background-color: red;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .footer {
-        background-color: red;
-    }
-}
-
-@media only screen and (min-width: 1050px) {
-    .footer {
-        background-color: red;
-    }
+span {
+    color: var(--beige);
 }
