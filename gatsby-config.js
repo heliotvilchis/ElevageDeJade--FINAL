@@ -25,18 +25,18 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",
+        name: "imagesHere",
         path: "./src/assets/images/",
       },
-      __key: "images",
+      __key: "imagesHere",
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
+        name: "pagesHere",
         path: "./src/pages/",
       },
-      __key: "pages",
+      __key: "pagesHere",
     },
   ],
 };

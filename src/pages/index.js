@@ -6,7 +6,7 @@ import Container from "../components/container/container";
 import Link from "../components/link/link";
 
 // CSS
-import * as componentStyles from "../assets/styles/index.module.scss";
+import * as componentStyles from "../assets/pagestyles/index.module.scss";
 
 // Assets
 import imagetop from "../assets/images/indextop.jpg";
