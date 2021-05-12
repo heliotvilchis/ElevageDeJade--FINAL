@@ -60,7 +60,7 @@ const NavBar = () => {
             <ul>
               {navbarItems.map((item) => (
                 <li key={item.name}>
-                  <Link to="/">{item.name}</Link>
+                  <Link to={item.url}>{item.name}</Link>
                 </li>
               ))}
             </ul>
@@ -85,7 +85,7 @@ const NavBar = () => {
             <ul>
               {navbarItems.map((item) => (
                 <li key={item.name}>
-                  <Link to="/">
+                  <Link to={item.url}>
                     {icon(item.name)}
                     {item.name}
                   </Link>
