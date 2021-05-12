@@ -1,5 +1,6 @@
 .topimage {
     width: 100%;
+    margin-bottom: 25px;
 }
 
 p {
@@ -98,14 +99,44 @@ p {
     padding: 0 24px;
 }
 
+.textcont {
+    display: flex;
+    margin-bottom: 20px;
+    img {
+        width: 150px;
+        float: left;
+        margin-top: 17.6px;
+        margin-right: 17.6px;
+    }
+}
+
 @media only screen and (min-width: 576px) {
     .contl,
     .contr {
         padding: 0 40px;
     }
+    .textcont {
+        display: flex;
+        img {
+            width: 200px;
+            float: left;
+            margin-top: 17.6px;
+            margin-right: 17.6px;
+            border-radius: 0;
+        }
+    }
 }
 
 @media only screen and (min-width: 768px) {
+    .textcont {
+        display: flex;
+        img {
+            width: 349px;
+            float: left;
+            margin-top: 17.6px;
+            margin-right: 17.6px;
+        }
+    }
     .tripledots {
         display: flex;
         justify-content: space-between;
@@ -129,6 +160,7 @@ p {
     }
     .njn {
         display: flex;
+        margin-top: 40px;
         h2 {
             text-align: center;
             font-size: 150%;

@@ -10,6 +10,7 @@ import * as componentStyles from "../assets/styles/index.module.scss";
 
 // Assets
 import imagetop from "../assets/images/indextop.jpg";
+import imagetext from "../assets/images/indextext.jpg";
 import brunc from "../assets/images/icons/brundcircle.svg";
 import greenc from "../assets/images/icons/greendcircle.svg";
 import purplec from "../assets/images/icons/purpledcircle.svg";
@@ -25,41 +26,47 @@ import hearts from "../assets/images/icons/two-hearts.png";
 const IndexPage = () => {
   return (
     <Layout>
-      <img
-        className={componentStyles.topimage}
-        src={imagetop}
-        alt="chien colley élevage Jade Québec"
-      />
       <Container>
-        <article>
-          <p>
-            <b>Élevage DeJade</b> a débuté par l'amour du colley et pour l'amour
-            du colley. Par l'amour, car lorsque j'ai eue mon premier qui était
-            un mâle tricolore, je suis tombée en amour avec cette race. Quelle
-            finesse de caractère, quelle intelligence, ce chien comprend sans
-            lui parler devine nos états d'âme et fait tout pour nous plaire, il
-            peut-être enjoué à l'écoute des ordres à recevoir ou tout simplement
-            d'un calme déconcertant.
-          </p>
-          <p>
-            Pour l'amour de la race là a vraiment débuté l'élevage pour
-            conserver cette magnifique prestance, ce regard tendre et
-            intelligent, cette force malgré l'élégance de la démarche, cette
-            robe somptueuse, quelle merveille.
-          </p>
-          <p>
-            Le but de l'élevage DeJade est de faire connaître aux gens cette
-            race en produisant des chiens en santé, intelligent et affectueux,
-            répondant aux critères de la race.
-          </p>
-          <p>
-            Maintenant que mon troupeau de brebis a diminué de beaucoup, j'ai du
-            temps de plus à accorder à mes colleys, donc pour les compétitions
-            de conformation d'obéissance et qui sait d'agilité et même de
-            herding.
-          </p>
+        <img
+          className={componentStyles.topimage}
+          src={imagetop}
+          alt="chien colley élevage Jade Québec"
+        />
+        <article className={componentStyles.textcont}>
+          <div>
+            <img
+              src={imagetext}
+              alt="colley dog chien Quebec Québec Élevage Éleveur"
+            />
+            <p>
+              <b>Élevage DeJade</b> a débuté par l'amour du colley et pour
+              l'amour du colley. Par l'amour, car lorsque j'ai eue mon premier
+              qui était un mâle tricolore, je suis tombée en amour avec cette
+              race. Quelle finesse de caractère, quelle intelligence, ce chien
+              comprend sans lui parler devine nos états d'âme et fait tout pour
+              nous plaire, il peut-être enjoué à l'écoute des ordres à recevoir
+              ou tout simplement d'un calme déconcertant.
+            </p>
+            <p>
+              Pour l'amour de la race là a vraiment débuté l'élevage pour
+              conserver cette magnifique prestance, ce regard tendre et
+              intelligent, cette force malgré l'élégance de la démarche, cette
+              robe somptueuse, quelle merveille.
+            </p>
+            <p>
+              Le but de l'élevage DeJade est de faire connaître aux gens cette
+              race en produisant des chiens en santé, intelligent et affectueux,
+              répondant aux critères de la race.
+            </p>
+            <p>
+              Maintenant que mon troupeau de brebis a diminué de beaucoup, j'ai
+              du temps de plus à accorder à mes colleys, donc pour les
+              compétitions de conformation d'obéissance et qui sait d'agilité et
+              même de herding.
+            </p>
+          </div>
         </article>
-        <article>
+        <article className={componentStyles.tripledots}>
           <Link to="/">
             <section className={componentStyles.dotlink1}>
               <img src={brunc} alt="Green double circle" />
