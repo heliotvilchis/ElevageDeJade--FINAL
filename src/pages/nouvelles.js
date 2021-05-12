@@ -98,24 +98,21 @@ const NouvellesPage = () => {
           <h1>Nouvelles</h1>
           <section>
             <p>9 Septembre 2020</p>
+            <h2>Demande accrue</h2>
             <p>
               Considérant la grande demande, pour un chiot ou visite,
               présentement je ne prendrai aucune réservation ni visite ne serons
               autorisé avant un avis contraire.
             </p>
-            <p>
-              Son compagnon DeJade Medzo a fait BOB le samedi pour ses 3
-              premiers points , Medzo est le fils de Ch. Constelation Kujo et de
-              DeJade Dolcea
-            </p>
-            <p>
-              ci-joint photo de Medzo propriétaire Marc Blouin de
-              Trois-Rivières.
-            </p>
           </section>
-          <section></section>
+          <section>
+            <p>9 Décembre 2019</p>
+            <h2>Joyeux Noël et bonne année 2020</h2>
+            <img src={img80} alt="joyeux noël et bonne année 2020" />
+          </section>
           <section>
             <p>28 Octobre 2019</p>
+            <h2>Nouveau numéro de téléphone</h2>
             <p>
               Effectif le 1er novembre, notre nouveau numéro de téléphone :
               418-325-3285
@@ -123,6 +120,7 @@ const NouvellesPage = () => {
           </section>
           <section>
             <p>2 Septembre 2019</p>
+            <h2>Championnat de Dream</h2>
             <p>
               DeJade Soft Jane propriété de Mme Suzie Lachance magnifique dans
               son sport préféré l'agilité
@@ -136,34 +134,351 @@ const NouvellesPage = () => {
               24 en spécialité Select Dog, show régulier Select dog, Dimanche
               show régulier Seect Dog et lundi 26 août BOB
             </p>
+            <img src={img79} alt="Chien colley saute un anneau" />
+            <img src={img78} alt="Chien colley saute une clôture, dans l'air" />
+            <img
+              src={img77}
+              alt="Chien colley saute une clôture, touchant le sol"
+            />
+            <p>Merci à Emily Burdon et à toute son équipe,merci aux juges. </p>
+            <p>
+              Vendredi à Long Sault BOW terminant son championnat juge Laurent
+              Pichard Samedi en spécialité régionale Sélect dog juge Anik
+              Primeau samedi régulier sélect dog juge Juan Miranda dimance
+              régulier Sélect dog juge David Kirkland
+            </p>
+            <p>Lundi BOB juge A Di Lorenzo </p>
+            <img
+              src={img76}
+              alt="Chien colley dans le podium après avoir gagné une compétition"
+            />
+            <img
+              src={img75}
+              alt="Colley gagnant du concours, ruban gagnant avec d'autres prix"
+            />
+          </section>
+          <section>
+            <p>13 Mai 2019</p>
+            <p>
+              Aucune réservation pour le moment, seulement lorsque des
+              gestations serons confirmées.
+            </p>
+          </section>
+          <section>
+            <p>18 Avril 2019</p>
+            <h2>CH.DeJade Renagade Black Diamond </h2>
+            <p>
+              À Windsor vendredi le 12 avril 2019 il a fait BB le matin (
+              meilleur de la race )
+            </p>
+            <p>
+              Le samedi il a fait meilleur des gagnants,merci à Nathalie Clément
+              d'avoir accepté de le manier, finissant ainsi son championnat et
+              le dimanche meilleur du sexe opposé.
+            </p>
+            <img src={img74} alt="" />
+          </section>
+          <section>
+            <p>13 Décembre 2018</p>
+            <p>
+              Départ dimanche le 16 décembre pour l'ontario chez Kayman collies
+              pour l'accouplement de DeJade Ava Gardner.
+            </p>
+            <img src={img73} alt="" />
+          </section>
+          <section>
+            <p>9 Août 2018</p>
+            <p>
+              DeJade Renagade Black Diamond à fait à 3 reprises Best of Breed et
+              Best of Winner ,sur une femelle championne
+            </p>
+          </section>
+          <section>
+            <p>26 Avril 2018</p>
+            <p>
+              Excellente nouvelles Shiny a eue un nouveau test sanguin le 14
+              avril, le résultat est plus que satisfaisant guérison complète,
+              son foie a de nouveau des valeurs normales.
+            </p>
+            <p>
+              Cette même fin de semaine, j'ai confié 2 chiens à Mme Nathalie
+              Clément pour le show de conformation de l'Estrie à Windsor
+            </p>
+            <p>
+              Je suis revenue avec 2 nouveaux champions le dimanche, .DeJade
+              Star of Cassy a fait a deux reprises meilleure femelle et
+              meilleure du sexe opposée pour terminer son championnat en beauté
+            </p>
+            <p>
+              ensuite DeJade Soft Dream in Gold a fait meilleur de la race à 3
+              reprises pour terminer lui aussi son championnat en beauté
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img71} alt="" />
+              <img src={img72} alt="" />
+            </div>
+          </section>
+          <section>
+            <p>2 Avril 2018</p>
+            <p>
+              Shiny a tout perdu ses chiots suite à des problème de fin de
+              gestation trop grand nombre de chiots pour elle (12)
+            </p>
+          </section>
+          <section>
+            <p>13 mars 2018</p>
+            <p>
+              DeJade Soft Shiny et DeJade Soft Dream in Gold auront des chiots
+              début avril 2018 DeJade Ava-Garner et DeJade Soft Dream in Gold
+              ont été accouplés. Gestation à confirmer. Voir page des chiots
+            </p>
+          </section>
+          <section>
+            <p>14 Février 2018</p>
+            <p>
+              Ici à Élevage DeJade après échographie aucune des 3 femelles
+              accouplées ne sont gestante....début d'année partie en Lion ,fini
+              en mouton, donc une 4e femelle a été accouplée début février
+              naissances prévues début avril 2018.
+            </p>
+          </section>
+          <section>
+            <p>17 Janvier 2018</p>
+            <p>
+              À Élevage DeJade nous démarrons l'année en force 3 de mes femelles
+              ont étés accouplées fin décembre début janvier, donc promesse de
+              chiots début mars.
+            </p>
+            <p>
+              1er accouplement DeJade Sweet Rhapsodie in Blue et DeJade A Great
+              Star Brownie
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img65} alt="" />
+              <img src={img66} alt="" />
+            </div>
+            <p>
+              2e accouplement CH.DeJade A New Rhapsodie et BPIB DeJade Renagade
+              Black Diamond
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img67} alt="" />
+              <img src={img68} alt="" />
+            </div>
+            <p>
+              3e accouplement CH.DeJade Imagine A Blue Star et DeJade A Great
+              Star Brownie
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img69} alt="" />
+              <img src={img70} alt="" />
+            </div>
+          </section>
+          <section>
+            <p>13 décembre 2017</p>
+            <p>
+              Je suis maintenant déménagé à Ste-Anne-de-la-Pérade, je conserve
+              le même numéro de téléphone, je serai disponible pour des visites
+              après les fêtes sur rendez-vous le samedi seulement, car je
+              conserve mon travail à l'extérieur.
+            </p>
+            <img src={img64} alt="" />
+          </section>
+          <section>
+            <p>27 Septembre 2017</p>
+            <p>
+              CH.Glasgowhill's DeJade Renagade est maintenant retiré et vit dans
+              une famille.
+            </p>
+            <img src={img63} alt="" />
+          </section>
+          <section>
+            <p>13 Septembre 2017</p>
+            <p>
+              India et Gabou serons au show de Terrebonne ce fin de semaine du
+              15 au 19 septembre
+            </p>
+          </section>
+          <section>
+            <p>10 Août 2017</p>
+            <p>
+              Une bactérie c'est infiltrée dans mon élevage rendant mes sujets
+              infertiles,après un traitement aux antibiotiques, nous devrions
+              cet automne 2017 pouvoir réaliser des accouplements fertiles
+            </p>
+          </section>
+          <section>
+            <p>14 Juin 2017</p>
+            <p>Plusieurs naissances à venir, voir en page chiots</p>
+          </section>
+          <section>
+            <p>16 Mai 2017</p>
+            <p>
+              Membre en règle depuis 20 ans du Club Canin Canadien et le
+              résultat de la visite du MAPAQ concernant le bien être des
+              animaux.
+            </p>
+            <p>
+              Dommage aucune femelle accouplée n'aura de chiots, par contre nous
+              accouplerons bientôt CH.DeJade A New Rhapsodie et plusieurs autres
+              entrerons en période bientôt voir page chiots
+            </p>
+            <img src={img62} alt="" />
+          </section>
+          <section>
+            <p>2 Mars 2017</p>
+            <p>
+              Les tests ADN de Ava Gardner, Brownie, Black Diamond ainsi que
+              Imagine A Blue Star sont maintenant disponible sur mon site
+            </p>
+            <p>Accouplements prévus ce printemps voir page chiots</p>
+          </section>
+          <section>
+            <p>18 Janvier 2017</p>
+            <p>
+              CH. DeJade Soft Magic Gold Dust, retraité et sera bientôt dans sa
+              nouvelle famille!
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img60} alt="" />
+              <img src={img61} alt="" />
+            </div>
+          </section>
+          <section>
+            <p>6 Décembre 2016</p>
+            <p>
+              2 gestations de confirmées super nous aurons des chiots qui
+              naîtrons à Noel et au jour de l'an.
+            </p>
+            <p>Pour les autres accouplements il est trop tôt pour confirmer.</p>
+            <img src={img59} alt="" />
+          </section>
+          <section>
+            <p>1 Novembre 2016</p>
+            <p>
+              Merci à mon amie Dany Therrien ( Élevage Mélodaly )pour l'aide
+              qu'elle m'a apportée, j'ai été opérée le 21 octobre et ne pouvais
+              reprendre possession de ma femelle qui était partie le 20 octobre
+              pour ses accouplements chez un autre propriétaire d'un mâle
+              colley, elle a eue la gentillesse de parcourir 4 heures de route
+              après sa journée de travail, Merci.
+            </p>
+          </section>
+          <section>
+            <p>6 Octobre 2016</p>
+            <p>
+              Dommage aucune femelle accouplée cet été n'ont eue de chiot, je
+              suis désolée pour tous ceux et celles qui ont réservés, nous
+              ferons des accouplements cet automne aussitôt que mes demoiselles
+              seront dans leur période.
+            </p>
+            <p>
+              Bonne nouvelle au show de Terrebonne, mon jeune DeJade Soft Dream
+              in Gold a fait meilleur de la race pour 3 autres points, il a
+              maintenant 7 points vers son champîonnat.
+            </p>
           </section>
           <section>
             <p></p>
             <p></p>
           </section>
           <section>
-            <p></p>
-            <p></p>
+            <p>16 Mai 2012</p>
+            <p>
+              Milas DeJade New Star a fait BOB à 2 reprises à Iberville pour 4
+              Pts dont 2 majeure
+            </p>
+            <img src={img26} alt="Chien colley atache a une cloture" />
+            <p>
+              Glasgowhill's DeJade Renagade à maintenant 2 Pts il a fait BOB à
+              Trois-Pistoles
+            </p>
+            <img src={img25} alt="Chien colley souriant à l'extérieur" />
+            <p>DeJade Flirt Mystery a 2Pts elle a fait BOB à Trois-Pistoles</p>
+            <img src={img24} alt="Chien colley noir dans la neige" />
+            <p>
+              DeJade Rhapsodie in Blue X Milas DeJade New Star auront des chiots
+              vers le 2 juin
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img22} alt="Chien Colley fonce" />
+              <img src={img23} alt="Chien Colley dorée" />
+            </div>
           </section>
           <section>
-            <p></p>
-            <p></p>
+            <p>23 Février 2012</p>
+            <p>
+              Notre magnifique Milas sera présenté en avril à Sherbrooke
+              surveillez bien les résultats.
+            </p>
+            <img src={img21} alt="Chien Colley souriant" />
+            <p>
+              DeJade Lady Angel et Can.Fcc'Ch. Constelation Kujo ont eus leurs
+              chiots le 18/02/2012 , vous pouvez voir la portée dans disponible.
+            </p>
           </section>
           <section>
-            <p></p>
-            <p></p>
+            <p>10 Février 2012</p>
+            <p>
+              DeJade Simply Pearl Enchantée X DeJade Black Softy ont eus leurs
+              bébés.
+            </p>
+            <p>
+              10 chiots vivants à la naissance. Les chiots sont nés dans la nuit
+              du 6 au 7 donc le 7/02/2012 la première est née à 1h30 le dernier
+              à 11h30.
+            </p>
+            <p>
+              Tout éleveur rêve d'avoir une femelle maternelle comme elle, c'est
+              sa première mise bas, elle est d'un calme extraordinaire
+            </p>
+            <p>
+              Pearl est la fille de ch. Glasgowhill's Simply DeJade n/c X
+              Codybear DeJade Georgina.n/e
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img18} alt="Chiots colley avec sa mère" />
+              <img src={img19} alt="Bébés colley, nouveaux nées" />
+              <img src={img20} alt="Chiots colley, en train de boire" />
+            </div>
           </section>
           <section>
-            <p></p>
-            <p></p>
+            <p>08 Décembre 2011</p>
+            <p>
+              Élevage de Jade vous souhaites un merveilleux noël et une
+              excellente année 2012!
+            </p>
+            <img src={img17} alt="Chien Colley avec un Sapin de Noël" />
           </section>
           <section>
-            <p></p>
-            <p></p>
+            <p>04 Novembre 2011</p>
+            <p>
+              DeJade Imagine A Star et DeJade Davinci Infinity ont eus leurs
+              bébés le 31 octobre2011, 3 mâles et 1 magnifique femelle
+              bleue-merle, Détail en page "disponible (chiots)"
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img15} alt="Quatre bébés colley en confort" />
+              <img src={img16} alt="Quatre bébés colley, nouveaux nées" />
+            </div>
           </section>
           <section>
-            <p></p>
-            <p></p>
+            <p>30 Septembre 2011</p>
+            <p>
+              Bébé DeJade Koda ,fils de Can,Fcc, CH. Constelation Kujo et de
+              Codybear DeJade Maza Maya sera choyé par France Lemonde et
+              Nathalie Keeping et présenté en show lorsque le moment sera
+              venu.(le voici ici avec son père)
+            </p>
+            <p>
+              Je souhaites à toutes les deux le plus grand bonheur et succès
+              avec Koda.
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img12} alt="Bébé colley avec adulte" />
+              <img src={img13} alt="Bébé colley avec adulte et propietaire" />
+              <img src={img14} alt="Bébé colley" />
+            </div>
           </section>
           <section>
             <p>06 Septembre 2011</p>
@@ -181,7 +496,7 @@ const NouvellesPage = () => {
               <li>DeJade Medzo</li>
             </ul>
             <p>
-              Can,Fcc,Ch. Constelation Kujo est le père de 5 champions dont :{" "}
+              Can,Fcc,Ch. Constelation Kujo est le père de 5 champions dont :
             </p>
             <ul>
               <li>Simbad DeJade</li>
@@ -336,6 +651,15 @@ const NouvellesPage = () => {
             <p>
               Maya a fait femelle réserve à 2 reprises au club Chomedy Laval qui
               se tenait à Terrebonne les 17,18,19/09/2010
+            </p>
+            <p>
+              Son compagnon DeJade Medzo a fait BOB le samedi pour ses 3
+              premiers points , Medzo est le fils de Ch. Constelation Kujo et de
+              DeJade Dolcea
+            </p>
+            <p>
+              ci-joint photo de Medzo propriétaire Marc Blouin de
+              Trois-Rivières.
             </p>
             <img
               src={img3}

@@ -16,5 +16,13 @@
         max-width: 100%;
         margin: 5px 0;
     }
-    ul {}
+    ul {
+        counter-reset: list-item;
+        display: block;
+        list-style-type: disc;
+        padding-left: 40px;
+        li {
+            display: list-item;
+        }
+    }
 }
