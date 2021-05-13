@@ -4,25 +4,56 @@
     },
     {
         "name": "Notre élevage",
-        "url": "/notre-elevage"
+        "url": "",
+        "dropdownItems": [
+            { "name": "La meute", "url": "/elevage" },
+            { "name": "Nos champions", "url": "/champion" }
+        ]
     },
     {
-        "name": "Nos champions",
-        "url": "/"
+        "name": "Nos chiens",
+        "url": "",
+        "dropdownItems": [
+            { "name": "Nos mâles", "url": "/males" },
+            { "name": "Nos femelles", "url": "/femelles" },
+            { "name": "Nos futurs reproducteurs", "url": "/futurs" },
+            { "name": "Nos retraités", "url": "/retraite" },
+            { "name": "Partis pour un monde meilleur", "url": "/dcd" }
+        ]
     },
     {
         "name": "Chiots",
-        "url": "/"
+        "url": "/chiots"
+    },
+    {
+        "name": "Disponible",
+        "url": "",
+        "dropdownItems": [
+            { "name": "Chiots", "url": "/dispo-chiots" },
+            { "name": "Jeunes adultes", "url": "/dispo-adulte" }
+        ]
     },
     {
         "name": "Photos",
-        "url": "/"
+        "url": "/photos"
     },
     {
-        "name": "Infromations",
-        "url": "/"
-    }, {
-        "name": "Nous joindre",
-        "url": "/"
+        "name": "Liens",
+        "url": "/liens"
+    },
+    {
+        "name": "Nous Joindre",
+        "url": "/contact"
+    },
+    {
+        "name": "Informations",
+        "url": "",
+        "dropdownItems": [
+            { "name": "L'histoire du Colley", "url": "/info-histoire" },
+            { "name": "Couleurs", "url": "/info-couleurs" },
+            { "name": "Standard de la race", "url": "/info-standard" },
+            { "name": "Formation", "url": "/info-formation" },
+            { "name": "Santé", "url": "/sante" }
+        ]
     }
 ]
