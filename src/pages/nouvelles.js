@@ -379,8 +379,384 @@ const NouvellesPage = () => {
             </p>
           </section>
           <section>
-            <p></p>
-            <p></p>
+            <p>10 Août 2016</p>
+            <p>
+              2 femelles ont été accouplée du 25 au 28 juillet, naissances
+              prévues début octobre.
+            </p>
+            <p>
+              Une 3e femelle sera accouplée la semaine du 1er août. voir dans
+              chiots.
+            </p>
+          </section>
+          <section>
+            <p>30 Juin 2016</p>
+            <p>
+              Belle nouvelle, DeJade Imagine A Blue Star a terminée son
+              championnat en beauté à Brôme sur 5 shows ,elle a fait 4 BOB et 2
+              fois BOW, select Bitch.
+            </p>
+            <p>
+              Une fin de semaine de 10 points, il lui en manquait seulement 4
+              pour terminer, donc elle a 6 points d'accumulés vers son Grand
+              Championnat.
+            </p>
+            <img src={img58} alt="" />
+            <p>
+              Quand à la belle Gamine DeJade White Jalousie, elle a fait 2 fois
+              BB and BOW 2 fois pour un total de 9 points d'accumulés vers son
+              championnat, elle a terminée le vendredi 24 juin à
+              Ste-Anne-de-la-Pérade.
+            </p>
+            <img src={img57} alt="" />
+            <p>
+              Mon jeune mâle de 10 mois Gabou, DeJade Soft Dream in Gold a quand
+              à lui pour un début à Ste-Anne-de-la-Pérade a fait BOB ( meilleur
+              de la race) 2 fois. pour un total de 4 points. beau début pour ce
+              jeune et magnifique mâle ayant des tests parfaits.
+            </p>
+            <img src={img56} alt="" />
+          </section>
+          <section>
+            <p>12 Janvier 2016 </p>
+            <p>
+              DeJade Gaia Océane et Ch.Milas DeJade New Star ont eus leurs bébés
+              le 4 janvier 2016, 12 beaux bébés, voyez les en page "chiots
+              disponibles".
+            </p>
+          </section>
+          <section>
+            <p>9 Décembre 2015</p>
+            <p>
+              <img src={img55} alt="" />
+            </p>
+          </section>
+          <section>
+            <p>18 Août 2015</p>
+            <p>
+              Steffie a eue ses chiots le 11 août 6 vivants, mais une de décédée
+              3 jours + tard
+            </p>
+          </section>
+          <section>
+            <p>2 Juillet 2015</p>
+            <p>
+              DeJade Star of Cassy ( India ) a fait réserve samedi le 27 juin au
+              show de Ste-Anne-de-la-Pérade c'est très bien pour une première
+              sortie en show.
+            </p>
+            <img src={img54} alt="" />
+          </section>
+          <section>
+            <p>25 Juin 2015</p>
+            <p>
+              Amber, Cassy et Elma sont maintenant dans leur nouvelles familles,
+              sont retirés du programme de reproduction. merci à tous ceux qui
+              aiment accueillir un adulte de 6 ans et plus comme animal de
+              compagnie.
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img53} alt="" />
+              <img src={img52} alt="" />
+              <img src={img51} alt="" />
+            </div>
+            <p>
+              Glasgowhill's Ruff and Tumble n'aura pas de chiot elle a due être
+              stérilisée, elle avait des kystes sur les ovaires
+            </p>
+            <img src={img50} alt="" />
+            <p>
+              CH.Can,FCC, Constelation Kujo ( Arno ) est maintenant parti pour
+              un monde meilleur ,il a rejoint ses amis partis avant lui.
+            </p>
+            <img src={img49} alt="" />
+          </section>
+          <section>
+            <p>30 Avril 2015</p>
+            <p>
+              Pearl n'a pas eue de chiot, nous ferons au moins 3 accouplements
+              ce printemps pour mes réservations et futurs clients. Merci à mes
+              clients de comprendre la situation. Cette année a mal débuté avec
+              Maude stérilisée, Grâce infection utérine, mais guérie, mais pas
+              de chiot, pour continuer la petite de 8 mois DeJade Sweet
+              Rhapsodie in Blue, fracture de la mâchoire inférieure , et pour
+              terminer le tout Cassy a accouchée par césarienne, un hiver très
+              couteux, mais nous ferons tout pour que la situation s'arrange.
+            </p>
+          </section>
+          <section>
+            <p>26 Mars 2015</p>
+            <p>
+              Maude a été stérilisée d'urgence pyomètre sévère de l'utérus, elle
+              n'a pas et n'aura jamais de chiot. elle vivra avec Jasmine et
+              Claude qui sont des amoureux de leurs chiens, Merci
+            </p>
+          </section>
+          <section>
+            <p>15 Janvier 2015</p>
+            <p>
+              CH.Can. DeJade Imagine A Star CD,Re,CGN a terminée 1er au
+              classement Rough Colley au Canada en Rally-O
+            </p>
+            <img src={img48} alt="" />
+          </section>
+          <section>
+            <p>23 Décembre 2014</p>
+            <p>
+              L'emblème de mon site DeJade Rhapsodie in Blue est décédée lundi
+              le 8 décembre, nous avons été tellement affectés perdre une si
+              belle femelle qui avait tant de coeur au ventre capable de tout
+              donner ne demandant qu'un peu d'attention ,chienne magnifique qui
+              n'a pas eue la vie facile après avoir subie un accident qui lui
+              avait fracturé le bassin à l'âge de 6 mois, elle était née pour le
+              show, mais son rêve c'est arrêté là, Elle perpétuera la beauté de
+              la race et de son image avec Ch. DeJade A New Rhapsodie et DEJade
+              Sweet Rhapsodie in Blue. Maintenant repose en paix tu seras
+              toujours dans nos coeurs.
+            </p>
+            <img src={img47} alt="" />
+          </section>
+          <section>
+            <p>6 Novembre 2014</p>
+            <p>
+              Les chiots de Can. CH. DeJade Imagine A Star sont nés le 16
+              octobre, certains seront disponibles
+            </p>
+            <img src={img46} alt="" />
+            <p>
+              DeJade Judy Garland et Can. CH. DeJade Soft Magic Gold Dust ont
+              eus leurs chiots le 4 novembre certains sont disponible
+            </p>
+            <img src={img45} alt="" />
+          </section>
+          <section>
+            <p>21 Août 2014</p>
+            <p>
+              Dommage Pearl n'a eue que deux chiots femelles tricolores 1
+              décédée à la naissance l'autre quelques jours plus tard, je suis
+              attristée car mes clients qui espéraient avoir leur chiot voit
+              leur réservation retardé pour ceux qui ont compris que je
+              travaille avec du vivant et que c'est la nature qui en a le
+              contrôle.
+            </p>
+          </section>
+          <section>
+            <p>15 Juillet 2014</p>
+            <p>
+              Nouvelle championne le 14 juin à Brôme DeJade A New Rhapsodie a
+              fait à plusieurs reprises BOS et BOB BB, même sur une femelle déjà
+              championne, pour un total de 6 points malgré une forte mue assez
+              évidente, vous pourrez le constater sur sa photo de championnat,
+              Merci aux juges d'apprécier mes chiens. et merci à Valérie Arial
+              pour son excellent travail.
+            </p>
+            <img src={img44} alt="" />
+            <p>
+              Lors du même fin de semaine Bo, DeJade Soft Magic Gold Dust a fait
+              a plusieurs reprises BOS et BOB, BOW pour un total de 7 pts
+            </p>
+            <p>
+              DeJade Soft Magic Gold Dust a terminé son championnat à
+              Ste-Anne-de-la Pérade le vendredi 27 juin
+            </p>
+            <img src={img43} alt="" />
+            <p>
+              Ch.FCC. Glasgowhill's Ruff and Tumble a fait BOS, BOW pour un
+              total de 2 points
+            </p>
+            <p>
+              Notre Magnifique Ch.Can. DeJade Imagine A Star est maintenant
+              classé no:1 au canada Rough colley en rally-O et classé au 8 e
+              rang pour le groupe 7, et 33e rang toutes races. ( voir sur
+              www.canuckdogs.com | Rally-Obéissance )
+            </p>
+            <p>
+              Notre Belle DeJade Rhapsodie In Blue a donnée naissance à 5 chiots
+              vivants le 10/07, accouchement assez difficile, mais de superbes
+              chiots dont la majorité sont déjà réservé.
+            </p>
+          </section>
+          <section>
+            <p>15 Mai 2014</p>
+            <p>
+              À Trois-pistoles DeJade A New Rhapsodie a fait à 3 reprises
+              meilleure femelle et meilleure de la race à 2 reprises pour 5
+              points
+            </p>
+            <p>
+              DeJade Soft Magic Gold Dust a fait meilleur de la race à 1 reprise
+              pour 2 points.
+            </p>
+          </section>
+          <section>
+            <p>15 Avril 2014</p>
+            <p>
+              Les compétitions de championnat de conformation débutent à la fin
+              avril à Iberville, j'ai inscrit 2 chiens
+            </p>
+            <p>
+              Naissances prochaines très attendues de Ch.Milas DeJade New Star
+              et DeJade Cassiophée DeFay fin avril. Cassiophée est la soeur de
+              Ch. DeJade Angel Dust
+            </p>
+          </section>
+          <section>
+            <p>16 Janvier 2014</p>
+            <p>
+              Dommage Can.CH.Milas DeJade New Star et DeJade Flirt in the
+              Romance n'ont pas eus de bébé.
+            </p>
+            <p>
+              Par contre bonne nouvelle Can CH.DeJade Imagine A Star CD,RN.RA,Re
+              et DeJade Soft Magic Gold Dust ont eus leurs bébés le 8 janvier 9
+              chiots en excellente santé ,voir dans chiots et disponible chiots.
+            </p>
+          </section>
+          <section>
+            <p>27 November 2013</p>
+            <p>
+              Fantastique tous les chiots de Judy Garland 11 sont exempt de la
+              maladie de l'oeil du colley, c'est sa 2e portée et ceux de sa 1er
+              était aussi tous normaux, donc excellente nouvelle car 11 chiots
+              exempts de la maladie de l'oeil du colley me certifie que Judy est
+              normale non porteur.
+            </p>
+          </section>
+          <section>
+            <p>3 Octobre 2013</p>
+            <p>
+              Des chiots sont nés de DeJade Judy Garland et DeJade Soft Magic
+              Gold Dust le 29 septembre 2013. 11 magnifiques chiots plusieurs
+              sont déjà réservés. Voir en page "CHIOTS" pour plus
+              d'informations.
+            </p>
+            <img src={img42} alt="" />
+            <p>Glasgowhill's Ruff and Tumble est maintenant championne FCC</p>
+            <img src={img41} alt="" />
+            <p> CH. FCC Glasgowhill's Ruff'N Tumble n/c (Elma)</p>
+          </section>
+          <section>
+            <p>30 Août 2013</p>
+            <p>
+              Can.Ch. DeJade Imagine A Star (bicket) a faite Rally-O Excellence
+              B à Ste-Foy
+            </p>
+            <img src={img40} alt="" />
+          </section>
+          <section>
+            <p>16 Juillet 2013</p>
+            <p>
+              DeJade Flirt Mystery a terminée en beauté son championnat à Brôme
+              jeudi le 13 juin elle a 3 majeures.
+            </p>
+            <img src={img39} alt="" />
+          </section>
+          <section>
+            <p>4 Juin 2013</p>
+            <p>
+              Nous avons retraités Maya et Rhapsodie , elles ont données de
+              super bébés chiots elles ont maintenant 5 ans et se reposerons
+              dans leur famille repectives.
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img37} alt="" />
+              <img src={img38} alt="" />
+            </div>
+          </section>
+          <section>
+            <p>3 Mai 2013</p>
+            <p>
+              Nouveau champion Glagowhill's DeJade Renagade a fait BOW pour un
+              total de 6 pts dont 3 majeures à Ibervlle
+            </p>
+            <img src={img36} alt="" />
+          </section>
+          <section>
+            <p>17 Avril 2013</p>
+            <p>
+              Maya a eue ses chiots le 11/04, 3 chiots tous des blancs
+              présentement ils sont sous réserve, nous verrons dans quelques
+              temps si nous en mettons de disponible, non-reproducteur seront à
+              1500$ reproducteur 2000$
+            </p>
+            <p>
+              Oliver et Mystie seront en compétition à Iberville la fin de
+              semaine des 26,27,28/04
+            </p>
+          </section>
+          <section>
+            <p>17 Janvier 2013</p>
+            <p>
+              DeJade Cassiophé DeFay est de retour à l'élevage DeJade après
+              avoir vécue à l'élevage DeFay (Renée Falardeau). Cassiophé est la
+              soeur de Can. Ch. DeJade Angel Dust qui fut perdue lors d'un salon
+              canin, je suis donc très heureuse d'accueillir sa soeur à mon
+              élevage Merci Renée.
+            </p>
+            <img src={img35} alt="" />
+          </section>
+          <section>
+            <p>18 Décembre 2012</p>
+            <p>
+              Chloé et toute l'élevage de Jade vous souhaites à tous de très
+              joyeuses fêtes et une magnifique année 2013 remplie d'amour, de
+              santé et de bonheur.
+            </p>
+            <img src={img34} alt="" />
+            <p>
+              Can.Ch. Simbad DeJade Simbad a trouvé une famille aimante qui sait
+              apprécier ses qualités et comprendre ses défauts, je suis certaine
+              qu'il sauront le chérir comme il le mérite.
+            </p>
+            <img src={img33} alt="" />
+          </section>
+          <section>
+            <p>19 Septembre 2012</p>
+            <p>Maya et Benjamin n'ont pas eu de chiot.</p>
+            <p>
+              Oliver: Glasgowhill's DeJade Renagade a fait à 2 reprises la fin
+              de semaine du 15,16/09 BOB et BOW, Mystie : DeJade Flirt Mystery a
+              fait BoS
+            </p>
+            <p>
+              Sapphire a due être retirée du programme de reproduction, un
+              pyomêtre sévère de l'utérus, elle est donc maintenant stérilisée
+              et cherche une bonne famille.
+            </p>
+          </section>
+          <section>
+            <p>12 Juillet 2012</p>
+            <p>
+              Le 23/06/2012 DeJade Imagine A Star a réussie dans ses 2 jours du
+              22 et 23 /06 Rally-O Avancé. Elle a beaucoup de talent, elle a
+              aussi dans la personne de Lucie une personne qui l'adore et
+              parfait son dressage.
+            </p>
+            <img src={img32} alt="" />
+          </section>
+          <section>
+            <p>14 Juin 2012</p>
+            <p>
+              Le magnifique Hindi, mon premier chiot Outre-mer est maintenant
+              dans sa nouvelle famille en France ou il est déjà chouchouté!
+            </p>
+            <p>
+              Merci à Annie et Patrick Duval d'avoir fait confiance à Élevage
+              DeJade
+            </p>
+            <div className={componentStyles.flex}>
+              <img src={img29} alt="" />
+              <img src={img30} alt="" />
+              <img src={img31} alt="" />
+            </div>
+            <h2>Nouveau Champion : </h2>
+            <p>
+              CH. Milas DeJade New Star à fait à 4 reprises BOB à Brôme la fin
+              de semaine du 7 au 10 juin 2012. Il a 3 majeure.
+            </p>
+            <img src={img28} alt="" />
+            <p>DeJade Flirt Mystery a fait BOB jeudi le 7/06/2012 à Brôme </p>
+            <img src={img27} alt="" />
           </section>
           <section>
             <p>16 Mai 2012</p>

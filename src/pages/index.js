@@ -21,6 +21,7 @@ import envelope from "../assets/images/icons/envelope.png";
 import calendar from "../assets/images/icons/tear-off-calendar.png";
 import telephone from "../assets/images/icons/telephone-receiver.png";
 import hearts from "../assets/images/icons/two-hearts.png";
+import upchart from "../assets/images/icons/chart-with-upwards-trend.png";
 
 // markup
 const IndexPage = () => {

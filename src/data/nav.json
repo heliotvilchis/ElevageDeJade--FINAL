@@ -5,5 +5,24 @@
     {
         "name": "Notre élevage",
         "url": "/notre-elevage"
+    },
+    {
+        "name": "Nos champions",
+        "url": "/"
+    },
+    {
+        "name": "Chiots",
+        "url": "/"
+    },
+    {
+        "name": "Photos",
+        "url": "/"
+    },
+    {
+        "name": "Infromations",
+        "url": "/"
+    }, {
+        "name": "Nous joindre",
+        "url": "/"
     }
 ]
