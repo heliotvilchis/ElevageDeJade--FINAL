@@ -7,14 +7,7 @@
         "url": "",
         "dropdownItems": [
             { "name": "La meute", "url": "/elevage" },
-            { "name": "Nos champions", "url": "/champion" }
-        ]
-    },
-    {
-        "name": "Nos chiens",
-        "url": "",
-        "dropdownItems": [
-            { "name": "Nos mâles", "url": "/males" },
+            { "name": "Nos champions", "url": "/champion" }, { "name": "Nos mâles", "url": "/males" },
             { "name": "Nos femelles", "url": "/femelles" },
             { "name": "Nos futurs reproducteurs", "url": "/futurs" },
             { "name": "Nos retraités", "url": "/retraite" },
@@ -26,20 +19,8 @@
         "url": "/chiots"
     },
     {
-        "name": "Disponible",
-        "url": "",
-        "dropdownItems": [
-            { "name": "Chiots", "url": "/dispo-chiots" },
-            { "name": "Jeunes adultes", "url": "/dispo-adulte" }
-        ]
-    },
-    {
         "name": "Photos",
         "url": "/photos"
-    },
-    {
-        "name": "Liens",
-        "url": "/liens"
     },
     {
         "name": "Nous Joindre",

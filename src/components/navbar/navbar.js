@@ -16,6 +16,7 @@ import close from "../../assets/images/icons/close.svg";
 import menu from "../../assets/images/icons/menu.svg";
 import nouvelles from "../../assets/images/icons/news.svg";
 import notreelevage from "../../assets/images/icons/pawn.svg";
+import informations from "../../assets/images/icons/info.svg";
 
 // Functions
 
@@ -38,6 +39,9 @@ function icon(params) {
       break;
     case "Notre élevage":
       return <img src={notreelevage} alt="Notre élevage" />;
+      break;
+    case "Informations":
+      return <img src={informations} alt="Informations" />;
       break;
     default:
       break;

@@ -79,6 +79,9 @@
 @media only screen and (min-width: 768px) {
     .navbar {
         padding: 12px 0;
+        .navbarIcon {
+            font-size: 39px;
+        }
     }
     header {
         padding: 12px 0;
@@ -96,7 +99,7 @@
             align-items: center;
         }
         .navbarIcon {
-            font-size: 50px;
+            font-size: 39px;
             img {
                 height: 45px;
                 margin-right: 10px;
