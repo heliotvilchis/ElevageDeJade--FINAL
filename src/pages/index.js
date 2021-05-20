@@ -115,19 +115,19 @@ const IndexPage = () => {
         <section className={componentStyles.nu}>
           <div className={componentStyles.contr}>
             <h2>Nouvelles</h2>
-            <Link>
+            <Link to="/nouvelles">
               <img src={upchart} alt="Demande accrue" />
               <p>Demande accrue</p>
             </Link>
-            <Link>
+            <Link to="/nouvelles">
               <img src={christmastree} alt="Joyeux Noël" />
               <p>Joyeux Noël et bonne année 2020</p>
             </Link>
-            <Link>
+            <Link to="/nouvelles">
               <img src={telephone} alt="téléphone" />
               <p>Nouveau numéro de téléphone</p>
             </Link>
-            <Link>
+            <Link to="/nouvelles">
               <img src={sportsmedal} alt="Championnat" />
               <p>Championnat de Dream</p>
             </Link>
