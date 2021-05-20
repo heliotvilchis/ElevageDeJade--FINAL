@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Site",
+    title: `Élevage de Jade`,
+    description: `Éleveur de chiens Colley au Québec, Canada.`,
+    author: `Heliot Vilchis`,
+    siteUrl: `https://elevagedejade.com`,
   },
   plugins: [
     "gatsby-plugin-sass",

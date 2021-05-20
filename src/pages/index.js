@@ -15,12 +15,12 @@ import brunc from "../assets/images/icons/brundcircle.svg";
 import greenc from "../assets/images/icons/greendcircle.svg";
 import purplec from "../assets/images/icons/purpledcircle.svg";
 import camera from "../assets/images/icons/camera-with-flash.png";
-import dog from "../assets/images/icons/dog.png";
+import christmastree from "../assets/images/icons/christmas-tree.png";
 import earth from "../assets/images/icons/earth-globe-americas.png";
 import envelope from "../assets/images/icons/envelope.png";
 import calendar from "../assets/images/icons/tear-off-calendar.png";
 import telephone from "../assets/images/icons/telephone-receiver.png";
-import hearts from "../assets/images/icons/two-hearts.png";
+import sportsmedal from "../assets/images/icons/sports-medal.png";
 import upchart from "../assets/images/icons/chart-with-upwards-trend.png";
 
 // markup
@@ -116,20 +116,20 @@ const IndexPage = () => {
           <div className={componentStyles.contr}>
             <h2>Nouvelles</h2>
             <Link>
-              <img src={camera} alt="red phone emoji" />
-              <p>This is a new</p>
+              <img src={upchart} alt="Demande accrue" />
+              <p>Demande accrue</p>
             </Link>
             <Link>
-              <img src={camera} alt="red phone emoji" />
-              <p>This is a new</p>
+              <img src={christmastree} alt="Joyeux Noël" />
+              <p>Joyeux Noël et bonne année 2020</p>
             </Link>
             <Link>
-              <img src={camera} alt="red phone emoji" />
-              <p>This is a new</p>
+              <img src={telephone} alt="téléphone" />
+              <p>Nouveau numéro de téléphone</p>
             </Link>
             <Link>
-              <img src={camera} alt="red phone emoji" />
-              <p>This is a new</p>
+              <img src={sportsmedal} alt="Championnat" />
+              <p>Championnat de Dream</p>
             </Link>
           </div>
         </section>
