@@ -8,7 +8,6 @@ const Chiots = () => {
     <div>
       <h1>Chiots</h1>
       <NavBar />
-      <p>are here</p>
     </div>
   );
 };

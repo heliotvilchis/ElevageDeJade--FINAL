@@ -6,19 +6,22 @@ import navbarItems from "../../data/nav.json";
 // Components
 import Link from "../link/link";
 
-var keyNames;
-
 function navmap(params) {
-  if (params.url == "") {
+  if (params.url === "") {
     return (
-      <Link>
-        {params.dropdownItems.map((item) => (
-          <div>
-            <Link>{item.name}</Link>
-          </div>
-        ))}
-      </Link>
+      <details>
+        <summary>{params.name}</summary>
+        <ul>
+          {params.dropdownItems.map((item) => (
+            <li>
+              <Link to={item.url}>{item.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </details>
     );
+  } else {
+    return <Link to={params.url}>{params.name}</Link>;
   }
 }
 
@@ -28,10 +31,7 @@ const NavBar = () => {
     <div>
       <h1>the nav</h1>
       {navbarItems.map((item) => (
-        <li key={item.name}>
-          <Link to={item.url}>{item.name}</Link>
-          {navmap(item)}
-        </li>
+        <li key={item.name}>{navmap(item)}</li>
       ))}
     </div>
   );
