@@ -1,0 +1,14 @@
+.card {
+    background: red;
+    width: 33%;
+    img {
+        width: 100%;
+    }
+    div {
+        display: flex;
+        text-align: center;
+        background: chartreuse;
+        margin: 0 25px;
+        justify-content: center;
+    }
+}

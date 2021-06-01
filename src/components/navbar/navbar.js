@@ -48,6 +48,25 @@ function icon(params) {
   }
 }
 
+function navmap(params) {
+  if (params.url === "") {
+    return (
+      <details>
+        <summary>{params.name}</summary>
+        <ul>
+          {params.dropdownItems.map((item) => (
+            <li key={item.name}>
+              <Link to={item.url}>{item.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </details>
+    );
+  } else {
+    return <Link to={params.url}>{params.name}</Link>;
+  }
+}
+
 // Markup
 const NavBar = () => {
   return (
@@ -63,9 +82,7 @@ const NavBar = () => {
           <nav className={componentStyles.deskmenu}>
             <ul>
               {navbarItems.map((item) => (
-                <li key={item.name}>
-                  <Link to={item.url}>{item.name}</Link>
-                </li>
+                <li key={item.name}>{navmap(item)}</li>
               ))}
             </ul>
           </nav>
