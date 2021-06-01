@@ -17,13 +17,14 @@ function malefemale(params) {
 }
 
 // Markup
-const Card = ({ image, dname, gender }) => {
+const Card = ({ image, dname, gender, undertext }) => {
   return (
     <div className={styleComponents.card}>
-      <img src={image} alt="" />
+      <img className={styleComponents.mainpic} src={image} alt="" />
       <div>
         <h4>{dname}</h4>
         {malefemale(gender)}
+        <p>{undertext}</p>
       </div>
     </div>
   );

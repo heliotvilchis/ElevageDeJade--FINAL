@@ -8,11 +8,15 @@ import Card from "../components/card/card";
 
 // Images
 import i1 from "../assets/images/gabou/1.jpg";
-import i2 from "../assets/images/rapsodie/1.jpg";
+import i2 from "../assets/images/sweety/1.jpg";
 import i3 from "../assets/images/tina-turner/1.webp";
 import i4 from "../assets/images/india/1.jpg";
 import i5 from "../assets/images/renagade/1.webp";
 import i6 from "../assets/images/soft-shiny/1.jpg";
+import i7 from "../assets/images/silver-dream/1.jpg";
+import i8 from "../assets/images/haley/1.jpg";
+import i9 from "../assets/images/aiko/1.webp";
+import i10 from "../assets/images/rapsodie/1.webp";
 
 const CardContainer = styled.div`
   display: flex;
@@ -56,6 +60,24 @@ const Elevage = () => {
           />
           <Card image={i5} dname="DeJade Renagade Gracious White" gender="f" />
           <Card image={i6} dname="DeJade Soft Shiny" gender="f" />
+          <Card image={i7} dname="CH. DeJade Soft Silver Dream" gender="m" />
+          <Card
+            image={i8}
+            dname="DeJade Renagane White Élégance (Haley)"
+            gender="f"
+          />
+          <Card
+            image={i9}
+            dname="DeJade Dream in Black Gold (Aiko)"
+            gender="f"
+            undertext="Co-Propriété avec Mme Bélanger"
+          />
+          <Card
+            image={i10}
+            dname="DeJade Bohemian Rhapsodie"
+            gender="f"
+            undertext="Co-Propriété avec Mme Christiane Forget"
+          />
         </CardContainer>
       </Container>
     </Layout>
