@@ -28,7 +28,12 @@ const Elevage = () => {
         <Card
           image={i1}
           dname="CH. DeJade Soft Dream in Gold (Gabou)"
-          gender="male"
+          gender="m"
+        />
+        <Card
+          image={i1}
+          dname="DeJade Sweet Rhapsodie in Blue (Sweety)"
+          gender="f"
         />
       </Container>
     </Layout>

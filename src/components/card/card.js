@@ -9,10 +9,10 @@ import female from "../../assets/images/icons/female.svg";
 
 function malefemale(params) {
   if (params === "m") {
-    return <img src={male} alt="" />;
+    return <img className={styleComponents.icon} src={male} alt="" />;
   }
   if (params === "f") {
-    return <img src={female} alt="" />;
+    return <img className={styleComponents.icon} src={female} alt="" />;
   }
 }
 
