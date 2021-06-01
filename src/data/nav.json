@@ -7,7 +7,8 @@
         "url": "",
         "dropdownItems": [
             { "name": "La meute", "url": "/elevage" },
-            { "name": "Nos champions", "url": "/champion" }, { "name": "Nos mâles", "url": "/males" },
+            { "name": "Nos champions", "url": "/champion" },
+            { "name": "Nos mâles", "url": "/males" },
             { "name": "Nos femelles", "url": "/femelles" },
             { "name": "Nos futurs reproducteurs", "url": "/futurs" },
             { "name": "Nos retraités", "url": "/retraite" },
