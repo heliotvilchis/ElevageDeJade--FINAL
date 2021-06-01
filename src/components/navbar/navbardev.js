@@ -29,7 +29,6 @@ function navmap(params) {
 const NavBar = () => {
   return (
     <div>
-      <h1>the nav</h1>
       {navbarItems.map((item) => (
         <li key={item.name}>{navmap(item)}</li>
       ))}
