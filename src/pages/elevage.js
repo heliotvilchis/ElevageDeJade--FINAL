@@ -8,6 +8,11 @@ import Card from "../components/card/card";
 // Images
 import i1 from "../assets/images/gabou/1.jpg";
 
+const CardContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 // Markup
 const Elevage = () => {
   return (

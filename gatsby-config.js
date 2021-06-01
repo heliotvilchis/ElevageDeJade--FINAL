@@ -41,5 +41,6 @@ module.exports = {
       },
       __key: "pagesHere",
     },
+    `gatsby-plugin-styled-components`,
   ],
 };
