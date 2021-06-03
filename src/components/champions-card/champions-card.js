@@ -4,13 +4,13 @@ import React from "react";
 import * as styleComponents from "../champions-card/champions-card.module.scss";
 
 // Markup
-const Card = ({ image, dname, undertext }) => {
+const Card = ({ image, dname, children }) => {
   return (
     <div className={styleComponents.card}>
       <img className={styleComponents.mainpic} src={image} alt="" />
       <div>
-        <h4>{dname}</h4>
-        <p>{undertext}</p>
+        <h3>{dname}</h3>
+        <p>{children}</p>
       </div>
     </div>
   );

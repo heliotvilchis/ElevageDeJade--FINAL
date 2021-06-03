@@ -2,13 +2,15 @@
     background-color: var(--beige);
     text-align: center;
     width: 500px;
-    height: 600px;
+    height: auto;
     border: 1px solid black;
     .mainpic {
-        background-color: red;
+        background-color: var(--brun);
     }
     div {
-        h4 {}
-        p {}
+        p {
+            margin: 1em;
+            text-align: left;
+        }
     }
 }
