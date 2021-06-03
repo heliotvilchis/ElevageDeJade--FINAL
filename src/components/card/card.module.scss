@@ -27,3 +27,54 @@
         margin-top: -15px;
     }
 }
+
+@media only screen and (max-width: 1400px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card {
+        width: 100%;
+        margin: 25px 0;
+        height: min-content;
+        .mainpic {
+            height: 80%;
+        }
+        h4,
+        p {
+            margin: 0.3em;
+            width: 100%;
+        }
+        h4 {
+            font-size: 1.3em;
+        }
+        .icon {
+            width: 24px;
+            object-fit: contain;
+            margin: 8px 0 auto 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .card {
+        width: 45%;
+        height: 400px;
+        .mainpic {
+            height: 60%;
+            object-position: top;
+        }
+        h4,
+        p {
+            margin: 0.3em 0;
+            width: 100%;
+        }
+        .icon {
+            width: 24px;
+            object-fit: contain;
+            margin: 8px 0 20px 0;
+        }
+    }
+}
