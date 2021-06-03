@@ -11,12 +11,8 @@ import Link from "../link/link";
 import navbarItems from "../../data/nav.json";
 
 // Assets
-import logo from "../../assets/images/logo.svg";
 import close from "../../assets/images/icons/close.svg";
 import menu from "../../assets/images/icons/menu.svg";
-import nouvelles from "../../assets/images/icons/news.svg";
-import notreelevage from "../../assets/images/icons/pawn.svg";
-import informations from "../../assets/images/icons/info.svg";
 
 // Functions
 
@@ -30,22 +26,6 @@ function opennav() {
   document.getElementById("mobilenav").style.display = "inline";
   document.getElementById("btnnavclose").style.display = "inline";
   document.getElementById("btnnavopen").style.display = "none";
-}
-
-function icon(params) {
-  switch (params) {
-    case "Nouvelles":
-      return <img src={nouvelles} alt="Nouvelles" />;
-      break;
-    case "Notre élevage":
-      return <img src={notreelevage} alt="Notre élevage" />;
-      break;
-    case "Informations":
-      return <img src={informations} alt="Informations" />;
-      break;
-    default:
-      break;
-  }
 }
 
 function navmap(params) {
@@ -74,10 +54,7 @@ const NavBar = () => {
       <Container>
         <header>
           <div className={componentStyles.navbarIcon}>
-            <Link to="/">
-              <img src={logo} alt="Élevage de Jade" />
-              Élevage de Jade
-            </Link>
+            <Link to="/">Élevage de Jade</Link>
           </div>
           <nav className={componentStyles.deskmenu}>
             <ul>
@@ -106,10 +83,7 @@ const NavBar = () => {
             <ul>
               {navbarItems.map((item) => (
                 <li key={item.name}>
-                  <Link to={item.url}>
-                    {icon(item.name)}
-                    {item.name}
-                  </Link>
+                  <Link to={item.url}>{item.name}</Link>
                 </li>
               ))}
             </ul>

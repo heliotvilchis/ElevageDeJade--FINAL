@@ -1,9 +1,9 @@
 import * as React from "react";
 
 // Components
-import Layout from "../components/layout/layout";
-import Container from "../components/container/container";
 import Link from "../components/link/link";
+import Container from "../components/container/container";
+import Layout from "../components/layout/layout";
 
 // CSS
 import * as componentStyles from "../assets/pagestyles/index.module.scss";
@@ -14,7 +14,6 @@ import imagetext from "../assets/images/indextext.jpg";
 import brunc from "../assets/images/icons/brundcircle.svg";
 import greenc from "../assets/images/icons/greendcircle.svg";
 import purplec from "../assets/images/icons/purpledcircle.svg";
-import camera from "../assets/images/icons/camera-with-flash.png";
 import christmastree from "../assets/images/icons/christmas-tree.png";
 import earth from "../assets/images/icons/earth-globe-americas.png";
 import envelope from "../assets/images/icons/envelope.png";

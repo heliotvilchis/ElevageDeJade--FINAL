@@ -29,13 +29,13 @@ const Elevage = () => {
   return (
     <Layout>
       <Container>
-        <h2>
+        <p>
           Tous mes chiens ont un caractère doux, affectueux, protecteur, d'une
           grande sensibilité d'une finesse incomparable, ce sont de joyeux et
           fidèles compagnons de tous les jours, avec leurs habitudes de vie. Ils
           adorent leurs promenades, ou ils peuvent laisser allez leur énergie et
           leur plaisir de jouer.
-        </h2>
+        </p>
         <p>Voici une brève présentation de mes chiens.</p>
         <p>
           Je vous invite à visiter la page des mâles et femelles pour plus
