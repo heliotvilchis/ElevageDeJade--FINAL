@@ -1,4 +1,4 @@
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1049px) {
     .navbar {
         padding: 8px 0;
     }
@@ -10,7 +10,7 @@
         align-items: center;
     }
     .navbarIcon {
-        font-size: 7vw;
+        font-size: 29px;
         img {
             display: none;
         }
@@ -35,56 +35,6 @@
     button {
         background: none;
         border: none;
-    }
-}
-
-@media only screen and (min-width: 576px) {
-    .navbar {
-        padding: 8px 0;
-    }
-    header {
-        padding: 12px 0;
-        line-height: 24.8px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .navbarIcon {
-        font-size: 7vw;
-        img {
-            display: none;
-        }
-    }
-    ul {
-        display: block;
-        line-height: 24.8px;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        li {
-            display: inline-block;
-            margin: 0 0.25rem;
-            a {
-                padding: 0.5rem 0.75rem;
-            }
-        }
-    }
-    .btnnavclose,
-    .btnnavopen,
-    .mobilenav {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .navbar {
-        padding: 12px 0;
-        .navbarIcon {
-            font-size: 39px;
-        }
-    }
-    header {
-        padding: 12px 0;
     }
 }
 
@@ -122,16 +72,23 @@
     }
 }
 
-details {
-    ul {
-        background: var(--beige);
-        position: absolute;
-        box-shadow: 0px 0px 5px black;
-        width: 250px;
-        margin-left: -133px !important;
-        li {
-            width: 100%;
-            padding: 5px 0;
+@media only screen and (min-width: 1050px) {
+    details {
+        ul {
+            background: var(--beige);
+            position: absolute;
+            box-shadow: 0px 0px 5px black;
+            width: 250px;
+            margin-left: -133px !important;
+            li {
+                width: 100%;
+                padding: 5px 0;
+            }
         }
+    }
+    .btnnavclose,
+    .btnnavopen,
+    .mobilenav {
+        display: none;
     }
 }
