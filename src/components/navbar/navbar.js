@@ -82,9 +82,7 @@ const NavBar = () => {
           <nav>
             <ul>
               {navbarItems.map((item) => (
-                <li key={item.name}>
-                  <Link to={item.url}>{item.name}</Link>
-                </li>
+                <li key={item.name}>{navmap(item)}</li>
               ))}
             </ul>
           </nav>
