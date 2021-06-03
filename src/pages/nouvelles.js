@@ -1,8 +1,9 @@
 import * as React from "react";
 
 // Components
-import Layout from "../components/layout/layout";
+
 import Container from "../components/container/container";
+import Layout from "../components/layout/layout";
 
 // CSS
 import * as componentStyles from "../assets/pagestyles/nouvelles.module.scss";

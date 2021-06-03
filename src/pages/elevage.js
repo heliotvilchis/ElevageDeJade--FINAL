@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 // Components
 import Container from "../components/container/container";
-import Layout from "../components/layout/layout";
 import Card from "../components/card/card";
+import Layout from "../components/layout/layout";
 
 // Images
 import i1 from "../assets/images/gabou/1.jpg";
