@@ -57,6 +57,14 @@ module.exports = {
       },
       __key: "pagesHere",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "allPdfs",
+        path: "./src/assets/tests",
+      },
+      __key: "allPdfs",
+    },
     `gatsby-plugin-styled-components`,
   ],
 };

@@ -50,6 +50,7 @@ const Males = () => {
           born="Né le 11 août 2015"
           color="Couleur : sable et blanc, facteur blanc"
           aurl="/albums/gabou"
+          turl="/tests/gabou"
           purl="/pedigree/gabou"
         >
           <p>
@@ -69,7 +70,7 @@ const Males = () => {
           img={m3}
           dname="CH. DeJade Soft Silver Dream"
           aurl="/albums/silver-dream"
-          turl="/test/silver-dream.pdf"
+          turl="/tests/silver-dream"
           purl="/pedigree/silver-dream"
         >
           <p>

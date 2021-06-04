@@ -1,0 +1,41 @@
+[{
+    "name": "DeJade Dream In Black Gold ( Aiko )",
+    "parents": [
+        { "link": "Père :", "name": "CH.DeJade Soft Silver Dream" },
+        { "link": "Mère :", "name": "DeJade Ava Gardner" }
+    ],
+    "grandsParents": [
+        { "link": "Père :", "name": "CH.DeJade Soft Dream In Gold" },
+        { "link": "Mère :", "name": "CH.DeJade Star of Cassy" },
+        { "link": "Père :", "name": "CH.Milas DeJade New Star" },
+        { "link": "Mère :", "name": "DeJade Gaïa Océane" }
+    ],
+    "arGrandsParents": [
+        { "link": "Père :", "name": "CH.DeJade Soft Magic Gold Dust" },
+        { "link": "Mère :", "name": "Lady Steffie DeFay" },
+        { "link": "Père :", "name": "CH.Milas DeJade New Star" },
+        { "link": "Mère :", "name": "DeJade Cassiophè DeFay" },
+        { "link": "Père :", "name": "CH.Overland Allstar" },
+        { "link": "Mère :", "name": "CH.Milas Latin Diva" },
+        { "link": "Père :", "name": "CH.DeJade Soft Magic Gold Dust" },
+        { "link": "Mère :", "name": "DeJade Judy Garland" }
+    ],
+    "arArGrandsParents": [
+        { "link": "Père :", "name": "DeJade Black Softy" },
+        { "link": "Mère :", "name": "DeJade Simply Pearl Enchantée" },
+        { "link": "Père :", "name": "Collection Angus DeFay" },
+        { "link": "Mère :", "name": "DeJade Cassiophè DeFay" },
+        { "link": "Père :", "name": "CH.Overland Allstar" },
+        { "link": "Mère :", "name": "Ch.Milas Latin Diva" },
+        { "link": "Père :", "name": "CH.Can.FCC.Constelation Kujo" },
+        { "link": "Mère :", "name": "CH.Codybear's Denim'n Lace" },
+        { "link": "Père :", "name": "CH.Winhaven Stranger In Paradise" },
+        { "link": "Mère :", "name": "Ch.Overland Summer in Paris" },
+        { "link": "Père :", "name": "CH.Winhaven Stranger In Paradise" },
+        { "link": "Mère :", "name": "Lawinds Dancestep of Milas" },
+        { "link": "Père :", "name": "DeJade Black Softy" },
+        { "link": "Mère :", "name": "DeJade Simply Pearl Enchantée" },
+        { "link": "Père :", "name": "CH.Glasgowhill's Simply DeJade" },
+        { "link": "Mère :", "name": "Codybear's DeJade Georgina" }
+    ]
+}]

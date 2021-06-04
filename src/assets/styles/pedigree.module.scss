@@ -1,0 +1,28 @@
+.pedigree {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(18, 70px);
+    background: var(--beige);
+    box-shadow: 0 0 6px var(--shadow);
+    border-radius: 15px;
+    h1 {
+        grid-column: span 4;
+        text-align: center;
+    }
+    h4 {
+        background: var(--brun);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        line-height: 70px;
+        padding: auto;
+        color: var(--beige);
+        text-align: center;
+        margin: auto;
+    }
+    p:nth-of-type(1) {
+        background: red;
+        width: 100%;
+        height: 100%;
+    }
+}
