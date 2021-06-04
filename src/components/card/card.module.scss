@@ -36,6 +36,27 @@
     }
 }
 
+@media only screen and (max-width: 950px) {
+    .card {
+        width: 45%;
+        height: 400px;
+        .mainpic {
+            height: 60%;
+            object-position: top;
+        }
+        h4,
+        p {
+            margin: 0.3em 0;
+            width: 100%;
+        }
+        .icon {
+            width: 24px;
+            object-fit: contain;
+            margin: 8px 0 20px 0;
+        }
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .card {
         width: 100%;
@@ -56,27 +77,6 @@
             width: 24px;
             object-fit: contain;
             margin: 8px 0 auto 0;
-        }
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    .card {
-        width: 45%;
-        height: 400px;
-        .mainpic {
-            height: 60%;
-            object-position: top;
-        }
-        h4,
-        p {
-            margin: 0.3em 0;
-            width: 100%;
-        }
-        .icon {
-            width: 24px;
-            object-fit: contain;
-            margin: 8px 0 20px 0;
         }
     }
 }
