@@ -4,8 +4,18 @@ import React from "react";
 import * as styleComponents from "../chiens/chiens.module.scss";
 
 // Markup
-const Chiens = () => {
-  return <h1>chiens</h1>;
+const Chiens = ({ dname, undertext, img, children }) => {
+  return (
+    <div className={styleComponents.chiens}>
+      <img src={img} alt="" />
+      <h3>{dname}</h3>
+      <p>{undertext}</p>
+      <p>{children}</p>
+      <button>Album</button>
+      <button>Tests</button>
+      <button>Pedigree</button>
+    </div>
+  );
 };
 
 export default Chiens;

@@ -1,0 +1,10 @@
+.chiens {
+    background-color: var(--beige);
+    border-radius: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
+    display: flex;
+    img {
+        width: 50%;
+        border-radius: 15px 0 0 15px;
+    }
+}
