@@ -28,6 +28,7 @@ const Album = ({ data }) => {
       <Contianer>
         <h1>the album</h1>
         <p>{data.allFile.edges[0].node.relativePath}</p>
+        <p>Total images : {data.allFile.totalCount}</p>
       </Contianer>
     </Layout>
   );
