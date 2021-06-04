@@ -18,6 +18,7 @@
     --green: #4f8680;
     --brun: #88512c;
     --purple: #85729b;
+    --shadow: rgba(0, 0, 0, 0.178);
 }
 
 body {
@@ -39,6 +40,7 @@ h5,
 p,
 a {
     font-family: "RaglanSans";
+    color: var(--gray);
 }
 
 a {
