@@ -13,13 +13,17 @@ const Males = () => {
   return (
     <Layout>
       <Contianer>
-        <h1>males</h1>
+        <h1>Nos Mâles</h1>
         <Chiens
           img={m1}
           dname="DeJade Dream in Black Gold (Aiko)"
           undertext="Co-Propriété avec Mme Bélanger"
+          born="Né le 4 juin 2020"
+          color="Couleur: Tricolore"
         >
-          <p>test</p>
+          <p></p>
+          <p> </p>
+          <p>Tests ADN</p>
         </Chiens>
       </Contianer>
     </Layout>

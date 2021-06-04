@@ -6,7 +6,7 @@ import ChampionsCard from "../components/champions-card/champions-card";
 import Layout from "../components/layout/layout";
 
 //CSS
-import * as styleComponents from "../assets/styles/champions.module.scss";
+import * as styleComponents from "../assets/pagestyles/champions.module.scss";
 
 //images
 import ci1 from "../assets/images/all-champions/1.jpg";
