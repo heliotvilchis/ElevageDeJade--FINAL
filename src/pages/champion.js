@@ -66,7 +66,7 @@ const Champions = () => {
             </ChampionsCard>
             <ChampionsCard
               image={ci3}
-              dname="CH. DeJade Soft Dream in Gold,(Gabou)"
+              dname="CH. DeJade Soft Dream in Gold (Gabou)"
             />
             <ChampionsCard image={ci5} dname="CH DeJade Salem">
               <p>

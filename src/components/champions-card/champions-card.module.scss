@@ -1,23 +1,80 @@
-.card {
-    background-color: var(--beige);
-    text-align: center;
-    width: 500px;
-    height: auto;
-    margin-bottom: 30px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
-    border-radius: 10px;
-    .mainpic {
-        background-color: var(--brun);
-        border-radius: 0px;
-        margin-top: 1em;
-    }
-    div {
-        h3 {
-            margin: 1em;
+@media only screen and (max-width: 593px) {
+    .card {
+        background-color: var(--beige);
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
+        border-radius: 10px;
+        padding: 0 1em;
+        .mainpic {
+            background-color: var(--brun);
+            border-radius: 0px;
+            margin-top: 1em;
+            width: 100%;
         }
-        p {
-            margin: 1em;
-            text-align: left;
+        div {
+            h3 {
+                margin: 1em;
+            }
+            p {
+                margin: 1em;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1126px) {
+    .card {
+        background-color: var(--beige);
+        text-align: center;
+        width: 500px;
+        height: auto;
+        margin-bottom: 30px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
+        border-radius: 10px;
+        margin: 15px auto;
+        .mainpic {
+            background-color: var(--brun);
+            border-radius: 0px;
+            margin-top: 1em;
+        }
+        div {
+            h3 {
+                margin: 1em;
+            }
+            p {
+                margin: 1em;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1127px) {
+    .card {
+        background-color: var(--beige);
+        text-align: center;
+        width: 500px;
+        height: auto;
+        margin-bottom: 30px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
+        border-radius: 10px;
+        .mainpic {
+            background-color: var(--brun);
+            border-radius: 0px;
+            margin-top: 1em;
+        }
+        div {
+            h3 {
+                margin: 1em;
+            }
+            p {
+                margin: 1em;
+                text-align: left;
+            }
         }
     }
 }
