@@ -9,5 +9,27 @@
     }
     .data {
         padding: 0 1em;
+        width: 50%;
+        border-radius: 0 15px 15px 0;
+    }
+    h3 {
+        text-align: center;
+        border-bottom: 2px solid black;
+        width: 100%;
+    }
+    .btns {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        button {
+            padding: 2em 3em;
+            border-radius: 50%;
+            font-size: 1.2em;
+            font-weight: 600;
+            background: var(--brun);
+            color: var(--beige);
+            border: 3px solid white;
+            box-shadow: 3px 3px 6px rgb(0, 0, 0);
+        }
     }
 }
