@@ -21,6 +21,10 @@ export const query = graphql`
   }
 `;
 
+function renderImages({ data }) {
+  return <img src={data.allFile.edges[0].node.publicURL} alt="" />;
+}
+
 // Markup
 const Album = ({ data }) => {
   return (
@@ -28,7 +32,9 @@ const Album = ({ data }) => {
       <Contianer>
         <h1>the album</h1>
         <p>{data.allFile.edges[0].node.relativePath}</p>
+        <img src={data.allFile.edges[0].node.publicURL} alt="" />
         <p>Total images : {data.allFile.totalCount}</p>
+        {renderImages}
       </Contianer>
     </Layout>
   );
