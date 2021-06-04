@@ -28,10 +28,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "imagesHere",
+        name: "imagesAiko",
         path: "./src/assets/images/aiko/",
       },
-      __key: "imagesHere",
+      __key: "imagesAiko",
     },
     {
       resolve: "gatsby-source-filesystem",
@@ -48,14 +48,6 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pagesHere",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "imagesX",
-        path: "./src/assets/images/",
-      },
-      __key: "pagesX",
     },
     `gatsby-plugin-styled-components`,
   ],

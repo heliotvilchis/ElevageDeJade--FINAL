@@ -5,14 +5,14 @@ import { graphql } from "gatsby";
 import Contianer from "../../components/container/container";
 import Layout from "../../components/layout/layout";
 
+// CSS
+import * as styleComponents from "../../assets/styles/album.module.scss";
+
 export const query = graphql`
   {
-    allFile(filter: { sourceInstanceName: { eq: "imagesHere" } }) {
+    allFile(filter: { sourceInstanceName: { eq: "imagesAiko" } }) {
       edges {
         node {
-          id
-          absolutePath
-          relativePath
           publicURL
         }
       }
@@ -21,20 +21,28 @@ export const query = graphql`
   }
 `;
 
-function renderImages({ data }) {
-  return <img src={data.allFile.edges[0].node.publicURL} alt="" />;
-}
-
 // Markup
 const Album = ({ data }) => {
+  /*
+    Create array allImages
+    Populate the array with all the urls given by the querry
+  */
+  const allImages = [];
+
+  for (let i = 0; i < data.allFile.totalCount; i++) {
+    allImages[i] = { url: data.allFile.edges[i].node.publicURL };
+    console.log(i);
+  }
+
   return (
     <Layout>
       <Contianer>
-        <h1>the album</h1>
-        <p>{data.allFile.edges[0].node.relativePath}</p>
-        <img src={data.allFile.edges[0].node.publicURL} alt="" />
-        <p>Total images : {data.allFile.totalCount}</p>
-        {renderImages}
+        <section className={styleComponents.album}>
+          <h2>Akio</h2>
+          {allImages.map((item) => (
+            <img src={item.url} alt="" />
+          ))}
+        </section>
       </Contianer>
     </Layout>
   );
