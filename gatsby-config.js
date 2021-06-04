@@ -44,6 +44,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesSilverDream",
+        path: "./src/assets/images/silver-dream",
+      },
+      __key: "imagesSilverDream",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "pagesHere",
         path: "./src/pages/",
       },
