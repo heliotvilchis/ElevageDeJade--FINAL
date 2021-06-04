@@ -8,6 +8,9 @@ import Layout from "../../components/layout/layout";
 // CSS
 import * as styleComponents from "../../assets/styles/album.module.scss";
 
+var dogname = "DeJade Dream in Black Gold ( Aiko )";
+var otherinfo = "Co-Propriété avec Mme Bélanger";
+
 export const query = graphql`
   {
     allFile(filter: { sourceInstanceName: { eq: "imagesAiko" } }) {
@@ -38,10 +41,13 @@ const Album = ({ data }) => {
     <Layout>
       <Contianer>
         <section className={styleComponents.album}>
-          <h2>Akio</h2>
-          {allImages.map((item) => (
-            <img src={item.url} alt="" />
-          ))}
+          <h1>{dogname}</h1>
+          <p>{otherinfo}</p>
+          <div className={styleComponents.grid}>
+            {allImages.map((item) => (
+              <img src={item.url} alt="" />
+            ))}
+          </div>
         </section>
       </Contianer>
     </Layout>
