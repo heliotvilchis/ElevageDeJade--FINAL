@@ -40,6 +40,14 @@ test[2] = { name: "tree" };
 
 // Markup
 const Album = ({ data }) => {
+  ////*****REAL CODE */
+  const allImages = [];
+
+  for (let i = 0; i < data.allFile.totalCount; i++) {
+    allImages[i] = { url: data.allFile.edges[i].node.publicURL };
+    console.log(i);
+  }
+
   return (
     <Layout>
       <Contianer>
@@ -49,6 +57,13 @@ const Album = ({ data }) => {
         {images2()}
         {test.map((item) => (
           <p>{item.name}</p>
+        ))}
+        <h2>New code</h2>
+        {allImages.map((item) => (
+          <p>{item.url}</p>
+        ))}
+        {allImages.map((item) => (
+          <img src={item.url} alt="" />
         ))}
       </Contianer>
     </Layout>
