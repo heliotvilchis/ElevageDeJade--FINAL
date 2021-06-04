@@ -30,13 +30,26 @@ function images() {
   return <h1>{z}</h1>;
 }
 
+function images2(params) {
+  return <h2>hello</h2>;
+}
+
+const test = [{ name: "first" }, { name: "second" }];
+
+test[2] = { name: "tree" };
+
 // Markup
 const Album = ({ data }) => {
   return (
     <Layout>
       <Contianer>
         <h1>{data.allFile.totalCount}</h1>
+        <p>{data.allFile.edges[0].node.publicURL}</p>
         {images()}
+        {images2()}
+        {test.map((item) => (
+          <p>{item.name}</p>
+        ))}
       </Contianer>
     </Layout>
   );
