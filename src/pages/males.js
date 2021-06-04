@@ -68,17 +68,18 @@ const Males = () => {
         <Chiens
           img={m3}
           dname="CH. DeJade Soft Silver Dream"
-          aurl="/albums/gabou"
-          purl="/pedigree/gabou"
+          aurl="/albums/silver-dream"
+          turl="/test/silver-dream.pdf"
+          purl="/pedigree/silver-dream"
         >
           <p>
-            <b>Yeux :</b> normaux
+            <b>Yeux :</b> normaux/porteurs
           </p>
           <p>
             <b>CN :</b> normal/normal
           </p>
           <p>
-            <b>Myélopathie dégénérative :</b> normal/normal
+            <b>DM :</b> normal/normal
           </p>
           <p>
             <b>MDR1 :</b> normal/normal
