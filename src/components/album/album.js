@@ -1,18 +1,27 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 
-class FullCalendar extends React.Component {
-  componentDidMount() {
-    console.log("page rendered");
-  }
-
-  render() {
-    return (
-      <React.Fragment>
-        <h1>all the photos</h1>
-      </React.Fragment>
-    );
-  }
+export default function Album() {
+  return (
+    <StaticQuery
+      query={graphql`
+        {
+          allFile(filter: { sourceInstanceName: { eq: "imagesGabou" } }) {
+            edges {
+              node {
+                publicURL
+              }
+            }
+            totalCount
+          }
+        }
+      `}
+      render={(data) => (
+        <header>
+          <h1>{data.allFile.totalCount}</h1>
+          <img src={data.allFile.edges[0].node.publicURL} alt="" />
+        </header>
+      )}
+    />
+  );
 }
-
-export default FullCalendar;
