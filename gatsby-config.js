@@ -36,6 +36,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesGabou",
+        path: "./src/assets/images/gabou/",
+      },
+      __key: "imagesGabou",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "pagesHere",
         path: "./src/pages/",
       },
