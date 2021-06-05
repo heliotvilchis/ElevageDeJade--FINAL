@@ -1,10 +1,19 @@
 import React from "react";
 
+// Components
 import Container from "../components/container/container";
+import ChiotsComp from "../components/chiots/chiots";
+import Link from "../components/link/link";
 import Layout from "../components/layout/layout";
 
 // CSS
 import * as styleComponents from "../assets/pagestyles/chiots.module.scss";
+
+//images
+import softDream from "../assets/images/silver-dream/1.jpg";
+import india from "../assets/images/india/1.jpg";
+import softShiny from "../assets/images/soft-shiny/1.jpg";
+import tiBlanche from "../assets/images/renagade/1.webp";
 
 // Markup
 const Chiots = () => {
@@ -35,6 +44,45 @@ const Chiots = () => {
                 enclos d'un minimum de 8' x 8'.
               </p>
             </div>
+          </div>
+          <ChiotsComp
+            date="Accouplement prévu pour mai 2021"
+            infos=""
+            imgm={softDream}
+            nomm="CH.DeJade Soft Dream in Gold"
+            imgf={india}
+            nomf="CH.DeJade Star of Cassy ( India )"
+          />
+          <ChiotsComp
+            date="Accouplement prévu pour mai 2021"
+            infos=""
+            imgm={softDream}
+            nomm="CH.DeJade Soft Dream in Gold"
+            imgf={india}
+            nomf="CH.DeJade Star of Cassy ( India )"
+          />
+          <ChiotsComp
+            date="Accouplements faits du 26 au 30 avril"
+            infos="Gestation à confirmer "
+            imgm={softDream}
+            nomm="Gr.CH.Cover's Run Just Call Me Hank"
+            imgf={tiBlanche}
+            nomf="DeJade Gracious White ( Ti-Blance )"
+          />
+          <ChiotsComp
+            date="Accouplement fait le 26 avril."
+            infos="Couleurs des chiots à naître: sable, sable-merle, bleu-merle, tricolore, gestation à confirmer"
+            imgm={softDream}
+            nomm="CH.DeJade Soft Dream in Gold"
+            imgf={softShiny}
+            nomf="DeJade Soft Shiny"
+          />
+          <h2>Tous les chiots de ces portées auront les yeux normaux</h2>
+          <div className={styleComponents.contact}>
+            <Link to="mailto:info@elevagedejade.com">
+              info@elevagedejade.com
+            </Link>
+            <Link to="tel:+14183253285">418-325-3285</Link>
           </div>
         </Container>
       </Layout>

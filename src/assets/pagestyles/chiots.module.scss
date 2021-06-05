@@ -9,3 +9,22 @@
         box-shadow: 0 0 6px var(--shadow);
     }
 }
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid var(--brun);
+    border-radius: 15px;
+    box-shadow: 0 0 6px var(--shadow);
+    a {
+        padding: 0.4em;
+        font-size: 2em;
+        width: 100%;
+    }
+}
