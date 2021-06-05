@@ -1,12 +1,13 @@
 .pedigree {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(18, 70px);
+    grid-template-rows: repeat(18, auto);
     background: var(--beige);
     box-shadow: 0 0 6px var(--shadow);
     border-radius: 15px;
     padding: 0 1em;
     gap: 1em;
+    padding-bottom: 1em;
     h1 {
         grid-column: span 4;
         text-align: center;
@@ -22,16 +23,64 @@
         text-align: center;
         margin: auto;
     }
-    .nametag:nth-of-type(3) {
-        background: chartreuse;
-        height: 100%;
-        width: 100%;
-        margin: auto;
+    .nametag {
+        padding: 1em;
+        border: 1px solid var(--brun);
     }
-     :nth-of-type(5) {
-        background: red;
-        width: 100%;
-        height: 100%;
-        margin: auto;
+    .nametag:nth-of-type(1) {
+        grid-row-start: 3;
+        grid-row-end: 11;
+    }
+    .nametag:nth-of-type(2) {
+        grid-row-start: 11;
+        grid-row-end: 19;
+    }
+    .nametag:nth-of-type(3) {
+        grid-row-start: 3;
+        grid-row-end: 7;
+    }
+    .nametag:nth-of-type(4) {
+        grid-row-start: 7;
+        grid-row-end: 11;
+    }
+    .nametag:nth-of-type(5) {
+        grid-row-start: 11;
+        grid-row-end: 15;
+    }
+    .nametag:nth-of-type(6) {
+        grid-row-start: 15;
+        grid-row-end: 19;
+    }
+    .nametag:nth-of-type(7) {
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    .nametag:nth-of-type(8) {
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    .nametag:nth-of-type(9) {
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+    .nametag:nth-of-type(10) {
+        grid-row-start: 9;
+        grid-row-end: 11;
+    }
+    .nametag:nth-of-type(11) {
+        grid-row-start: 11;
+        grid-row-end: 13;
+    }
+    .nametag:nth-of-type(12) {
+        grid-row-start: 13;
+        grid-row-end: 15;
+    }
+    .nametag:nth-of-type(13) {
+        grid-row-start: 15;
+        grid-row-end: 17;
+    }
+    .nametag:nth-of-type(14) {
+        grid-row-start: 17;
+        grid-row-end: 19;
     }
 }

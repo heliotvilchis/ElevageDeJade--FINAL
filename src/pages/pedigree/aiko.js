@@ -42,15 +42,15 @@ const Pedigree = () => {
           ))}
 
           {ped.map((item) => (
-            <p>{pedmap(item.grandsParents)}</p>
+            <React.Fragment>{pedmap(item.grandsParents)}</React.Fragment>
           ))}
 
           {ped.map((item) => (
-            <p>{pedmap(item.arGrandsParents)}</p>
+            <React.Fragment>{pedmap(item.arGrandsParents)}</React.Fragment>
           ))}
 
           {ped.map((item) => (
-            <p>{pedmap(item.arArGrandsParents)}</p>
+            <React.Fragment>{pedmap(item.arArGrandsParents)}</React.Fragment>
           ))}
         </div>
       </Container>

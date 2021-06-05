@@ -38,7 +38,8 @@ h3,
 h4,
 h5,
 p,
-a {
+a,
+small {
     font-family: "RaglanSans";
     color: var(--gray);
 }
