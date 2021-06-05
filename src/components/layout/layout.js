@@ -1,7 +1,7 @@
 import React from "react";
 
 //CSS
-import "./layout.module.scss";
+import * as styleComponents from "./layout.module.scss";
 
 // COMPONENTS
 import NavBar from "../navbar/navbar";
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <NavBar />
-      <main>{children}</main>
+      <main className={styleComponents.main}>{children}</main>
       <Footer />
     </React.Fragment>
   );
