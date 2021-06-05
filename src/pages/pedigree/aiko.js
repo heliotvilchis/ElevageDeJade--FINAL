@@ -12,14 +12,14 @@ import ped from "../../data/ped-aiko.json";
 
 function pedmap(params) {
   return (
-    <div>
+    <React.Fragment>
       {params.map((item) => (
-        <div>
+        <div className={styleComponets.nametag}>
           <small>{item.link}</small>
           <p>{item.name}</p>
         </div>
       ))}
-    </div>
+    </React.Fragment>
   );
 }
 
@@ -36,26 +36,22 @@ const Pedigree = () => {
           <h4>Grands-Parents</h4>
           <h4>Arrières Grands-Parents</h4>
           <h4>Arrières-Arrières Grands-Parents</h4>
-          <div>
-            {ped.map((item) => (
-              <p>{pedmap(item.parents)}</p>
-            ))}
-          </div>
-          <div>
-            {ped.map((item) => (
-              <p>{pedmap(item.grandsParents)}</p>
-            ))}
-          </div>
-          <div>
-            {ped.map((item) => (
-              <p>{pedmap(item.arGrandsParents)}</p>
-            ))}
-          </div>
-          <div>
-            {ped.map((item) => (
-              <p>{pedmap(item.arArGrandsParents)}</p>
-            ))}
-          </div>
+
+          {ped.map((item) => (
+            <React.Fragment>{pedmap(item.parents)}</React.Fragment>
+          ))}
+
+          {ped.map((item) => (
+            <p>{pedmap(item.grandsParents)}</p>
+          ))}
+
+          {ped.map((item) => (
+            <p>{pedmap(item.arGrandsParents)}</p>
+          ))}
+
+          {ped.map((item) => (
+            <p>{pedmap(item.arArGrandsParents)}</p>
+          ))}
         </div>
       </Container>
     </Layout>
