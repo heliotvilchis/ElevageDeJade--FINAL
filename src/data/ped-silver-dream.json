@@ -1,0 +1,41 @@
+[{
+    "name": "CH. DeJade Soft Silver Dream",
+    "parents": [
+        { "link": "Père :", "name": "CH DeJade Soft Magic Gold Dust" },
+        { "link": "Mère :", "name": "Lady Steffie DeFay" }
+    ],
+    "grandsParents": [
+        { "link": "Père :", "name": "DeJade Black Softy" },
+        { "link": "Mère :", "name": "DeJade Simply Pearl Enchantée" },
+        { "link": "Père :", "name": "Collection Angus DeFay " },
+        { "link": "Mère :", "name": "Dejade Cassiophé DeFay" }
+    ],
+    "arGrandsParents": [
+        { "link": "Père :", "name": "BEAUBLOND MARQUIS DEJADE" },
+        { "link": "Mère :", "name": "CANTHIA DEJADE" },
+        { "link": "Père :", "name": "CH Glasgowhill Simply DeJade" },
+        { "link": "Mère :", "name": "Codybear's DeJade Georgina n/e (Gina)" },
+        { "link": "Père :", "name": "CH. Spécial Collection Snowflake" },
+        { "link": "Mère :", "name": "CH. Collection Marquise" },
+        { "link": "Père :", "name": "Can FCC. CH. Constealtion Kujo" },
+        { "link": "Mère :", "name": "CH Codybear's Denim'n Lace" }
+    ],
+    "arArGrandsParents": [
+        { "link": "Père :", "name": "KAKO DE BIERNAUX" },
+        { "link": "Mère :", "name": "FANNY DU LAC AUX SABLES" },
+        { "link": "Père :", "name": "KAKO DE BIERNAUX" },
+        { "link": "Mère :", "name": "DIXIE DE BIERNAUX" },
+        { "link": "Père :", "name": "Can. CH. Glasgowhill Be A Rockstar" },
+        { "link": "Mère :", "name": "Van-M Take A Gander" },
+        { "link": "Père :", "name": "CODYBEAR' STIRLING SILVER" },
+        { "link": "Mère :", "name": "CH. CODYBEAR'S MYSTICAL HARMONY" },
+        { "link": "Père :", "name": "AM. CH. Spécial Teddy Bear Graham" },
+        { "link": "Mère :", "name": "AM CH Spécial Fleur de Lys" },
+        { "link": "Père :", "name": "AM. CH. Constellation Power " },
+        { "link": "Mère :", "name": "Collection Déesse Majestueuse" },
+        { "link": "Père :", "name": "CH Constellation King's Ruby" },
+        { "link": "Mère :", "name": "Windsong Maya Constelation" },
+        { "link": "Père :", "name": "CH Glasgowhill's Codybear Nitro" },
+        { "link": "Mère :", "name": "CH Codybear's Mystical Harmony" }
+    ]
+}]
