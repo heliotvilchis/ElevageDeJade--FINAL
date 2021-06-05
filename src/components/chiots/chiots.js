@@ -8,11 +8,12 @@ import f from "../../assets/images/icons/female.svg";
 import * as styleComponents from "../chiots/chiots.module.scss";
 
 // Markup
-const Chiots = ({ date, infos, nomm, nomf, imgm, imgf }) => {
+const Chiots = ({ date, infos, infos2, nomm, nomf, imgm, imgf }) => {
   return (
     <section className={styleComponents.chiots}>
       <h2>{date}</h2>
       <p>{infos}</p>
+      <p>{infos2}</p>
       <div className={styleComponents.flex}>
         <div className={styleComponents.half}>
           <img className={styleComponents.dogimg} src={imgm} alt="" />

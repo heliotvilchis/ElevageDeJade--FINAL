@@ -10,10 +10,12 @@ import Layout from "../components/layout/layout";
 import * as styleComponents from "../assets/pagestyles/chiots.module.scss";
 
 //images
-import softDream from "../assets/images/silver-dream/1.jpg";
+import gabou from "../assets/images/gabou/1.jpg";
 import india from "../assets/images/india/1.jpg";
-import softShiny from "../assets/images/soft-shiny/1.jpg";
+import hank from "../assets/images/hank/1.webp";
 import tiBlanche from "../assets/images/renagade/1.webp";
+import shiny from "../assets/images/soft-shiny/1.jpg";
+import rhapsodie from "../assets/images/rapsodie/1.webp";
 
 // Markup
 const Chiots = () => {
@@ -48,34 +50,36 @@ const Chiots = () => {
           <ChiotsComp
             date="Accouplements faits les 12 et 13 mai"
             infos="Gestation à confirmer"
-            imgm={softDream}
+            imgm={gabou}
             nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
             imgf={india}
             nomf="CH.DeJade Star of Cassy ( India )"
           />
           <ChiotsComp
-            date="Accouplement prévu pour mai 2021"
-            infos=""
-            imgm={softDream}
-            nomm="CH.DeJade Soft Dream in Gold"
-            imgf={india}
-            nomf="CH.DeJade Star of Cassy ( India )"
-          />
-          <ChiotsComp
             date="Accouplements faits du 26 au 30 avril"
-            infos="Gestation à confirmer "
-            imgm={softDream}
+            infos="Gestations confirmées. Naissances prévues fin juin"
+            imgm={hank}
             nomm="Gr.CH.Cover's Run Just Call Me Hank"
             imgf={tiBlanche}
             nomf="DeJade Gracious White ( Ti-Blance )"
           />
           <ChiotsComp
-            date="Accouplement fait le 26 avril."
-            infos="Couleurs des chiots à naître: sable, sable-merle, bleu-merle, tricolore, gestation à confirmer"
-            imgm={softDream}
-            nomm="CH.DeJade Soft Dream in Gold"
-            imgf={softShiny}
+            date="Accouplement fait le 26 avril"
+            infos="Couleurs des chiots à naître: sable, sable-merle, bleu-merle, tricolore."
+            infos2="Gestations confirmées. Naissances prévues fin juin"
+            imgm={gabou}
+            nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
+            imgf={shiny}
             nomf="DeJade Soft Shiny"
+          />
+          <ChiotsComp
+            date="Accouplement prévu en août 2021"
+            infos=""
+            infos2=""
+            imgm={gabou}
+            nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
+            imgf={rhapsodie}
+            nomf="DeJade Sweet Rhapsodie in Blue"
           />
           <h2>Tous les chiots de ces portées auront les yeux normaux</h2>
           <div className={styleComponents.contact}>
