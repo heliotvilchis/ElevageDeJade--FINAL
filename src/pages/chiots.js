@@ -46,10 +46,10 @@ const Chiots = () => {
             </div>
           </div>
           <ChiotsComp
-            date="Accouplement prévu pour mai 2021"
-            infos=""
+            date="Accouplements faits les 12 et 13 mai"
+            infos="Gestation à confirmer"
             imgm={softDream}
-            nomm="CH.DeJade Soft Dream in Gold"
+            nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
             imgf={india}
             nomf="CH.DeJade Star of Cassy ( India )"
           />

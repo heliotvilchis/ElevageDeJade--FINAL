@@ -9,7 +9,7 @@ import Layout from "../components/layout/layout";
 // Images
 import i1 from "../assets/images/gabou/1.jpg";
 import i2 from "../assets/images/sweety/1.jpg";
-import i3 from "../assets/images/tina-turner/1.webp";
+import i3 from "../assets/images/tina-turner/1.jpg";
 import i4 from "../assets/images/india/1.jpg";
 import i5 from "../assets/images/renagade/1.webp";
 import i6 from "../assets/images/soft-shiny/1.jpg";
