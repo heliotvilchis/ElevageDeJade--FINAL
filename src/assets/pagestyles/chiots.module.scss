@@ -1,0 +1,11 @@
+.chiots {
+    text-align: center;
+    .price {
+        text-align: left;
+        border-radius: 15px;
+        border: 2px solid var(--brun);
+        padding: 0 1em;
+        background: var(--beige);
+        box-shadow: 0 0 6px var(--shadow);
+    }
+}
