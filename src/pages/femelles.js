@@ -6,7 +6,7 @@ import Chiens from "../components/chiens/chiens";
 import Layout from "../components/layout/layout";
 
 // Images
-import f1 from "../assets/images/aiko/1.webp";
+import f1 from "../assets/images/india/1.jpg";
 import f2 from "../assets/images/gabou/1.jpg";
 import f3 from "../assets/images/silver-dream/1.jpg";
 import f4 from "../assets/images/aiko/1.webp";
@@ -25,15 +25,15 @@ const Males = () => {
         <h1 className={styleComponents.males}>Nos Femelles</h1>
         <Chiens
           img={f1}
-          dname="DeJade Dream in Black Gold ( Aiko )"
-          undertext="Co-Propriété avec Mme Bélanger"
-          born="Né le 4 juin 2020"
-          color="Couleur : tricolore"
-          aurl="/albums/aiko"
-          purl="/pedigree/aiko"
+          dname=" CH DeJade Star Of Cassy ( India ) "
+          undertext=""
+          born=""
+          color="Couleur : bleu-Merle"
+          aurl="/albums/india"
+          purl="/pedigree/india"
         >
           <p>
-            <b>Yeux :</b> normaux, possible non-porteurs
+            <b>Yeux :</b> affectés
           </p>
           <p>
             <b>CN : </b> normal/normal
@@ -42,10 +42,7 @@ const Males = () => {
             <b>DM :</b> normal/normal
           </p>
           <p>
-            <b>MDR1 :</b> normal/mutant ou N/N
-          </p>
-          <p>
-            <b>DMS :</b> Tests à venir
+            <b>MDR1 :</b> normal/mutant
           </p>
         </Chiens>
         <Chiens
