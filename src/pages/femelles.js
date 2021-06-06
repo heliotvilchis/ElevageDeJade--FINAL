@@ -7,7 +7,7 @@ import Layout from "../components/layout/layout";
 
 // Images
 import f1 from "../assets/images/india/1.jpg";
-import f2 from "../assets/images/gabou/1.jpg";
+import f2 from "../assets/images/sweety/1.jpg";
 import f3 from "../assets/images/silver-dream/1.jpg";
 import f4 from "../assets/images/aiko/1.webp";
 import f5 from "../assets/images/gabou/1.jpg";
@@ -47,29 +47,29 @@ const Males = () => {
         </Chiens>
         <Chiens
           img={f2}
-          dname="CH. DeJade Soft Dream in Gold ( Gabou )"
-          born="Né le 11 août 2015"
-          color="Couleur : sable et blanc, facteur blanc"
-          aurl="/albums/gabou"
-          turl="/tests/gabou"
-          purl="/pedigree/gabou"
+          dname="DeJade Sweet Rhapsodie in Blue ( Sweety )"
+          born=""
+          color="Couleur : bleu-merle"
+          aurl="/albums/sweety"
+          purl="/pedigree/sweety"
         >
           <p>
-            <b>Yeux :</b> normaux
+            <b>Yeux :</b> cerf normal, possible non-porteur
           </p>
           <p>
-            <b>CN :</b> normal/normal
+            <b>CN :</b> N/N
           </p>
           <p>
-            <b>Myélopathie dégénérative :</b> normal/normal
+            <b>DM :</b> N/N
           </p>
           <p>
-            <b>MDR1 :</b> normal/normal
+            <b>MDR1 :</b> mutant/mutant
           </p>
         </Chiens>
         <Chiens
           img={f3}
-          dname="CH. DeJade Soft Silver Dream"
+          dname="DeJade Renagade Gracious White"
+          surname="( Ti-Blanche )"
           aurl="/albums/silver-dream"
           turl="/tests/silver-dream"
           purl="/pedigree/silver-dream"

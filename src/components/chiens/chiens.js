@@ -7,6 +7,7 @@ import * as styleComponents from "../chiens/chiens.module.scss";
 const Chiens = ({
   img,
   dname,
+  surname,
   undertext,
   born,
   color,
@@ -20,6 +21,7 @@ const Chiens = ({
       <img src={img} alt="" />
       <div className={styleComponents.data}>
         <h2>{dname}</h2>
+        <h2 className={styleComponents.surname}>{surname}</h2>
         <p>{undertext}</p>
         <p>{born}</p>
         <p>{color}</p>
