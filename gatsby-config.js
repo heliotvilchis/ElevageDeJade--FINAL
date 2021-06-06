@@ -66,5 +66,6 @@ module.exports = {
       __key: "allPdfs",
     },
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-minify`,
   ],
 };
