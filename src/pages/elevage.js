@@ -74,7 +74,7 @@ const Elevage = () => {
           />
           <Card
             image={i10}
-            dname="DeJade Bohemian Rhapsodie"
+            dname="DeJade Bohemian Rhapsodie (Queen)"
             gender="f"
             undertext="Co-Propriété avec Mme Christiane Forget"
           />

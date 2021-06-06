@@ -26,6 +26,7 @@ const Males = () => {
           born="Né le 4 juin 2020"
           color="Couleur : tricolore"
           aurl="/albums/aiko"
+          turl="/tests/aiko"
           purl="/pedigree/aiko"
         >
           <p>
