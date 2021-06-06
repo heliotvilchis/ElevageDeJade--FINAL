@@ -20,8 +20,11 @@ const Chiens = ({
     <div className={styleComponents.chiens}>
       <img src={img} alt="" />
       <div className={styleComponents.data}>
-        <h2>{dname}</h2>
-        <h2 className={styleComponents.surname}>{surname}</h2>
+        <h2>
+          {dname}
+          <br />
+          {surname}
+        </h2>
         <p>{undertext}</p>
         <p>{born}</p>
         <p>{color}</p>

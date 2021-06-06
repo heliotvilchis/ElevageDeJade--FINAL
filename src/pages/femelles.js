@@ -8,11 +8,12 @@ import Layout from "../components/layout/layout";
 // Images
 import f1 from "../assets/images/india/1.jpg";
 import f2 from "../assets/images/sweety/1.jpg";
-import f3 from "../assets/images/silver-dream/1.jpg";
-import f4 from "../assets/images/aiko/1.webp";
+import f3 from "../assets/images/renagade/1.webp";
+import f4 from "../assets/images/soft-shiny/1.jpg";
 import f5 from "../assets/images/gabou/1.jpg";
-import f6 from "../assets/images/silver-dream/1.jpg";
-import f7 from "../assets/images/silver-dream/1.jpg";
+import f6 from "../assets/images/haley/1.jpg";
+import f7 from "../assets/images/rapsodie/1.jpg";
+import f8 from "../assets/images/thunder/1.jpg";
 
 // CSS
 import * as styleComponents from "../assets/pagestyles/males.module.scss";
@@ -70,56 +71,11 @@ const Males = () => {
           img={f3}
           dname="DeJade Renagade Gracious White"
           surname="( Ti-Blanche )"
+          born="Date de naissance : le 15-01-2017"
+          color="Couleur : blanche marquée sable-merle"
           aurl="/albums/silver-dream"
           turl="/tests/silver-dream"
           purl="/pedigree/silver-dream"
-        >
-          <p>
-            <b>Yeux :</b> normaux/porteurs
-          </p>
-          <p>
-            <b>CN :</b> normal/normal
-          </p>
-          <p>
-            <b>DM :</b> normal/normal
-          </p>
-          <p>
-            <b>MDR1 :</b> normal/normal
-          </p>
-        </Chiens>
-        <Chiens
-          img={f4}
-          dname="DeJade Dream in Black Gold ( Aiko )"
-          undertext="Co-Propriété avec Mme Bélanger"
-          born="Né le 4 juin 2020"
-          color="Couleur : tricolore"
-          aurl="/albums/aiko"
-          purl="/pedigree/aiko"
-        >
-          <p>
-            <b>Yeux :</b> normaux, possible non-porteurs
-          </p>
-          <p>
-            <b>CN : </b> normal/normal
-          </p>
-          <p>
-            <b>DM :</b> normal/normal
-          </p>
-          <p>
-            <b>MDR1 :</b> normal/mutant ou N/N
-          </p>
-          <p>
-            <b>DMS :</b> Tests à venir
-          </p>
-        </Chiens>
-        <Chiens
-          img={f5}
-          dname="CH. DeJade Soft Dream in Gold ( Gabou )"
-          born="Né le 11 août 2015"
-          color="Couleur : sable et blanc, facteur blanc"
-          aurl="/albums/gabou"
-          turl="/tests/gabou"
-          purl="/pedigree/gabou"
         >
           <p>
             <b>Yeux :</b> normaux
@@ -128,27 +84,73 @@ const Males = () => {
             <b>CN :</b> normal/normal
           </p>
           <p>
-            <b>Myélopathie dégénérative :</b> normal/normal
+            <b>DM :</b> N/DM
+          </p>
+          <p>
+            <b>MDR1 :</b> M/M
+          </p>
+        </Chiens>
+        <Chiens
+          img={f4}
+          dname="DeJade Soft Shiny"
+          color="Couleur : sable-merle"
+          aurl="/albums/aiko"
+          purl="/pedigree/aiko"
+        >
+          <p>
+            <b>Yeux :</b> normaux, non-porteurs
+          </p>
+          <p>
+            <b>CN : </b> normal/normal
+          </p>
+          <p>
+            <b>DM :</b> normal/normal
           </p>
           <p>
             <b>MDR1 :</b> normal/normal
           </p>
         </Chiens>
         <Chiens
+          img={f5}
+          dname="DeJade Just Call Me Tina Turner"
+          born=""
+          color="Couleur : sable et blanc facteur tri"
+          aurl="/albums/gabou"
+          turl="/tests/gabou"
+          purl="/pedigree/gabou"
+        >
+          <p>
+            <b>Yeux :</b> normaux /porteurs (cerf)
+          </p>
+          <p>
+            <b>CN :</b> à venir
+          </p>
+          <p>
+            <b>DM :</b> à venir
+          </p>
+          <p>
+            <b>MDR1 :</b> à venir
+          </p>
+        </Chiens>
+        <Chiens
           img={f6}
-          dname="CH. DeJade Soft Silver Dream"
+          dname="DeJade Renagane White Élégance"
+          surname="( Haley )"
           aurl="/albums/silver-dream"
           turl="/tests/silver-dream"
           purl="/pedigree/silver-dream"
         >
           <p>
-            <b>Yeux :</b> normaux/porteurs
+            <b>Yeux :</b> normaux/normaux
           </p>
           <p>
             <b>CN :</b> normal/normal
           </p>
           <p>
             <b>DM :</b> normal/normal
+          </p>
+          <p>
+            <b>DMS :</b> Risque faible
           </p>
           <p>
             <b>MDR1 :</b> normal/normal
@@ -156,7 +158,8 @@ const Males = () => {
         </Chiens>
         <Chiens
           img={f7}
-          dname="CH. DeJade Soft Silver Dream"
+          dname="DeJade Bohemian Rhapsodie"
+          undertext="Co-propriétaire Mme Christiane Forget "
           aurl="/albums/silver-dream"
           turl="/tests/silver-dream"
           purl="/pedigree/silver-dream"
@@ -171,7 +174,28 @@ const Males = () => {
             <b>DM :</b> normal/normal
           </p>
           <p>
-            <b>MDR1 :</b> normal/normal
+            <b>MDR1 :</b> normal/mutant
+          </p>
+        </Chiens>
+        <Chiens
+          img={f8}
+          dname="DeJade Soft Breeze of Thunder"
+          undertext="Co-propriétaire Mme Christiane Forget "
+          aurl="/albums/silver-dream"
+          turl="/tests/silver-dream"
+          purl="/pedigree/silver-dream"
+        >
+          <p>
+            <b>Yeux :</b> normaux/porteurs
+          </p>
+          <p>
+            <b>CN :</b> normal/normal
+          </p>
+          <p>
+            <b>DM :</b> normal/normal
+          </p>
+          <p>
+            <b>MDR1 :</b> normal/mutant
           </p>
         </Chiens>
       </Contianer>
