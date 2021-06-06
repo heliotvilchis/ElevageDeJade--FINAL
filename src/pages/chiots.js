@@ -15,7 +15,7 @@ import india from "../assets/images/india/1.jpg";
 import hank from "../assets/images/hank/1.webp";
 import tiBlanche from "../assets/images/renagade/1.webp";
 import shiny from "../assets/images/soft-shiny/1.jpg";
-import rhapsodie from "../assets/images/rapsodie/1.webp";
+import rhapsodie from "../assets/images/rapsodie/1.jpg";
 
 // Markup
 const Chiots = () => {

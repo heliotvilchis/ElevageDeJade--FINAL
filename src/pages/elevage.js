@@ -16,7 +16,8 @@ import i6 from "../assets/images/soft-shiny/1.jpg";
 import i7 from "../assets/images/silver-dream/1.jpg";
 import i8 from "../assets/images/haley/1.jpg";
 import i9 from "../assets/images/aiko/1.webp";
-import i10 from "../assets/images/rapsodie/1.webp";
+import i10 from "../assets/images/rapsodie/1.jpg";
+import thunder from "../assets/images/thunder/1.jpg";
 
 const CardContainer = styled.div`
   display: flex;
@@ -77,6 +78,12 @@ const Elevage = () => {
             dname="DeJade Bohemian Rhapsodie (Queen)"
             gender="f"
             undertext="Co-Propriété avec Mme Christiane Forget"
+          />
+          <Card
+            image={thunder}
+            dname="DeJade Soft Breeze of Thunder"
+            gender="f"
+            undertext=""
           />
         </CardContainer>
       </Container>
