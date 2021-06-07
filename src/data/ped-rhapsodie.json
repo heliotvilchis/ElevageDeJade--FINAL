@@ -1,41 +1,41 @@
 [{
-    "name": "DeJade Renagade Gracious White",
+    "name": "DeJade Bohemian Rhapsodie",
     "parents": [
-        { "link": "Père :", "name": "CH Glasgowhill's DeJade Renegade" },
-        { "link": "Mère :", "name": "DeJade White Gracie Simply Enigm" }
+        { "link": "Père :", "name": "CH. DeJade Soft Dream in Gold (Gabou)" },
+        { "link": "Mère :", "name": "DeJade Sweet Rhapsodie in Blue (Sweety)" }
     ],
     "grandsParents": [
-        { "link": "Père :", "name": "BPIG Can CH. DonnyBrooke's Game Set Match" },
-        { "link": "Mère :", "name": "CH. Glasgowhill's Emulsify" },
-        { "link": "Père :", "name": "Can.Ch. Glasgowhill Simply DeJade " },
-        { "link": "Mère :", "name": "DeJade The Grace in White n/e" }
+        { "link": "Père :", "name": "CH DeJade Soft Magic Gold Dust " },
+        { "link": "Mère :", "name": "Lady Steffie DeFay" },
+        { "link": "Père :", "name": "DEJADE SHADOW OF SWEET " },
+        { "link": "Mère :", "name": "DeJade Rhapsodie in Blue n/e" }
     ],
     "arGrandsParents": [
-        { "link": "Père :", "name": "Best In Show Am Ch DonnyBrook's Mallorca" },
-        { "link": "Mère :", "name": "Donnybrooke's Raindrop" },
-        { "link": "Père :", "name": "Can CH Glasgowhill's be a Rockstar" },
-        { "link": "Mère :", "name": "Glasgowhill's Sunlit Dune" },
-        { "link": "Père :", "name": "Can. CH. Glasgowhill Be A Rockstar" },
-        { "link": "Mère :", "name": "Van-M Take A Gander" },
-        { "link": "Père :", "name": "CAN. CH. SIMBAD DEJADE" },
-        { "link": "Mère :", "name": "CODYBEAR'S DEJADE GEORGINA" }
+        { "link": "Père :", "name": "DeJade Black Softy" },
+        { "link": "Mère :", "name": "DeJade Simply Pearl Enchantée" },
+        { "link": "Père :", "name": "Collection Angus DeFay " },
+        { "link": "Mère :", "name": "Dejade Cassiophé DeFay" },
+        { "link": "Père :", "name": "CH. LAKEVIEWS'S SWEET EXPECTATION" },
+        { "link": "Mère :", "name": "DEJADE DOLCEA" },
+        { "link": "Père :", "name": "Can.FCC. Ch. Constelation Kujo" },
+        { "link": "Mère :", "name": "DEJADE DOLCEA" }
     ],
     "arArGrandsParents": [
-        { "link": "Père :", "name": "Am Ch Windhaven Stanger In Paradise" },
-        { "link": "Mère :", "name": "DonnyBrook's Cowgirl Up" },
-        { "link": "Père :", "name": "Donnybrooke's Nightime" },
-        { "link": "Mère :", "name": "Saxony Say You Will" },
-        { "link": "Père :", "name": "Can CH Glasgowhill's Winning Ticket NC" },
-        { "link": "Mère :", "name": "Glasgowhill Dreams Come True NE" },
-        { "link": "Père :", "name": "Can CH Van M That's the Ticket NC" },
-        { "link": "Mère :", "name": "Can. CH Glasgowhill Sweet Temptation" },
-        { "link": "Père :", "name": "Can. CH. Glasgowhill Winning Ticket n/c" },
-        { "link": "Mère :", "name": "Glasgowhill Dreams Come True N/E 9 pts" },
-        { "link": "Père :", "name": "Van-M Pal Joey II " },
-        { "link": "Mère :", "name": "Van-M Ticket Taker" },
-        { "link": "Père :", "name": "CAN. FCC. CH. CONSTELATION KUJO" },
-        { "link": "Mère :", "name": "FAY DEJADE " },
-        { "link": "Père :", "name": "CODYBEAR'S STIRLING SILVER" },
-        { "link": "Mère :", "name": "CH. CODYBEAR'S MYSTICAL HARMONY" }
+        { "link": "Père :", "name": "BEAUBLOND MARQUIS DEJADE" },
+        { "link": "Mère :", "name": "CANTHIA DEJADE" },
+        { "link": "Père :", "name": "CH Glasgowhill Simply DeJade" },
+        { "link": "Mère :", "name": "Codybear's DeJade Georgina n/e (Gina)" },
+        { "link": "Père :", "name": "CH. Spécial Collection Snowflake" },
+        { "link": "Mère :", "name": "CH. Collection Marquise" },
+        { "link": "Père :", "name": "Can FCC. CH. Constealtion Kujo" },
+        { "link": "Mère :", "name": "CH Codybear's Denim'n Lace" },
+        { "link": "Père :", "name": "GREAT EXPECTATION TIGER" },
+        { "link": "Mère :", "name": "GE WHAT IN BLUE BLAZES" },
+        { "link": "Père :", "name": "KAKO DE BIERNAUX" },
+        { "link": "Mère :", "name": "STACEY DEJADE" },
+        { "link": "Père :", "name": "CH CONSTELATION KING'S RUBY" },
+        { "link": "Mère :", "name": "WINDSONG MAYA CONSTELLATION" },
+        { "link": "Père :", "name": "KAKO DE BIERNAUX" },
+        { "link": "Mère :", "name": "STACEY DE JADE" }
     ]
 }]
