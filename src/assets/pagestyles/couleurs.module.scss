@@ -1,0 +1,15 @@
+.colors {
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: left;
+        text-decoration: underline;
+    }
+    .legend {
+        background: var(--beige);
+        border-radius: 1em;
+        padding: 1em;
+        box-shadow: 0 0 6px var(--shadow);
+    }
+}
