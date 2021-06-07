@@ -55,6 +55,7 @@ const Males = () => {
           born=""
           color="Couleur : bleu-merle"
           aurl="/albums/sweety"
+          turl="/tests/sweety"
           purl="/pedigree/sweety"
         >
           <p>

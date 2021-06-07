@@ -1,33 +1,57 @@
 import React from "react";
+import { graphql } from "gatsby";
 
-// Componets
-import Container from "../components/container/container";
+// Assets
+import Contianer from "../components/container/container";
 import Layout from "../components/layout/layout";
 
-//CSS
-import * as styledCompoents from "../assets/pagestyles/futurs.module.scss";
+// CSS
+import * as styleComponents from "../assets/styles/album.module.scss";
 
-//Images
-import f1 from "../assets/images/ti-blanche/1.jpg";
-import f2 from "../assets/images/ti-blanche/2.jpg";
-import f3 from "../assets/images/ti-blanche/3.jpg";
+var dogname = "Photos";
+var otherinfo = "";
+
+export const query = graphql`
+  {
+    allFile(filter: { sourceInstanceName: { eq: "imagesPhotospage" } }) {
+      edges {
+        node {
+          publicURL
+        }
+      }
+      totalCount
+    }
+  }
+`;
 
 // Markup
-const Futurs = () => {
+const Album = ({ data }) => {
+  /*
+    Create array allImages
+    Populate the array with all the urls given by the querry
+  */
+  const allImages = [];
+
+  for (let i = 0; i < data.allFile.totalCount; i++) {
+    allImages[i] = { url: data.allFile.edges[i].node.publicURL };
+    console.log(i);
+  }
+
   return (
     <Layout>
-      <Container>
-        <div className={styledCompoents.futurs}>
-          <h1>Nos futurs reproducteurs</h1>
-          <p>Ti-Blanche</p>
-          <p>DeJade Renagade Gracious White </p>
-          <img src={f1} alt="" />
-          <img src={f2} alt="" />
-          <img src={f3} alt="" />
-        </div>
-      </Container>
+      <Contianer>
+        <section className={styleComponents.album}>
+          <h1>{dogname}</h1>
+          <p>{otherinfo}</p>
+          <div className={styleComponents.grid}>
+            {allImages.map((item) => (
+              <img src={item.url} alt="" />
+            ))}
+          </div>
+        </section>
+      </Contianer>
     </Layout>
   );
 };
 
-export default Futurs;
+export default Album;

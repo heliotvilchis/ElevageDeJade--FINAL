@@ -57,6 +57,22 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesSweety",
+        path: "./src/assets/images/sweety",
+      },
+      __key: "imagesSweety",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "imagesPhotospage",
+        path: "./src/assets/images/photospage",
+      },
+      __key: "imagesPhotospage",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "pagesHere",
         path: "./src/pages/",
       },

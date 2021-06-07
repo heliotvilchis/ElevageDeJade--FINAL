@@ -1,0 +1,41 @@
+[{
+    "name": "DeJade Sweet Rhapsodie in Blue ( Sweety )",
+    "parents": [
+        { "link": "Père :", "name": "DEJADE SHADOW OF SWEET" },
+        { "link": "Mère :", "name": "DeJade Rhapsodie in Blue n/e" }
+    ],
+    "grandsParents": [
+        { "link": "Père :", "name": "CH. LAKEVIEWS'S SWEET EXPECTATION" },
+        { "link": "Mère :", "name": "DEJADE DOLCEA" },
+        { "link": "Père :", "name": "Can.FCC. Ch. Constelation Kujo" },
+        { "link": "Mère :", "name": "DEJADE DOLCEA" }
+    ],
+    "arGrandsParents": [
+        { "link": "Père :", "name": "GREAT EXPECTATION TIGER" },
+        { "link": "Mère :", "name": "GE WHAT IN BLUE BLAZES" },
+        { "link": "Père :", "name": "KAKO DE BIERNAUX" },
+        { "link": "Mère :", "name": "STACEY DEJADE" },
+        { "link": "Père :", "name": "CH CONSTELATION KING'S RUBY" },
+        { "link": "Mère :", "name": "WINDSONG MAYA CONSTELLATION" },
+        { "link": "Père :", "name": "KAKO DE BIERNAUX" },
+        { "link": "Mère :", "name": "STACEY DE JADE" }
+    ],
+    "arArGrandsParents": [
+        { "link": "Père :", "name": "SMOKEY BLUE IV" },
+        { "link": "Mère :", "name": "TUCKER IX" },
+        { "link": "Père :", "name": "ANDERSON TRI WHITE BALDWIN" },
+        { "link": "Mère :", "name": "ANDERSON BLUE PENNY" },
+        { "link": "Père :", "name": "BIERNAUX MOZART BAISER MAGIC" },
+        { "link": "Mère :", "name": "CHARLÈNE 2e" },
+        { "link": "Père :", "name": "COWBOY DEJADE" },
+        { "link": "Mère :", "name": "ETOILE DE JADE" },
+        { "link": "Père :", "name": "CH BUCKHAVEN MOVIN' ON" },
+        { "link": "Mère :", "name": "GERASOL DE HATLEY" },
+        { "link": "Père :", "name": "CH BUCKHAVEN MOVIN' ON" },
+        { "link": "Mère :", "name": "CH WINDSONG MILLENNIUM THYME" },
+        { "link": "Père :", "name": "BIERNAUX MOZART BAISER MAGIC" },
+        { "link": "Mère :", "name": "CHARLÈNE 2e " },
+        { "link": "Père :", "name": "COMBOY DEJADE " },
+        { "link": "Mère :", "name": "ETOILE DEJADE" }
+    ]
+}]
