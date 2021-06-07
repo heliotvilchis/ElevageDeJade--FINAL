@@ -8,7 +8,7 @@ import Layout from "../components/layout/layout";
 import * as styledCompoents from "../assets/pagestyles/futurs.module.scss";
 
 //Images
-import f1 from "../assets/images/ti-blanche/1.jpg";
+import f1 from "../assets/images/ti-blanche/11.jpg";
 import f2 from "../assets/images/ti-blanche/2.jpg";
 import f3 from "../assets/images/ti-blanche/3.jpg";
 

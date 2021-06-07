@@ -8,7 +8,7 @@ import Layout from "../components/layout/layout";
 // Images
 import f1 from "../assets/images/india/1.jpg";
 import f2 from "../assets/images/sweety/1.jpg";
-import f3 from "../assets/images/renagade/1.webp";
+import f3 from "../assets/images/ti-blanche/1.webp";
 import f4 from "../assets/images/soft-shiny/1.jpg";
 import f5 from "../assets/images/gabou/1.jpg";
 import f6 from "../assets/images/haley/1.jpg";

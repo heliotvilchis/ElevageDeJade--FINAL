@@ -8,9 +8,6 @@ import Layout from "../components/layout/layout";
 import * as styledCompoents from "../assets/pagestyles/futurs.module.scss";
 
 //Images
-import f1 from "../assets/images/ti-blanche/1.jpg";
-import f2 from "../assets/images/ti-blanche/2.jpg";
-import f3 from "../assets/images/ti-blanche/3.jpg";
 
 // Markup
 const Futurs = () => {
@@ -21,9 +18,6 @@ const Futurs = () => {
           <h1>Nos futurs reproducteurs</h1>
           <p>Ti-Blanche</p>
           <p>DeJade Renagade Gracious White </p>
-          <img src={f1} alt="" />
-          <img src={f2} alt="" />
-          <img src={f3} alt="" />
         </div>
       </Container>
     </Layout>
