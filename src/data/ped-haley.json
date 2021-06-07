@@ -1,41 +1,41 @@
 [{
     "name": "DeJade Renagade White Élegance ( Haley )",
     "parents": [
-        { "link": "Père :", "name": "CH Glasgowhill's DeJade Renegade" },
-        { "link": "Mère :", "name": "DeJade White Gracie Simply Enigm" }
+        { "link": "Père :", "name": "CH.DeJade Soft Dream in Gold" },
+        { "link": "Mère :", "name": "DeJade Renagade Gracious White" }
     ],
     "grandsParents": [
-        { "link": "Père :", "name": "BPIG Can CH. DonnyBrooke's Game Set Match" },
-        { "link": "Mère :", "name": "CH. Glasgowhill's Emulsify" },
-        { "link": "Père :", "name": "Can.Ch. Glasgowhill Simply DeJade " },
-        { "link": "Mère :", "name": "DeJade The Grace in White n/e" }
+        { "link": "Père :", "name": "CH.DeJade Soft Magic Gold Dust" },
+        { "link": "Mère :", "name": "Lady Steffie DeFay " },
+        { "link": "Père :", "name": "CH.Glasgowhill's DeJade Renagade " },
+        { "link": "Mère :", "name": "DeJade White Gracie Simply Enigm" }
     ],
     "arGrandsParents": [
-        { "link": "Père :", "name": "Best In Show Am Ch DonnyBrook's Mallorca" },
-        { "link": "Mère :", "name": "Donnybrooke's Raindrop" },
-        { "link": "Père :", "name": "Can CH Glasgowhill's be a Rockstar" },
-        { "link": "Mère :", "name": "Glasgowhill's Sunlit Dune" },
-        { "link": "Père :", "name": "Can. CH. Glasgowhill Be A Rockstar" },
-        { "link": "Mère :", "name": "Van-M Take A Gander" },
-        { "link": "Père :", "name": "CAN. CH. SIMBAD DEJADE" },
-        { "link": "Mère :", "name": "CODYBEAR'S DEJADE GEORGINA" }
+        { "link": "Père :", "name": "DeJade Black Softy " },
+        { "link": "Mère :", "name": "DeJade Simply Pearl Enchantée " },
+        { "link": "Père :", "name": "Collection Angus DeFay " },
+        { "link": "Mère :", "name": "DeJade Cassiophè DeFay " },
+        { "link": "Père :", "name": "BPIG.CH.DonnyBrooke's Game Set Match" },
+        { "link": "Mère :", "name": "CH.Glasgowhill's Emulsify " },
+        { "link": "Père :", "name": "Ch.Glasgowhill's Simply DeJade " },
+        { "link": "Mère :", "name": "DeJade The Grace In White " }
     ],
     "arArGrandsParents": [
-        { "link": "Père :", "name": "Am Ch Windhaven Stanger In Paradise" },
-        { "link": "Mère :", "name": "DonnyBrook's Cowgirl Up" },
-        { "link": "Père :", "name": "Donnybrooke's Nightime" },
-        { "link": "Mère :", "name": "Saxony Say You Will" },
-        { "link": "Père :", "name": "Can CH Glasgowhill's Winning Ticket NC" },
-        { "link": "Mère :", "name": "Glasgowhill Dreams Come True NE" },
-        { "link": "Père :", "name": "Can CH Van M That's the Ticket NC" },
-        { "link": "Mère :", "name": "Can. CH Glasgowhill Sweet Temptation" },
-        { "link": "Père :", "name": "Can. CH. Glasgowhill Winning Ticket n/c" },
-        { "link": "Mère :", "name": "Glasgowhill Dreams Come True N/E 9 pts" },
-        { "link": "Père :", "name": "Van-M Pal Joey II " },
-        { "link": "Mère :", "name": "Van-M Ticket Taker" },
-        { "link": "Père :", "name": "CAN. FCC. CH. CONSTELATION KUJO" },
-        { "link": "Mère :", "name": "FAY DEJADE " },
-        { "link": "Père :", "name": "CODYBEAR'S STIRLING SILVER" },
-        { "link": "Mère :", "name": "CH. CODYBEAR'S MYSTICAL HARMONY" }
+        { "link": "Père :", "name": "Beau Blond Marquis DeJade " },
+        { "link": "Mère :", "name": "Canthia DeJade " },
+        { "link": "Père :", "name": "CH.Glasgowhill's Simply DeJade " },
+        { "link": "Mère :", "name": "Codybear's DeJade Georgina " },
+        { "link": "Père :", "name": "CH.Spécial Collection Snowflake " },
+        { "link": "Mère :", "name": "CH.Collection Marquise " },
+        { "link": "Père :", "name": "CH.Can.FCC.Constelation Kujo " },
+        { "link": "Mère :", "name": "CH.Codybear's Denim'n Lace " },
+        { "link": "Père :", "name": "Best In Show AM.CH.DonnyBrook's Malorca" },
+        { "link": "Mère :", "name": "DonnyBrooke's Raindrop " },
+        { "link": "Père :", "name": "Ch.Glasgowhill's Be A Rockstar " },
+        { "link": "Mère :", "name": "Glasgowhill's Sunlit Dune " },
+        { "link": "Père :", "name": "Ch.Glasgowhill's Be A Rockstar " },
+        { "link": "Mère :", "name": "Van-M Take A Gander " },
+        { "link": "Père :", "name": "CH.Simbad DeJade " },
+        { "link": "Mère :", "name": "Codybear's DeJade Georgina " }
     ]
 }]
