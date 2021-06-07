@@ -8,12 +8,12 @@ import Layout from "../../components/layout/layout";
 // CSS
 import * as styleComponents from "../../assets/styles/album.module.scss";
 
-var dogname = "CH. DeJade Soft Dream in Gold (Gabou)";
+var dogname = "DeJade Renagane White Élégance ( Haley )";
 var otherinfo = "";
 
 export const query = graphql`
   {
-    allFile(filter: { sourceInstanceName: { eq: "imagesGabou" } }) {
+    allFile(filter: { sourceInstanceName: { eq: "imagesHaley" } }) {
       edges {
         node {
           publicURL
