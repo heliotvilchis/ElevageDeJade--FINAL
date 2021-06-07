@@ -8,7 +8,7 @@ import Layout from "../../components/layout/layout";
 import * as styleComponets from "../../assets/styles/pedigree.module.scss";
 
 // Data
-import ped from "../../data/ped-aiko.json";
+import ped from "../../data/ped-india.json";
 
 function pedmap(params) {
   return (

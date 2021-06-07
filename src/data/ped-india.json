@@ -1,0 +1,41 @@
+[{
+    "name": "CH DeJade Star of Cassy ( India )",
+    "parents": [
+        { "link": "Père :", "name": "CH. Milas DeJade New Star " },
+        { "link": "Mère :", "name": "DeJade Cassophé DeFay " }
+    ],
+    "grandsParents": [
+        { "link": "Père :", "name": "CH OVERLAND ALLSTAR" },
+        { "link": "Mère :", "name": "CH MILAS LATIN DIVA" },
+        { "link": "Père :", "name": "Can.FCC. Ch. Constelation Kujo " },
+        { "link": "Mère :", "name": "Can.Ch. Codybear's Denim ' n Lace" }
+    ],
+    "arGrandsParents": [
+        { "link": "Père :", "name": "CH WINDHAVEN STRANGER IN PARADISE" },
+        { "link": "Mère :", "name": "CH OVERLAND SUMMER IN PARIS " },
+        { "link": "Père :", "name": "CH WINDHAVEN STRANGER IN PARADISE" },
+        { "link": "Mère :", "name": "LAKEWINDS DANCESTEP OF MILAS" },
+        { "link": "Père :", "name": "CH Constelation King's Ruby" },
+        { "link": "Mère :", "name": "Windsong Maya Constellation" },
+        { "link": "Père :", "name": "Ch Glasgowhill Codybear Nitro " },
+        { "link": "Mère :", "name": "Ch Codybear's Mystical Harmony" }
+    ],
+    "arArGrandsParents": [
+        { "link": "Père :", "name": "WINDHAVEN IS OLD FASHIONED WAY " },
+        { "link": "Mère :", "name": "WINDHAVEN  UNCHAINED MY HEART" },
+        { "link": "Père :", "name": "CH OVERLAND GATHERING STORM ROM" },
+        { "link": "Mère :", "name": "CH OVERLAND ENDLESS SUMMER ROM" },
+        { "link": "Père :", "name": "WINDHAVEN IS OLD FASHIONED WAY" },
+        { "link": "Mère :", "name": "WINDHAVEN  UNCHAINED MY HEART " },
+        { "link": "Père :", "name": "CH GAMBIT'S HURRICANE A BREW'S" },
+        { "link": "Mère :", "name": "LAKEWINDS RIVERDANCE " },
+        { "link": "Père :", "name": "Ch Buckhaven Movin' On" },
+        { "link": "Mère :", "name": "Gerasol De Hatley" },
+        { "link": "Père :", "name": "Ch Buckhaven Movin' On " },
+        { "link": "Mère :", "name": "Ch Windsong Millennium Thyme" },
+        { "link": "Père :", "name": "Ch Prairiepine's Northern Lights" },
+        { "link": "Mère :", "name": "Ch Langsyne Live La Vida Loca" },
+        { "link": "Père :", "name": "Ch Lakeview's Sweet Expectation" },
+        { "link": "Mère :", "name": "Stirling's Ma Zaja" }
+    ]
+}]

@@ -26,12 +26,13 @@ const Males = () => {
         <h1 className={styleComponents.males}>Nos Femelles</h1>
         <Chiens
           img={f1}
-          dname=" CH DeJade Star Of Cassy  "
+          dname="CH DeJade Star Of Cassy"
           surname="( India )"
           undertext=""
           born=""
           color="Couleur : bleu-Merle"
           aurl="/albums/india"
+          turl="/tests/india"
           purl="/pedigree/india"
         >
           <p>
