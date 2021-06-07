@@ -15,7 +15,7 @@ import india from "../assets/images/india/1.jpg";
 import hank from "../assets/images/hank/1.webp";
 import tiBlanche from "../assets/images/renagade/1.webp";
 import shiny from "../assets/images/soft-shiny/1.jpg";
-import rhapsodie from "../assets/images/rapsodie/1.jpg";
+import rhapsodie from "../assets/images/sweety/1.jpg";
 
 // Markup
 const Chiots = () => {
@@ -26,25 +26,28 @@ const Chiots = () => {
           <div className={styleComponents.chiots}>
             <h1>Nos Chiots</h1>
             <div className={styleComponents.price}>
-              <p>
-                Le prix de mes chiots est de 1800$ enregistré non-reproducteur,
-                pour toutes les couleurs.
-              </p>
-              <p>
-                Pour un chiot non reproducteur un accord de non reproduction est
-                rempli et signé et vous avez l'obligation de me faire parvenir
-                la preuve de sa stérilisation vers l'âge de 8 mois maximum.
-              </p>
-              <p>
-                Pour une réservation un montant de 400$ non remboursable est
-                exigé pour un chiot non reproducteur ou un adulte stérilisé.
-              </p>
-              <p>Nous nous réservons le droit de refuser une vente.</p>
-              <p>Jeunes ou adulte de disponible à l'occasion</p>
-              <p>
-                Pour vôtre chien ou chiot je demande une cour clôturée ou un
-                enclos d'un minimum de 8' x 8'.
-              </p>
+              <b>
+                <p>
+                  Le prix de mes chiots est de 1800$ enregistré
+                  non-reproducteur, pour toutes les couleurs.
+                </p>
+                <p>
+                  Pour un chiot non reproducteur un accord de non reproduction
+                  est rempli et signé et vous avez l'obligation de me faire
+                  parvenir la preuve de sa stérilisation vers l'âge de 8 mois
+                  maximum.
+                </p>
+                <p>
+                  Pour une réservation un montant de 400$ non remboursable est
+                  exigé pour un chiot non reproducteur ou un adulte stérilisé.
+                </p>
+                <p>Nous nous réservons le droit de refuser une vente.</p>
+                <p>Jeunes ou adulte de disponible à l'occasion</p>
+                <p>
+                  Pour vôtre chien ou chiot je demande une cour clôturée ou un
+                  enclos d'un minimum de 8' x 8'.
+                </p>
+              </b>
             </div>
           </div>
           <ChiotsComp
@@ -56,8 +59,8 @@ const Chiots = () => {
             nomf="CH.DeJade Star of Cassy ( India )"
           />
           <ChiotsComp
-            date="Accouplements faits du 26 au 30 avril"
-            infos="Gestations confirmées. Naissances prévues fin juin"
+            date="Accouplement fait du 26 au 30 avril"
+            infos="Gestation confirmée. Naissances prévues fin juin"
             imgm={hank}
             nomm="Gr.CH.Cover's Run Just Call Me Hank"
             imgf={tiBlanche}
@@ -66,7 +69,7 @@ const Chiots = () => {
           <ChiotsComp
             date="Accouplement fait le 26 avril"
             infos="Couleurs des chiots à naître: sable, sable-merle, bleu-merle, tricolore."
-            infos2="Gestations confirmées. Naissances prévues fin juin"
+            infos2="Gestation confirmée. Naissances prévues fin juin"
             imgm={gabou}
             nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
             imgf={shiny}
@@ -79,7 +82,8 @@ const Chiots = () => {
             imgm={gabou}
             nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
             imgf={rhapsodie}
-            nomf="DeJade Sweet Rhapsodie in Blue"
+            nomf="DeJade Sweet Rhapsodie in Blue
+            ( Sweety )"
           />
           <h2>Tous les chiots de ces portées auront les yeux normaux</h2>
           <div className={styleComponents.contact}>

@@ -24,3 +24,17 @@
         margin-left: 1em;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .chiots {
+        .flex {
+            .half {
+                .dogimg {
+                    width: 100%;
+                    height: 50%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
