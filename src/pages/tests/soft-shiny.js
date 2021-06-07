@@ -8,6 +8,7 @@ import Layout from "../../components/layout/layout";
 import * as styleComponets from "../../assets/styles/tests.module.scss";
 
 // Images
+import tests from "../../assets/tests/Shiny.webp";
 
 // Markup
 const Tests = () => {
@@ -15,7 +16,7 @@ const Tests = () => {
     <Layout>
       <Container>
         <div className={styleComponets.tests}>
-          <h1>Non disponible</h1>
+          <img src={tests} alt="" />
         </div>
       </Container>
     </Layout>
