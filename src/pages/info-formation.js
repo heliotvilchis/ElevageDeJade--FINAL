@@ -16,7 +16,7 @@ const Futurs = () => {
     <Layout>
       <Container>
         <div className={styledCompoents.futurs}>
-          <h1>Nos futurs reproducteurs</h1>
+          <h1>Formations</h1>
           <img src={dip} alt="" />
         </div>
       </Container>
