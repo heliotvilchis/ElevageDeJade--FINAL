@@ -83,4 +83,14 @@
         grid-row-start: 17;
         grid-row-end: 19;
     }
+    .nametag:nth-of-type(15) {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+
+@media only screen and (max-width: 798px) {
+    .pedigree {
+        font-size: 1.5vw;
+    }
 }

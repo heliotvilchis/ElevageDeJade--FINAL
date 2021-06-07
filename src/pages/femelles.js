@@ -26,7 +26,8 @@ const Males = () => {
         <h1 className={styleComponents.males}>Nos Femelles</h1>
         <Chiens
           img={f1}
-          dname=" CH DeJade Star Of Cassy ( India ) "
+          dname=" CH DeJade Star Of Cassy  "
+          surname="( India )"
           undertext=""
           born=""
           color="Couleur : bleu-Merle"
@@ -48,7 +49,8 @@ const Males = () => {
         </Chiens>
         <Chiens
           img={f2}
-          dname="DeJade Sweet Rhapsodie in Blue ( Sweety )"
+          dname="DeJade Sweet Rhapsodie in Blue "
+          surname="( Sweety )"
           born=""
           color="Couleur : bleu-merle"
           aurl="/albums/sweety"

@@ -49,6 +49,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesIndia",
+        path: "./src/assets/images/india",
+      },
+      __key: "imagesIndia",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "pagesHere",
         path: "./src/pages/",
       },
