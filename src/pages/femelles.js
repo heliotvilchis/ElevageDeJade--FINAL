@@ -77,9 +77,9 @@ const Males = () => {
           surname="( Ti-Blanche )"
           born="Date de naissance : le 15-01-2017"
           color="Couleur : blanche marquée sable-merle"
-          aurl="/albums/silver-dream"
-          turl="/tests/silver-dream"
-          purl="/pedigree/silver-dream"
+          aurl="/albums/ti-blanche"
+          turl="/tests/ti-blanche"
+          purl="/pedigree/ti-blanche"
         >
           <p>
             <b>Yeux :</b> normaux
@@ -98,8 +98,9 @@ const Males = () => {
           img={f4}
           dname="DeJade Soft Shiny"
           color="Couleur : sable-merle"
-          aurl="/albums/aiko"
-          purl="/pedigree/aiko"
+          aurl="/albums/soft-shiny"
+          turl="/tests/soft-shiny"
+          purl="/pedigree/soft-shiny"
         >
           <p>
             <b>Yeux :</b> normaux, non-porteurs
@@ -119,9 +120,9 @@ const Males = () => {
           dname="DeJade Just Call Me Tina Turner"
           born=""
           color="Couleur : sable et blanc facteur tri"
-          aurl="/albums/gabou"
-          turl="/tests/gabou"
-          purl="/pedigree/gabou"
+          aurl="/albums/tina-turner"
+          turl="/tests/tina-turner"
+          purl="/pedigree/tina-turner"
         >
           <p>
             <b>Yeux :</b> normaux /porteurs (cerf)
@@ -140,9 +141,9 @@ const Males = () => {
           img={f6}
           dname="DeJade Renagane White Élégance"
           surname="( Haley )"
-          aurl="/albums/silver-dream"
-          turl="/tests/silver-dream"
-          purl="/pedigree/silver-dream"
+          aurl="/albums/haley"
+          turl="/tests/haley"
+          purl="/pedigree/haley"
         >
           <p>
             <b>Yeux :</b> normaux/normaux
