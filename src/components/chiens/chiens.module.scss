@@ -1,37 +1,78 @@
-.chiens {
-    background-color: var(--beige);
-    border-radius: 15px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
-    display: flex;
-    margin-bottom: 2em;
-    img {
-        width: 50%;
-        border-radius: 15px 0 0 15px;
+@media only screen and (max-width: 1354px) {
+    .chiens {
+        margin-bottom: 3em;
+        background-color: var(--beige);
+        border-radius: 15px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
+        img {
+            width: 100%;
+            border-radius: 1em;
+            box-shadow: 0 0 6px var(--shadow);
+        }
+        .data {
+            padding: 0 1em;
+        }
+        h3 {
+            text-align: center;
+            border-bottom: 2px solid black;
+            width: 100%;
+        }
+        .btns {
+            margin-bottom: 1em;
+            text-align: center;
+            button {
+                margin: 1em auto 1em auto;
+                width: 80%;
+                padding: 0.5em 2em;
+                border-radius: 50px;
+                font-size: 1.2em;
+                font-weight: 600;
+                background: var(--brun);
+                color: var(--beige);
+                border: 3px solid white;
+                box-shadow: 3px 3px 6px rgb(0, 0, 0);
+            }
+        }
     }
-    .data {
-        padding: 0 1em;
-        width: 50%;
-        border-radius: 0 15px 15px 0;
-    }
-    h3 {
-        text-align: center;
-        border-bottom: 2px solid black;
-        width: 100%;
-    }
-    .btns {
+}
+
+@media only screen and (min-width: 1200px) {
+    .chiens {
+        background-color: var(--beige);
+        border-radius: 15px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.178);
         display: flex;
-        justify-content: space-between;
-        margin-top: 60px;
-        margin-bottom: 1em;
-        button {
-            padding: 1em 3em;
-            border-radius: 50px;
-            font-size: 1.2em;
-            font-weight: 600;
-            background: var(--brun);
-            color: var(--beige);
-            border: 3px solid white;
-            box-shadow: 3px 3px 6px rgb(0, 0, 0);
+        margin-bottom: 2em;
+        img {
+            width: 50%;
+            border-radius: 15px 0 0 15px;
+            object-fit: cover;
+        }
+        .data {
+            padding: 0 1em;
+            width: 50%;
+            border-radius: 0 15px 15px 0;
+        }
+        h3 {
+            text-align: center;
+            border-bottom: 2px solid black;
+            width: 100%;
+        }
+        .btns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            margin-bottom: 1em;
+            button {
+                padding: 1em 3em;
+                border-radius: 50px;
+                font-size: 1.2em;
+                font-weight: 600;
+                background: var(--brun);
+                color: var(--beige);
+                border: 3px solid white;
+                box-shadow: 3px 3px 6px rgb(0, 0, 0);
+            }
         }
     }
 }

@@ -21,7 +21,8 @@ const Males = () => {
         <h1 className={styleComponents.males}>Nos Mâles</h1>
         <Chiens
           img={m1}
-          dname="DeJade Dream in Black Gold ( Aiko )"
+          dname="DeJade Dream in Black Gold"
+          surname="( Aiko )"
           undertext="Co-Propriété avec Mme Bélanger"
           born="Né le 4 juin 2020"
           color="Couleur : tricolore"
@@ -47,7 +48,8 @@ const Males = () => {
         </Chiens>
         <Chiens
           img={m2}
-          dname="CH. DeJade Soft Dream in Gold ( Gabou )"
+          dname="CH. DeJade Soft Dream in Gold"
+          surname="( Gabou )"
           born="Né le 11 août 2015"
           color="Couleur : sable et blanc, facteur blanc"
           aurl="/albums/gabou"
