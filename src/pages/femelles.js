@@ -184,10 +184,10 @@ const Males = () => {
         <Chiens
           img={f8}
           dname="DeJade Soft Breeze of Thunder"
-          undertext="Co-propriétaire Mme Christiane Forget "
-          aurl="/albums/silver-dream"
-          turl="/tests/silver-dream"
-          purl="/pedigree/silver-dream"
+          undertext=""
+          aurl="/albums/thunder"
+          turl="/tests/thunder"
+          purl="/pedigree/thunder"
         >
           <p>
             <b>Yeux :</b> normaux/porteurs
