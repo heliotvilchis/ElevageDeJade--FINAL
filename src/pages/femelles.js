@@ -10,7 +10,7 @@ import f1 from "../assets/images/india/1.jpg";
 import f2 from "../assets/images/sweety/1.jpg";
 import f3 from "../assets/images/ti-blanche/1.webp";
 import f4 from "../assets/images/soft-shiny/1.jpg";
-import f5 from "../assets/images/gabou/1.jpg";
+import f5 from "../assets/images/tina-turner/1.jpg";
 import f6 from "../assets/images/haley/1.jpg";
 import f7 from "../assets/images/rapsodie/1.jpg";
 import f8 from "../assets/images/thunder/1.jpg";
