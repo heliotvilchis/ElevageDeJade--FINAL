@@ -8,6 +8,11 @@ import Layout from "../components/layout/layout";
 import * as styledCompoents from "../assets/pagestyles/couleurs.module.scss";
 
 //Images
+import plus from "../assets/images/couleurs/plus.svg";
+import equal from "../assets/images/couleurs/equal.svg";
+import ps from "../assets/images/couleurs/ps.svg";
+import tri from "../assets/images/couleurs/tri.svg";
+import ts from "../assets/images/couleurs/ts.svg";
 
 // Markup
 const Futurs = () => {
@@ -84,6 +89,58 @@ const Futurs = () => {
               </big>
               soit bleue-merle,sable, tricolore ou sable-merle
             </p>
+          </div>
+          <div className={styledCompoents.line}>
+            <div className={styledCompoents.icon}>
+              <img src={ps} alt="" />
+              <p>PS</p>
+            </div>
+            <img src={plus} alt="" />
+            <div className={styledCompoents.icon}>
+              <img src={ps} alt="" />
+              <p>PS</p>
+            </div>
+            <img src={equal} alt="" />
+            <div className={styledCompoents.icon}>
+              <img src={ps} alt="" />
+              <p>PS</p>
+            </div>
+          </div>
+          <div className={styledCompoents.line}>
+            <div className={styledCompoents.icon}>
+              <img src={ps} alt="" />
+              <p>PS</p>
+            </div>
+            <img src={plus} alt="" />
+            <div className={styledCompoents.icon}>
+              <img src={tri} alt="" />
+              <p>TRI</p>
+            </div>
+            <img src={equal} alt="" />
+            <div className={styledCompoents.icon}>
+              <img src={ts} alt="" />
+              <p>TS</p>
+            </div>
+          </div>
+          <div className={styledCompoents.line}>
+            <div className={styledCompoents.icon}>
+              <img src={ps} alt="" />
+              <p>PS</p>
+            </div>
+            <img src={plus} alt="" />
+            <div className={styledCompoents.icon}>
+              <img src={ts} alt="" />
+              <p>TS</p>
+            </div>
+            <img src={equal} alt="" />
+            <div className={styledCompoents.icon}>
+              <img src={ps} alt="" />
+              <p>PS</p>
+            </div>
+            <div className={styledCompoents.icon}>
+              <img src={ts} alt="" />
+              <p>TS</p>
+            </div>
           </div>
         </div>
       </Container>
