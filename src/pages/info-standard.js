@@ -150,7 +150,7 @@ const Futurs = () => {
           Le fouet est long et les vertèbres caudales atteignent au moins
           l'articulation du jarret. Il est porté bas quand le chien est calme,
           mais l'extrémité se relève légèrement en courbe. Quand le chien est en
-          action, le fouet peut être porté gaiement mais jamais sur le dos.{" "}
+          action, le fouet peut être porté gaiement mais jamais sur le dos.
         </p>
         <h3>ALLURES-MOUVEMENT :</h3>
         <p>

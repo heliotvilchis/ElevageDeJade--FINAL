@@ -8,6 +8,7 @@ import Layout from "../components/layout/layout";
 import * as styledCompoents from "../assets/pagestyles/futurs.module.scss";
 
 //Images
+import tests from "../assets/tests/gabou.webp";
 
 // Markup
 const Futurs = () => {
@@ -15,9 +16,13 @@ const Futurs = () => {
     <Layout>
       <Container>
         <div className={styledCompoents.futurs}>
-          <h1>Nos futurs reproducteurs</h1>
-          <p>Ti-Blanche</p>
-          <p>DeJade Renagade Gracious White </p>
+          <h1>Santé</h1>
+          <p>
+            Tous les chiens de l'élevage sont testés ADN concernant certaines
+            maladies pouvant affecter le colley, tous les tests génétiques sont
+            effectués chez Animal Génétics en Floride.
+          </p>
+          <img src={tests} alt="" />
         </div>
       </Container>
     </Layout>
