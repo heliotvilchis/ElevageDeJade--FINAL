@@ -97,10 +97,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "imagesRapsodie",
+        name: "imagesRhapsodie",
         path: "./src/assets/images/rapsodie",
       },
-      __key: "imagesRapsodie",
+      __key: "imagesRhapsodie",
     },
     {
       resolve: "gatsby-source-filesystem",

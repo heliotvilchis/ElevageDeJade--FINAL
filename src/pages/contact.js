@@ -31,10 +31,10 @@ const Contact = () => {
           <p>Sainte-Anne-de-la-Pérade</p>
           <p>Québec, Canada</p>
           <iframe
+            title="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175368.33823949718!2d-72.34675471997805!3d46.62418816471937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc7a174e80af189%3A0x45153c396279948e!2sSainte-Anne-de-la-P%C3%A9rade%2C%20QC!5e0!3m2!1sen!2sca!4v1595879418112!5m2!1sen!2sca"
             allowfullscreen=""
             aria-hidden="false"
-            tabindex="0"
             frameborder="0"
           ></iframe>
           <img src={permis} alt="" />

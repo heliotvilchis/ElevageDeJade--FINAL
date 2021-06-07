@@ -164,9 +164,9 @@ const Males = () => {
           img={f7}
           dname="DeJade Bohemian Rhapsodie"
           undertext="Co-propriétaire Mme Christiane Forget "
-          aurl="/albums/silver-dream"
-          turl="/tests/silver-dream"
-          purl="/pedigree/silver-dream"
+          aurl="/albums/rhapsodie"
+          turl="/tests/rhapsodie"
+          purl="/pedigree/rhapsodie"
         >
           <p>
             <b>Yeux :</b> normaux/porteurs

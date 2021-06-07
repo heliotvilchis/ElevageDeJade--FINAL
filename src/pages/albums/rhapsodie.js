@@ -9,11 +9,11 @@ import Layout from "../../components/layout/layout";
 import * as styleComponents from "../../assets/styles/album.module.scss";
 
 var dogname = "DeJade Bohemian Rhapsodie";
-var otherinfo = "Co-propriétaire Mme Christiane Forget ";
+var otherinfo = "Co-propriétaire Mme Christiane Forget";
 
 export const query = graphql`
   {
-    allFile(filter: { sourceInstanceName: { eq: "imagesThunder" } }) {
+    allFile(filter: { sourceInstanceName: { eq: "imagesRhapsodie" } }) {
       edges {
         node {
           publicURL
