@@ -65,6 +65,54 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesTiblanche",
+        path: "./src/assets/images/ti-blanche",
+      },
+      __key: "imagesTiblanche",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "imagesSoftshiny",
+        path: "./src/assets/images/soft-shiny",
+      },
+      __key: "imagesSoftshiny",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "imagesTinaturner",
+        path: "./src/assets/images/tina-turner",
+      },
+      __key: "imagesTinaturner",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "imagesHaley",
+        path: "./src/assets/images/haley",
+      },
+      __key: "imagesHaley",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "imagesRapsodie",
+        path: "./src/assets/images/rapsodie",
+      },
+      __key: "imagesRapsodie",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "imagesThunder",
+        path: "./src/assets/images/thunder",
+      },
+      __key: "imagesThunder",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "imagesPhotospage",
         path: "./src/assets/images/photospage",
       },
