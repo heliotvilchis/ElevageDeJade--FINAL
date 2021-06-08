@@ -26,6 +26,9 @@
     .nametag {
         padding: 1em;
         border: 1px solid var(--brun);
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
     }
     .nametag:nth-of-type(1) {
         grid-row-start: 3;
