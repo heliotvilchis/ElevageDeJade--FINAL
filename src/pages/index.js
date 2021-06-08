@@ -67,19 +67,19 @@ const IndexPage = () => {
           </div>
         </article>
         <article className={componentStyles.tripledots}>
-          <Link to="/">
+          <Link to="/chiots">
             <section className={componentStyles.dotlink1}>
               <img src={brunc} alt="Green double circle" />
               <h2>Chiots Disponibles</h2>
             </section>
           </Link>
-          <Link to="/">
+          <Link to="/elevage">
             <section className={componentStyles.dotlink2}>
               <img src={greenc} alt="Green double circle" />
               <h2>Notre Élevage</h2>
             </section>
           </Link>
-          <Link to="/">
+          <Link to="/champion">
             <section className={componentStyles.dotlink3}>
               <img src={purplec} alt="Green double circle" />
               <h2>Nos Champions</h2>
