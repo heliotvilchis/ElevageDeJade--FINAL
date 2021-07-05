@@ -75,7 +75,11 @@ const Elevage = () => {
             gender="f"
             undertext=""
           />
-          <Card image={bentley} dname="Glasgowhil' DeJade Bentley" gender="m" />
+          <Card
+            image={bentley}
+            dname="Glasgowhill's DeJade Bentley"
+            gender="m"
+          />
         </CardContainer>
       </Container>
     </Layout>

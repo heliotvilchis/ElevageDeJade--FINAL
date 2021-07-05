@@ -92,7 +92,7 @@ const Males = () => {
         </Chiens>
         <Chiens
           img={m4}
-          dname="Glasgowhil' DeJade Bentley"
+          dname="Glasgowhill's DeJade Bentley"
           surname="( Bentley )"
           born="Né le 23 février 2021"
           color="Couleur : Sable et blanc facteur tri"

@@ -50,7 +50,7 @@ function navmap(params) {
 // Markup
 const NavBar = () => {
   return (
-    <div className={componentStyles.navbar}>
+    <div className={componentStyles.navbar} media="screen">
       <Container>
         <header>
           <div className={componentStyles.navbarIcon}>
