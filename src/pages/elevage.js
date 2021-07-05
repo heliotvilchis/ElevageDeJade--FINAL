@@ -8,16 +8,14 @@ import Layout from "../components/layout/layout";
 
 // Images
 import i1 from "../assets/images/gabou/1.jpg";
-import i2 from "../assets/images/sweety/1.jpg";
 import i3 from "../assets/images/tina-turner/1.jpg";
-import i4 from "../assets/images/india/1.jpg";
 import i5 from "../assets/images/renagade/1.webp";
-import i6 from "../assets/images/soft-shiny/1.jpg";
 import i7 from "../assets/images/silver-dream/1.jpg";
 import i8 from "../assets/images/haley/1.jpg";
 import i9 from "../assets/images/aiko/1.webp";
 import i10 from "../assets/images/rapsodie/1.jpg";
-import thunder from "../assets/images/thunder/1.jpg";
+import thunder from "../assets/images/thunder/1.webp";
+import bentley from "../assets/images/bentley/1.webp";
 
 const CardContainer = styled.div`
   display: flex;
@@ -48,19 +46,11 @@ const Elevage = () => {
             dname="CH. DeJade Soft Dream in Gold (Gabou)"
             gender="m"
           />
-          <Card
-            image={i2}
-            dname="DeJade Sweet Rhapsodie in Blue (Sweety)"
-            gender="f"
-          />
+
           <Card image={i3} dname="DeJade Just Call Me Tina Turner" gender="f" />
-          <Card
-            image={i4}
-            dname="CH. DeJade Star Of Cassy (India)"
-            gender="f"
-          />
+
           <Card image={i5} dname="DeJade Renagade Gracious White" gender="f" />
-          <Card image={i6} dname="DeJade Soft Shiny" gender="f" />
+
           <Card image={i7} dname="CH. DeJade Soft Silver Dream" gender="m" />
           <Card
             image={i8}
@@ -85,6 +75,7 @@ const Elevage = () => {
             gender="f"
             undertext=""
           />
+          <Card image={bentley} dname="Glasgowhil' DeJade Bentley" gender="m" />
         </CardContainer>
       </Container>
     </Layout>

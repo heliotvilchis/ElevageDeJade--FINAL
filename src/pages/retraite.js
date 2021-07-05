@@ -26,6 +26,9 @@ import bicket from "../assets/images/retraites/bicket.jpg";
 import maude from "../assets/images/retraites/maude.jpg";
 import bluestar from "../assets/images/retraites/bluestar.jpg";
 import maya from "../assets/images/retraites/maya.jpg";
+import india from "../assets/images/india/1.jpg";
+import sweety from "../assets/images/sweety/1.jpg";
+import shiny from "../assets/images/soft-shiny/1.jpg";
 
 const CardContainer = styled.div`
   display: flex;
@@ -45,6 +48,17 @@ const Futurs = () => {
           <h1>Nos chiens retraités</h1>
         </TopTitle>
         <CardContainer>
+          <Card
+            image={india}
+            dname="CH DeJade Star Of Cassy ( India )"
+            gender="f"
+          />
+          <Card
+            image={sweety}
+            dname="DeJade Sweet Rhapsodie in Blue ( Sweety )"
+            gender="f"
+          />
+          <Card image={shiny} dname="DeJade Soft Shiny" gender="f" />
           <Card
             image={softmagic}
             dname="Bo, CH DeJade Soft Magic Gold Dust n/e "

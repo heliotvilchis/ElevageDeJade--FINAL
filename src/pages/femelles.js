@@ -6,14 +6,11 @@ import Chiens from "../components/chiens/chiens";
 import Layout from "../components/layout/layout";
 
 // Images
-import f1 from "../assets/images/india/1.jpg";
-import f2 from "../assets/images/sweety/1.jpg";
 import f3 from "../assets/images/ti-blanche/1.webp";
-import f4 from "../assets/images/soft-shiny/1.jpg";
 import f5 from "../assets/images/tina-turner/1.jpg";
 import f6 from "../assets/images/haley/1.jpg";
 import f7 from "../assets/images/rapsodie/1.jpg";
-import f8 from "../assets/images/thunder/1.jpg";
+import f8 from "../assets/images/thunder/1.webp";
 
 // CSS
 import * as styleComponents from "../assets/pagestyles/males.module.scss";
@@ -24,53 +21,7 @@ const Males = () => {
     <Layout>
       <Contianer>
         <h1 className={styleComponents.males}>Nos Femelles</h1>
-        <Chiens
-          img={f1}
-          dname="CH DeJade Star Of Cassy"
-          surname="( India )"
-          undertext=""
-          born=""
-          color="Couleur : bleu-Merle"
-          aurl="/albums/india"
-          turl="/tests/india"
-          purl="/pedigree/india"
-        >
-          <p>
-            <b>Yeux :</b> affectés
-          </p>
-          <p>
-            <b>CN : </b> normal/normal
-          </p>
-          <p>
-            <b>DM :</b> normal/normal
-          </p>
-          <p>
-            <b>MDR1 :</b> normal/mutant
-          </p>
-        </Chiens>
-        <Chiens
-          img={f2}
-          dname="DeJade Sweet Rhapsodie in Blue "
-          surname="( Sweety )"
-          born=""
-          color="Couleur : bleu-merle"
-          aurl="/albums/sweety"
-          turl="/tests/sweety"
-          purl="/pedigree/sweety"
-        >
-          <p>
-            <b>Yeux :</b> cerf normal, possible non-porteur
-          </p>
-          <p>
-            <b>CN :</b> N/N
-          </p>
-          <p>
-            <b>DM :</b> N/N
-          </p>
-          <p>
-            <b>MDR1 :</b> mutant/mutant
-          </p>
-        </Chiens>
+
         <Chiens
           img={f3}
           dname="DeJade Renagade Gracious White"
@@ -94,27 +45,7 @@ const Males = () => {
             <b>MDR1 :</b> M/M
           </p>
         </Chiens>
-        <Chiens
-          img={f4}
-          dname="DeJade Soft Shiny"
-          color="Couleur : sable-merle"
-          aurl="/albums/soft-shiny"
-          turl="/tests/soft-shiny"
-          purl="/pedigree/soft-shiny"
-        >
-          <p>
-            <b>Yeux :</b> normaux, non-porteurs
-          </p>
-          <p>
-            <b>CN : </b> normal/normal
-          </p>
-          <p>
-            <b>DM :</b> normal/normal
-          </p>
-          <p>
-            <b>MDR1 :</b> normal/normal
-          </p>
-        </Chiens>
+
         <Chiens
           img={f5}
           dname="DeJade Just Call Me Tina Turner"

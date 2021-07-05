@@ -98,6 +98,15 @@ const NouvellesPage = () => {
         <article className={componentStyles.allnews}>
           <h1>Nouvelles</h1>
           <section>
+            <p>5 Juillet 2021</p>
+            <h2>Prochaines réservations 2022</h2>
+            <p>
+              Shiny et Ti-Blanche ont eu leurs chiots, c'est dommage 2 grosses
+              portées, mais peu de vivants. Donc, total 9 chiots vivants. Tous
+              réservés, prochaines réservations en 2022
+            </p>
+          </section>
+          <section>
             <p>9 Septembre 2020</p>
             <h2>Demande accrue</h2>
             <p>

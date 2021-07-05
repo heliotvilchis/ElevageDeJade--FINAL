@@ -113,6 +113,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesBentley",
+        path: "./src/assets/images/bentley",
+      },
+      __key: "imagesBentley",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "imagesPhotospage",
         path: "./src/assets/images/photospage",
       },

@@ -1,0 +1,41 @@
+[{
+    "name": "Glasgowhill' DeJade Bentley",
+    "parents": [
+        { "link": "Père :", "name": "Glasgowhill's Murphys Law" },
+        { "link": "Mère :", "name": "Glasgowhill's Blow My Mind" }
+    ],
+    "grandsParents": [
+        { "link": "Père :", "name": "SRF Goodwins Tru-Vu West Ridge Ryder" },
+        { "link": "Mère :", "name": "Glasgowhill's Wicked Wisdom" },
+        { "link": "Père :", "name": "RBIS, CAN, CH, UKC CH Glasgowhill's Event Horizon" },
+        { "link": "Mère :", "name": "BEE BIS CAN CH Glasgowhill's Serendipity" }
+    ],
+    "arGrandsParents": [
+        { "link": "Père :", "name": "Goodwins Tru-Vu Perfect Storm" },
+        { "link": "Mère :", "name": "Goodwin Tru Vu Shiny Penny" },
+        { "link": "Père :", "name": "CAN CH Glasgowhill's Nightstar Crusader" },
+        { "link": "Mère :", "name": "CAN CH Glasgowhill's Brilliant Diguise CGN" },
+        { "link": "Père :", "name": "CAN CH MIlas Dancing Solo" },
+        { "link": "Mère :", "name": "CAN CH Glasgowhill's Alagria" },
+        { "link": "Père :", "name": "RBIS, CAN CH, UKC CH Glasgowhill's Event Horizon" },
+        { "link": "Mère :", "name": "CAN CH Glasgowhill's Creme Broulee" }
+    ],
+    "arArGrandsParents": [
+        { "link": "Père :", "name": "Glasgowhill's Goodwin Replay" },
+        { "link": "Mère :", "name": "CAN CH Glasgowhill's Captivating" },
+        { "link": "Père :", "name": "Goodwin Tru Vu Perfect Encore" },
+        { "link": "Mère :", "name": "Goodwin Tru Vu Queen Minerva" },
+        { "link": "Père :", "name": "Nigthstar's i'll take that bet" },
+        { "link": "Mère :", "name": "Nightstar blown away" },
+        { "link": "Père :", "name": "Sylvan Argent Pumped up kicks" },
+        { "link": "Mère :", "name": "Can CH Glasgowhill's Good to go" },
+        { "link": "Père :", "name": "AM CH Milas Latin Fever" },
+        { "link": "Mère :", "name": "Milas Dancing With the Stars" },
+        { "link": "Père :", "name": "CAN CH Winsmore So Continental" },
+        { "link": "Mère :", "name": "Dune's Sip of Champagne" },
+        { "link": "Père :", "name": "CAN CH MIlas Dancing Solo" },
+        { "link": "Mère :", "name": "Glasgowhill's Alagria" },
+        { "link": "Père :", "name": "CAN CH Milas Dancing Solo" },
+        { "link": "Mère :", "name": "" }
+    ]
+}]

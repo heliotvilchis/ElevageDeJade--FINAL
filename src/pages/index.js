@@ -115,6 +115,10 @@ const IndexPage = () => {
           <div className={componentStyles.contr}>
             <h2>Nouvelles</h2>
             <Link to="/nouvelles">
+              <img src={calendar} alt="Prochaines réservations 2022" />
+              <p>Prochaines réservations 2022</p>
+            </Link>
+            <Link to="/nouvelles">
               <img src={upchart} alt="Demande accrue" />
               <p>Demande accrue</p>
             </Link>

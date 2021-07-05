@@ -4,6 +4,7 @@ import React from "react";
 import Container from "../components/container/container";
 import ChiotsComp from "../components/chiots/chiots";
 import Link from "../components/link/link";
+import Image from "../components/image/image";
 import Layout from "../components/layout/layout";
 
 // CSS
@@ -13,9 +14,17 @@ import * as styleComponents from "../assets/pagestyles/chiots.module.scss";
 import gabou from "../assets/images/gabou/1.jpg";
 import india from "../assets/images/india/1.jpg";
 import hank from "../assets/images/hank/1.webp";
-import tiBlanche from "../assets/images/renagade/1.webp";
+import tiBlanche from "../assets/images/ti-blanche/1.webp";
 import shiny from "../assets/images/soft-shiny/1.jpg";
 import rhapsodie from "../assets/images/sweety/1.jpg";
+import tinaTurner from "../assets/images/tina-turner/1.jpg";
+import aiko from "../assets/images/aiko/1.webp";
+import haley from "../assets/images/haley/1.jpg";
+import silverDream from "../assets/images/silver-dream/1.jpg";
+import thunder from "../assets/images/thunder/1.webp";
+
+import chiotsGabouShiny from "../assets/images/all-chiots/img2984.webp";
+import chiotsHankTiblanche from "../assets/images/all-chiots/img2986.webp";
 
 // Markup
 const Chiots = () => {
@@ -49,6 +58,9 @@ const Chiots = () => {
                 </p>
               </b>
             </div>
+            <h2>
+              <b>Aucune réservation avant 2022</b>
+            </h2>
           </div>
           <ChiotsComp
             date="Accouplements faits les 12 et 13 mai"
@@ -66,6 +78,13 @@ const Chiots = () => {
             imgf={tiBlanche}
             nomf="DeJade Gracious White ( Ti-Blance )"
           />
+          <h3 className={styleComponents.center}>
+            Chiots nées le 28 juin 2021, 4 vivants.
+          </h3>
+          <h3 className={styleComponents.center}>
+            Malgré une grosse portée peu était vivant à la naissance.
+          </h3>
+          <Image source={chiotsHankTiblanche} alttext="hank ti-blanche" />
           <ChiotsComp
             date="Accouplement fait le 26 avril"
             infos="Couleurs des chiots à naître: sable, sable-merle, bleu-merle, tricolore."
@@ -75,6 +94,10 @@ const Chiots = () => {
             imgf={shiny}
             nomf="DeJade Soft Shiny"
           />
+          <h3 className={styleComponents.center}>
+            Chiots nées le 24 juin 2021, 5 vivants.
+          </h3>
+          <Image source={chiotsGabouShiny} alttext="5 chiots" />
           <ChiotsComp
             date="Accouplement prévu en août 2021"
             infos=""
@@ -84,6 +107,42 @@ const Chiots = () => {
             imgf={rhapsodie}
             nomf="DeJade Sweet Rhapsodie in Blue
             ( Sweety )"
+          />
+          <ChiotsComp
+            date="Accouplement à venir fin 2021"
+            infos=""
+            infos2=""
+            imgm={gabou}
+            nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
+            imgf={tinaTurner}
+            nomf="DeJade Just Call me Tina Turner"
+          />
+          <ChiotsComp
+            date="Accouplement à venir 2022"
+            infos=""
+            infos2=""
+            imgm={aiko}
+            nomm="DeJade Dream in Black Gold ( Aïko )"
+            imgf={haley}
+            nomf="DeJade White Elegance ( Haley )"
+          />
+          <ChiotsComp
+            date="Accouplement à venir 2022"
+            infos=""
+            infos2=""
+            imgm={silverDream}
+            nomm="Ch.DeJade Soft Silver Dream"
+            imgf={thunder}
+            nomf="DeJade Soft Breeze of Thunder"
+          />
+          <ChiotsComp
+            date="Accouplement à venir 2022"
+            infos=""
+            infos2=""
+            imgm={aiko}
+            nomm="DeJade Dream in Black Gold ( Aïko )"
+            imgf={tiBlanche}
+            nomf="DeJade Gracious White ( Ti-Blanche )"
           />
           <h2>Tous les chiots de ces portées auront les yeux normaux</h2>
           <div className={styleComponents.contact}>

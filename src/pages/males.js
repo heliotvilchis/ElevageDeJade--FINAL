@@ -9,6 +9,7 @@ import Layout from "../components/layout/layout";
 import m1 from "../assets/images/aiko/1.webp";
 import m2 from "../assets/images/gabou/1.jpg";
 import m3 from "../assets/images/silver-dream/1.jpg";
+import m4 from "../assets/images/bentley/1.webp";
 
 // CSS
 import * as styleComponents from "../assets/pagestyles/males.module.scss";
@@ -84,6 +85,32 @@ const Males = () => {
           </p>
           <p>
             <b>DM :</b> normal/normal
+          </p>
+          <p>
+            <b>MDR1 :</b> normal/normal
+          </p>
+        </Chiens>
+        <Chiens
+          img={m4}
+          dname="Glasgowhil' DeJade Bentley"
+          surname="( Bentley )"
+          born="Né le 23 février 2021"
+          color="Couleur : Sable et blanc facteur tri"
+          aurl="/albums/bentley"
+          turl="/tests/bentley"
+          purl="/pedigree/bentley"
+        >
+          <p>
+            <b>Yeux :</b> normaux/porteurs
+          </p>
+          <p>
+            <b>CN :</b> N/N
+          </p>
+          <p>
+            <b>DM :</b> N/N
+          </p>
+          <p>
+            <b>DMS :</b> À faible risque
           </p>
           <p>
             <b>MDR1 :</b> normal/normal
