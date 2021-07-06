@@ -63,14 +63,6 @@ const Chiots = () => {
             </h2>
           </div>
           <ChiotsComp
-            date="Accouplements faits les 12 et 13 mai"
-            infos="Gestation à confirmer"
-            imgm={gabou}
-            nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
-            imgf={india}
-            nomf="CH.DeJade Star of Cassy ( India )"
-          />
-          <ChiotsComp
             date="Accouplement fait du 26 au 30 avril"
             infos="Gestation confirmée. Naissances prévues fin juin"
             imgm={hank}
