@@ -121,6 +121,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesEska",
+        path: "./src/assets/images/eska",
+      },
+      __key: "imagesEska",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "imagesPhotospage",
         path: "./src/assets/images/photospage",
       },

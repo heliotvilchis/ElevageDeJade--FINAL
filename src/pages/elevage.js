@@ -11,11 +11,12 @@ import i1 from "../assets/images/gabou/1.jpg";
 import i3 from "../assets/images/tina-turner/1.jpg";
 import i5 from "../assets/images/renagade/1.webp";
 import i7 from "../assets/images/silver-dream/1.jpg";
-import i8 from "../assets/images/haley/1.jpg";
+import i8 from "../assets/images/haley/1.webp";
 import i9 from "../assets/images/aiko/1.webp";
 import i10 from "../assets/images/rapsodie/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
 import bentley from "../assets/images/bentley/1.webp";
+import eska from "../assets/images/eska/1.webp";
 
 const CardContainer = styled.div`
   display: flex;
@@ -80,6 +81,7 @@ const Elevage = () => {
             dname="Glasgowhill's DeJade Bentley"
             gender="m"
           />
+          <Card image={eska} dname="DeJade Grace Kelly ( Eska )" gender="f" />
         </CardContainer>
       </Container>
     </Layout>

@@ -8,9 +8,10 @@ import Layout from "../components/layout/layout";
 // Images
 import f3 from "../assets/images/ti-blanche/1.webp";
 import f5 from "../assets/images/tina-turner/1.jpg";
-import f6 from "../assets/images/haley/1.jpg";
+import f6 from "../assets/images/haley/1.webp";
 import f7 from "../assets/images/rapsodie/1.jpg";
 import f8 from "../assets/images/thunder/1.webp";
+import f9 from "../assets/images/eska/1.webp";
 
 // CSS
 import * as styleComponents from "../assets/pagestyles/males.module.scss";
@@ -95,6 +96,7 @@ const Males = () => {
         <Chiens
           img={f7}
           dname="DeJade Bohemian Rhapsodie"
+          surname="( Queen )"
           undertext="Co-propriétaire Mme Christiane Forget "
           aurl="/albums/rhapsodie"
           turl="/tests/rhapsodie"
@@ -132,6 +134,31 @@ const Males = () => {
           </p>
           <p>
             <b>MDR1 :</b> normal/mutant
+          </p>
+        </Chiens>
+        <Chiens
+          img={f9}
+          dname="DeJade Grace Kelly"
+          surname="( Eska )"
+          undertext=""
+          aurl="/albums/eska"
+          turl="/tests/eska"
+          purl="/pedigree/eska"
+        >
+          <p>
+            <b>Yeux :</b> normaux/porteurs
+          </p>
+          <p>
+            <b>CN :</b> normal/normal
+          </p>
+          <p>
+            <b>DM :</b> normal/normal
+          </p>
+          <p>
+            <b>DMS :</b> Risque faible
+          </p>
+          <p>
+            <b>MDR1 :</b> normal/normal
           </p>
         </Chiens>
       </Contianer>

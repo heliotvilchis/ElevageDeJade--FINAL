@@ -4,7 +4,8 @@ import React from "react";
 import Container from "../components/container/container";
 import ChiotsComp from "../components/chiots/chiots";
 import Link from "../components/link/link";
-import Image from "../components/image/image";
+//import Image from "../components/image/image";
+import Bebes from "../components/chiots/bebes";
 import Layout from "../components/layout/layout";
 
 // CSS
@@ -12,19 +13,37 @@ import * as styleComponents from "../assets/pagestyles/chiots.module.scss";
 
 //images
 import gabou from "../assets/images/gabou/1.jpg";
-import india from "../assets/images/india/1.jpg";
 import hank from "../assets/images/hank/1.webp";
 import tiBlanche from "../assets/images/ti-blanche/1.webp";
 import shiny from "../assets/images/soft-shiny/1.jpg";
 import rhapsodie from "../assets/images/sweety/1.jpg";
 import tinaTurner from "../assets/images/tina-turner/1.jpg";
 import aiko from "../assets/images/aiko/1.webp";
-import haley from "../assets/images/haley/1.jpg";
+import haley from "../assets/images/haley/1.webp";
 import silverDream from "../assets/images/silver-dream/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
 
-import chiotsGabouShiny from "../assets/images/all-chiots/img2984.webp";
-import chiotsHankTiblanche from "../assets/images/all-chiots/img2986.webp";
+//Chiots Hank Ti-Blanche
+import ht1 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3007.webp";
+import ht2 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3008.webp";
+import ht3 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3010.webp";
+import ht4 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3011.webp";
+import ht5 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3012.webp";
+import ht6 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3013.webp";
+import ht7 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3014.webp";
+import ht8 from "../assets/images/all-chiots/Hank-TiBlanche/IMG3015.webp";
+
+//Chiots Gabou Shiny
+import gs1 from "../assets/images/all-chiots/Gabou-Shiny/IMG2997.webp";
+import gs2 from "../assets/images/all-chiots/Gabou-Shiny/IMG2998.webp";
+import gs3 from "../assets/images/all-chiots/Gabou-Shiny/IMG2999.webp";
+import gs4 from "../assets/images/all-chiots/Gabou-Shiny/IMG3000.webp";
+import gs5 from "../assets/images/all-chiots/Gabou-Shiny/IMG3001.webp";
+import gs6 from "../assets/images/all-chiots/Gabou-Shiny/IMG3002.webp";
+import gs7 from "../assets/images/all-chiots/Gabou-Shiny/IMG3003.webp";
+import gs8 from "../assets/images/all-chiots/Gabou-Shiny/IMG3004.webp";
+import gs9 from "../assets/images/all-chiots/Gabou-Shiny/IMG3005.webp";
+import gs10 from "../assets/images/all-chiots/Gabou-Shiny/IMG3006.webp";
 
 // Markup
 const Chiots = () => {
@@ -70,13 +89,28 @@ const Chiots = () => {
             imgf={tiBlanche}
             nomf="DeJade Gracious White ( Ti-Blance )"
           />
-          <h3 className={styleComponents.center}>
-            Chiots nées le 28 juin 2021, 4 vivants.
-          </h3>
-          <h3 className={styleComponents.center}>
-            Malgré une grosse portée peu était vivant à la naissance.
-          </h3>
-          <Image source={chiotsHankTiblanche} alttext="hank ti-blanche" />
+          <h3 className={styleComponents.center}>nés le 28 juin</h3>
+          <Bebes front={ht1} back={ht2}>
+            <p>
+              <b>Femelle sable et blanc réservée Mme Renaud</b>
+            </p>
+          </Bebes>
+          <Bebes front={ht3} back={ht4}>
+            <p>
+              <b>Femelle sable et blanc réservée Mme Lavoie</b>
+            </p>
+          </Bebes>
+          <Bebes front={ht5} back={ht6}>
+            <p>
+              <b>Mâle tricolore réservé</b>
+            </p>
+          </Bebes>
+          <Bebes front={ht7} back={ht8}>
+            <p>
+              <b>Femelle Blanche marquée sable réservée Mme Daneau</b>
+            </p>
+          </Bebes>
+
           <ChiotsComp
             date="Accouplement fait le 26 avril"
             infos="Couleurs des chiots à naître: sable, sable-merle, bleu-merle, tricolore."
@@ -87,9 +121,34 @@ const Chiots = () => {
             nomf="DeJade Soft Shiny"
           />
           <h3 className={styleComponents.center}>
-            Chiots nées le 24 juin 2021, 5 vivants.
+            Photos des chiots à l'âge de 3 semaines
           </h3>
-          <Image source={chiotsGabouShiny} alttext="5 chiots" />
+          <Bebes front={gs1} back={gs2}>
+            <p>
+              <b>Mâle tricolore réservé</b>
+            </p>
+          </Bebes>
+          <Bebes front={gs3} back={gs4}>
+            <p>
+              <b>Mâle sable-merle réservé</b>
+            </p>
+          </Bebes>
+          <Bebes front={gs5} back={gs6}>
+            <p>
+              <b>Mâle sable-merle réservé Mme Cloutier</b>
+            </p>
+          </Bebes>
+          <Bebes front={gs7} back={gs8}>
+            <p>
+              <b>Mâle sable réservé</b>
+            </p>
+          </Bebes>
+          <Bebes front={gs9} back={gs10}>
+            <p>
+              <b>Mâle sable réservé M.Mongrain</b>
+            </p>
+          </Bebes>
+
           <ChiotsComp
             date="Accouplement prévu en août 2021"
             infos=""
