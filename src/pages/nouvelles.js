@@ -89,6 +89,9 @@ import img77 from "../assets/images/nouvelles/77.webp";
 import img78 from "../assets/images/nouvelles/78.webp";
 import img79 from "../assets/images/nouvelles/79.webp";
 import img80 from "../assets/images/nouvelles/80.webp";
+import img81 from "../assets/images/nouvelles/81.webp";
+import img82 from "../assets/images/nouvelles/82.webp";
+import img83 from "../assets/images/nouvelles/83.webp";
 
 // markup
 const NouvellesPage = () => {
@@ -97,6 +100,17 @@ const NouvellesPage = () => {
       <Container>
         <article className={componentStyles.allnews}>
           <h1>Nouvelles</h1>
+          <section>
+            <p>5 Juillet 2021</p>
+            <h2>Queen en obéissance</h2>
+            <img src={img83} alt="" />
+          </section>
+          <section>
+            <p>5 Juillet 2021</p>
+            <h2> Jane en compétition d'agilité</h2>
+            <img src={img81} alt="" />
+            <img src={img82} alt="" />
+          </section>
           <section>
             <p>5 Juillet 2021</p>
             <h2>Prochaines réservations 2022</h2>
