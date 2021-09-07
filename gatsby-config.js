@@ -152,5 +152,32 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-minify`,
+    "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "En mi maleta llevo",
+        short_name: "En mi maleta",
+        description:
+          "Podcast sobre el crecimiento personal, las aventuras y el empoderamiento femenino",
+        start_url: "/",
+        lang: "es",
+        background_color: "#ffffff",
+        theme_color: "#ff5186",
+        display: "minimal-ui",
+        orientation: "portrait-primary",
+        icon: "src/assets/images/icon.png",
+        cache_busting_mode: "none",
+        crossOrigin: "use-credentials",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://enmimaleta.com",
+        sitemap: "https://enmimaleta.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 };
