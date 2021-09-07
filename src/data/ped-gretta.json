@@ -1,0 +1,41 @@
+[{
+    "name": "Glasgowhill's Show Boat ( Gretta )",
+    "parents": [
+        { "link": "Père :", "name": "Am Ch annsdale's Twin pine Booms Like Thunder" },
+        { "link": "Mère :", "name": "Glasgowhill's Bodacious" }
+    ],
+    "grandsParents": [
+        { "link": "Père :", "name": "Vennessee's A Gift From The Past" },
+        { "link": "Mère :", "name": "Annsdale's Tiger Lily" },
+        { "link": "Père :", "name": "AM CH Diamante's Midnight Confessions" },
+        { "link": "Mère :", "name": "Glasgowhill's A Touch Of Color" }
+    ],
+    "arGrandsParents": [
+        { "link": "Père :", "name": "AM CH Vennessee Midnight Express" },
+        { "link": "Mère :", "name": "Am Ch Riverrun Lions Pride ROM" },
+        { "link": "Père :", "name": "Am Ch Riverrun Vennessee's The Traveler Of Galatean" },
+        { "link": "Mère :", "name": "Charizma First Kiss" },
+        { "link": "Père :", "name": "AM CH Overland Cloud Cover" },
+        { "link": "Mère :", "name": "AM CH Diamante's Midnight Kisses II" },
+        { "link": "Père :", "name": "CAN CH Glasgowhill Looking Glass" },
+        { "link": "Mère :", "name": "CAN CH Glasgowhill's Alagria" }
+    ],
+    "arArGrandsParents": [
+        { "link": "Père :", "name": "AM CH Fury's The Spirit Of Legends" },
+        { "link": "Mère :", "name": "Vennessee's Etched in Blue" },
+        { "link": "Père :", "name": "Am Ch Riverrun Lionheart" },
+        { "link": "Mère :", "name": "Mainstay Back Of The Moon" },
+        { "link": "Père :", "name": "Am Ch Galatean A Good River Runs Through" },
+        { "link": "Mère :", "name": "Am Ch Riverrun Lions Pride ROM" },
+        { "link": "Père :", "name": "Am Ch Cheviot Sollis Gallant Boy" },
+        { "link": "Mère :", "name": "Am CH Charizma's Cherish The Moment" },
+        { "link": "Père :", "name": "Am CH Overland Icestrom" },
+        { "link": "Mère :", "name": "Am CH Overland Shalimar Toy Story" },
+        { "link": "Père :", "name": "Am GCH Overland Red Hot Summer" },
+        { "link": "Mère :", "name": "AM CH Gwyn-Marc's One Moment In Time" },
+        { "link": "Père :", "name": "CAN CH Glasgowhill's Winning Ticket" },
+        { "link": "Mère :", "name": "Glasgowhill Dreams Come True" },
+        { "link": "Père :", "name": "CAN CH Winsmore So Continental" },
+        { "link": "Mère :", "name": "Dune's Sip Of Champagne" }
+    ]
+}]

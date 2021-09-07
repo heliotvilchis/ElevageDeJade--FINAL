@@ -121,6 +121,14 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "imagesGretta",
+        path: "./src/assets/images/gretta",
+      },
+      __key: "imagesGretta",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "imagesEska",
         path: "./src/assets/images/eska",
       },

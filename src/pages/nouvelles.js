@@ -92,6 +92,7 @@ import img80 from "../assets/images/nouvelles/80.webp";
 import img81 from "../assets/images/nouvelles/81.webp";
 import img82 from "../assets/images/nouvelles/82.webp";
 import img83 from "../assets/images/nouvelles/83.webp";
+import img84 from "../assets/images/nouvelles/84.webp";
 
 // markup
 const NouvellesPage = () => {
@@ -100,6 +101,16 @@ const NouvellesPage = () => {
       <Container>
         <article className={componentStyles.allnews}>
           <h1>Nouvelles</h1>
+          <section>
+            <p>7 septembre 2021</p>
+            <p>
+              À St-Lazare du 20 au 22 août Dream a fait BOS à 2 reprises et Tina
+              meilleure femelle à 2 reprises. À Cornwall du 2 au 5 septembre
+              Dream à fait BOB 3 fois et 4e de groupe samedi, Tina BB et BOB à 2
+              reprises.
+            </p>
+            <img src={img84} alt="" />
+          </section>
           <section>
             <p>5 Juillet 2021</p>
             <h2>Queen en obéissance</h2>

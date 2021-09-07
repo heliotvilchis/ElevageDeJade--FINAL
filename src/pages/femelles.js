@@ -12,6 +12,7 @@ import f6 from "../assets/images/haley/1.webp";
 import f7 from "../assets/images/rapsodie/1.jpg";
 import f8 from "../assets/images/thunder/1.webp";
 import f9 from "../assets/images/eska/1.webp";
+import f10 from "../assets/images/gretta/1.webp";
 
 // CSS
 import * as styleComponents from "../assets/pagestyles/males.module.scss";
@@ -159,6 +160,33 @@ const Males = () => {
           </p>
           <p>
             <b>MDR1 :</b> normal/normal
+          </p>
+        </Chiens>
+        <Chiens
+          img={f10}
+          dname="Glasgowhill's Show Boat"
+          surname="( Gretta )"
+          born="Date de naissance : 14 /04/2020"
+          color="Couleur : bleu-merle"
+          undertext=""
+          aurl="/albums/gretta"
+          turl="/tests/gretta"
+          purl="/pedigree/gretta"
+        >
+          <p>
+            <b>Yeux :</b> affectés
+          </p>
+          <p>
+            <b>CN :</b> à venir
+          </p>
+          <p>
+            <b>DM :</b> à venir
+          </p>
+          <p>
+            <b>DMS :</b> à venir
+          </p>
+          <p>
+            <b>MDR1 :</b> à venir
           </p>
         </Chiens>
       </Contianer>
