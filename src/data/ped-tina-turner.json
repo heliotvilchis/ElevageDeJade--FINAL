@@ -1,7 +1,9 @@
 [{
-    "name": "DeJade Just Call Me Tina Turner ",
-    "parents": [
-        { "link": "Père :", "name": "Gr CH.Can, Cove Run'S Just Call Me Hank ( USA ) " },
+    "name": "CH DeJade Just Call Me Tina Turner ",
+    "parents": [{
+            "link": "Père :",
+            "name": "Gr CH.Can, Cove Run'S Just Call Me Hank ( USA ) "
+        },
         { "link": "Mère :", "name": "DeJade Ava Gardner" }
     ],
     "grandsParents": [
@@ -26,7 +28,10 @@
         { "link": "Père :", "name": "CH Overland Moment in Time" },
         { "link": "Mère :", "name": "CH Overland Rememberance" },
         { "link": "Père :", "name": "CH Fantasy's Fortune Hunter" },
-        { "link": "Mère :", "name": "GCH CH Hollyoaks A Perfect Storm at Calibre" },
+        {
+            "link": "Mère :",
+            "name": "GCH CH Hollyoaks A Perfect Storm at Calibre"
+        },
         { "link": "Père :", "name": "GCHS CH Travler's The Man to Know" },
         { "link": "Mère :", "name": "CH Travler's Sister Sarah" },
         { "link": "Père :", "name": "CH WINDHAVEN STRANGER IN PARADISE" },

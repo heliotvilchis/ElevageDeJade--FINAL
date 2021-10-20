@@ -50,7 +50,7 @@ const Males = () => {
 
         <Chiens
           img={f5}
-          dname="DeJade Just Call Me Tina Turner"
+          dname="CH DeJade Just Call Me Tina Turner"
           born=""
           color="Couleur : sable et blanc facteur tri"
           aurl="/albums/tina-turner"
@@ -58,16 +58,19 @@ const Males = () => {
           purl="/pedigree/tina-turner"
         >
           <p>
-            <b>Yeux :</b> normaux /porteurs (cerf)
+            <b>CEA :</b> N/P
           </p>
           <p>
-            <b>CN :</b> à venir
+            <b>CN :</b> N/N
           </p>
           <p>
-            <b>DM :</b> à venir
+            <b>DM :</b> N/N
           </p>
           <p>
-            <b>MDR1 :</b> à venir
+            <b>DMS :</b> Risque Moyen
+          </p>
+          <p>
+            <b>MDR1 :</b> N/N
           </p>
         </Chiens>
         <Chiens
@@ -131,7 +134,7 @@ const Males = () => {
             <b>CN :</b> normal/normal
           </p>
           <p>
-            <b>DM :</b> normal/normal
+            <b>DM :</b> N/DM
           </p>
           <p>
             <b>MDR1 :</b> normal/mutant

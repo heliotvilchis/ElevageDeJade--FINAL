@@ -102,6 +102,22 @@ const NouvellesPage = () => {
         <article className={componentStyles.allnews}>
           <h1>Nouvelles</h1>
           <section>
+            <p>26 septembre 2021</p>
+            <p>
+              Superbe belle fin de semaine les 25 et 26 septembre à Miramichi
+              Nouveau-Brunswick. Dream a terminé son Grand-Championnat en beauté
+              le samedi 25 avec un meilleur de la race sur 2 autres champions,
+              n'a pas été présenté le dimanche, Pluie torrentielle.
+            </p>
+            <p>
+              Pour Tina, ce fut pour elle aussi une magnifique fin de semaine à
+              Miramichi elle a terminé son championnat avec 3 Meilleure des
+              gagnants. Merci aux juges, ainsi qu'à Émily Burdon et son équipe,
+              ainsi qu'à mon transporteur Yannick Bourque qui prend aussi soin
+              de mes chiens.
+            </p>
+          </section>
+          <section>
             <p>7 septembre 2021</p>
             <p>
               À St-Lazare du 20 au 22 août Dream a fait BOS à 2 reprises et Tina

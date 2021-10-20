@@ -8,7 +8,7 @@ import Layout from "../../components/layout/layout";
 import * as styleComponets from "../../assets/styles/tests.module.scss";
 
 // Images
-//import tests from "../../assets/tests/eska.jpg";
+import tests from "../../assets/tests/eska.jpg";
 
 // Markup
 const Tests = () => {
@@ -16,9 +16,7 @@ const Tests = () => {
     <Layout>
       <Container>
         <div className={styleComponets.tests}>
-          {/*
-          <img src={tests} alt="" />
-          */}
+          <img src={tests} alt="tests eska" />
           <h1>Disponible bientôt</h1>
         </div>
       </Container>
