@@ -35,7 +35,8 @@
             { "name": "Couleurs", "url": "/info-couleurs" },
             { "name": "Standard de la race", "url": "/info-standard" },
             { "name": "Formation", "url": "/info-formation" },
-            { "name": "Santé", "url": "/sante" }
+            { "name": "Santé", "url": "/sante" },
+            { "name": "Reconnaissances", "url": "/info-reconnaissances" }
         ]
     }
 ]

@@ -21,6 +21,9 @@ import haley from "../assets/images/haley/1.webp";
 import silverDream from "../assets/images/silver-dream/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
 
+import gs1 from "../assets/images/gabu-sweety/1.jpg";
+import gs2 from "../assets/images/gabu-sweety/2.jpg";
+
 // Markup
 const Chiots = () => {
   return (
@@ -52,6 +55,14 @@ const Chiots = () => {
                   Pour vôtre chien ou chiot je demande une cour clôturée ou un
                   enclos d'un minimum de 8' x 8'.
                 </p>
+                <p>
+                  Tous mes chiots sont garantis pour 2 ans sur les tares
+                  héréditaires.
+                </p>
+                <p>
+                  Ils sont tous vaccinés, vermifugés, micropucés, enregistrés au
+                  Club Canin Canadien.
+                </p>
               </b>
             </div>
             <h2>
@@ -60,15 +71,26 @@ const Chiots = () => {
           </div>
 
           <ChiotsComp
-            date="Gestation confirmée"
-            infos="Naissances prévues en novembre"
-            infos2=""
+            date="Naissance le 3 novembre 2021"
+            infos="Sweet a eue ses 6 bébés par césarienne, tous vivants,
+            2 femelles 4 mâles"
+            infos2="Je contacterai mes clients sur la liste d'attente."
             imgm={gabou}
             nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
             imgf={rhapsodie}
             nomf="DeJade Sweet Rhapsodie in Blue
             ( Sweety )"
           />
+          <div className={styleComponents.babys}>
+            <p>1 femelle sable-merle</p>
+            <p>1 femelle tricolore</p>
+            <p>2 males tricolore </p>
+            <p>1 mâle sable-merle</p>
+            <p>1 mâle bleu-merle</p>
+            <img src={gs1} alt="" />
+            <img src={gs2} alt="" />
+          </div>
+
           <ChiotsComp
             date="Accouplement à venir fin 2021"
             infos=""
