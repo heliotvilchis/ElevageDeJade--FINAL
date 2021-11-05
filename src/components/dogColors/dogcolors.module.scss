@@ -1,0 +1,40 @@
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    border: 1px solid var(--brun);
+    border-radius: 1em;
+    margin: 1em 0;
+    p {
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .icon {
+        margin: 1em;
+        text-align: center;
+    }
+}
+
+.parents {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.plus {
+    width: 45px;
+}
+
+.equal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.babys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
