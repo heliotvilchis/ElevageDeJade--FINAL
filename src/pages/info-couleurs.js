@@ -9,16 +9,6 @@ import DogColors from "../components/dogColors/dogColors";
 //CSS
 import * as styledCompoents from "../assets/pagestyles/couleurs.module.scss";
 
-//Images
-import plus from "../assets/images/couleurs/plus.svg";
-import equal from "../assets/images/couleurs/equal.svg";
-import ps from "../assets/images/couleurs/ps.svg";
-import tri from "../assets/images/couleurs/tri.svg";
-import ts from "../assets/images/couleurs/ts.svg";
-import bm from "../assets/images/couleurs/bm.svg";
-import wm from "../assets/images/couleurs/wm.svg";
-import tsm from "../assets/images/couleurs/tsm.svg";
-
 // Markup
 const Futurs = () => {
   return (
@@ -120,270 +110,251 @@ const Futurs = () => {
             second="ts"
             ch1="ps"
             ch2="ts"
-            ch3="ps"
-            ch4="ps"
-            ch5="ps"
-            ch6="ps"
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
           />
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-          </div>
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-          </div>
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={wm} alt="" />
-              <p>WM</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tsm} alt="" />
-              <p>TSM</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ps} alt="" />
-              <p>PS</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={wm} alt="" />
-              <p>WM</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-          </div>
-
-          <div className={styledCompoents.line}>
-            <div className={styledCompoents.icon}>
-              <img src={tsm} alt="" />
-              <p>TSM</p>
-            </div>
-            <img src={plus} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-            <img src={equal} alt="" />
-            <div className={styledCompoents.icon}>
-              <img src={tsm} alt="" />
-              <p>TSM</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={bm} alt="" />
-              <p>BM</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={ts} alt="" />
-              <p>TS</p>
-            </div>
-            <div className={styledCompoents.icon}>
-              <img src={tri} alt="" />
-              <p>TRI</p>
-            </div>
-          </div>
-
-          <span></span>
+          <DogColors
+            first="ts"
+            second="tri"
+            ch1="ts"
+            ch2="tri"
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="ts"
+            second="ts"
+            ch1="ps"
+            ch2="ts"
+            ch3="tri"
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="tri"
+            second="tri"
+            ch1="tri"
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="bm"
+            second="tri"
+            ch1="bm"
+            ch2="tri"
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="bm"
+            second="bm"
+            ch1="bm"
+            ch2="tri"
+            ch3="wm"
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="bm"
+            second="ts"
+            ch1="ts"
+            ch2="bm"
+            ch3="tsm"
+            ch4="tri"
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="bm"
+            second="ps"
+            ch1="ts"
+            ch2="tri"
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="wm"
+            second="tri"
+            ch1="bm"
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="tsm"
+            second="tri"
+            ch1="tsm"
+            ch2="bm"
+            ch3="ts"
+            ch4="tri"
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="tsm"
+            second="ps"
+            ch1="ps"
+            ch2="psm"
+            ch3="ts"
+            ch4="tsm"
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first=""
+            second=""
+            ch1=""
+            ch2=""
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
         </div>
       </Container>
     </Layout>

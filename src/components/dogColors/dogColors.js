@@ -10,6 +10,7 @@ import ts from "../../assets/images/couleurs/ts.svg";
 import bm from "../../assets/images/couleurs/bm.svg";
 import wm from "../../assets/images/couleurs/wm.svg";
 import tsm from "../../assets/images/couleurs/tsm.svg";
+import psm from "../../assets/images/couleurs/psm.svg";
 
 // Markup
 const DogColors = ({ first, second, ch1, ch2, ch3, ch4, ch5, ch6 }) => {
@@ -31,6 +32,9 @@ const DogColors = ({ first, second, ch1, ch2, ch3, ch4, ch5, ch6 }) => {
     }
     if (params === "tsm") {
       return tsm;
+    }
+    if (params === "psm") {
+      return psm;
     }
   }
 
