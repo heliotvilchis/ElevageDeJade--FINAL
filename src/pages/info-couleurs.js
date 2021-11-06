@@ -207,6 +207,16 @@ const Futurs = () => {
           />
           <DogColors
             first="tsm"
+            second="ts"
+            ch1="ts"
+            ch2="tsm"
+            ch3="bm"
+            ch4="tri"
+            ch5="psm"
+            ch6="ps"
+          />
+          <DogColors
+            first="tsm"
             second="ps"
             ch1="ps"
             ch2="psm"
@@ -216,9 +226,19 @@ const Futurs = () => {
             ch6=""
           />
           <DogColors
-            first=""
-            second=""
-            ch1=""
+            first="psm"
+            second="tri"
+            ch1="tsm"
+            ch2="ts"
+            ch3=""
+            ch4=""
+            ch5=""
+            ch6=""
+          />
+          <DogColors
+            first="white1"
+            second="white2"
+            ch1="white1"
             ch2=""
             ch3=""
             ch4=""
@@ -226,129 +246,29 @@ const Futurs = () => {
             ch6=""
           />
           <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
+            first="wf1"
+            second="wf1"
+            ch1="white1"
+            ch2="wf1"
+            ch3="nonwf1"
             ch4=""
             ch5=""
             ch6=""
           />
           <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
+            first="wfbm"
+            second="white2"
+            ch1="white4"
+            ch2="white2"
+            ch3="wf2"
+            ch4="wf1"
             ch5=""
             ch6=""
           />
           <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
-            ch2=""
-            ch3=""
-            ch4=""
-            ch5=""
-            ch6=""
-          />
-          <DogColors
-            first=""
-            second=""
-            ch1=""
+            first="white2"
+            second="nonwf2"
+            ch1="wf3"
             ch2=""
             ch3=""
             ch4=""
