@@ -72,7 +72,7 @@ const Males = () => {
         </Chiens>
         <Chiens
           img={m3}
-          dname="G. CH. DeJade Soft Silver Dream"
+          dname="GCH. DeJade Soft Silver Dream"
           aurl="/albums/silver-dream"
           turl="/tests/silver-dream"
           purl="/pedigree/silver-dream"

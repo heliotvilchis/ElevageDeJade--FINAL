@@ -5,7 +5,7 @@ import Container from "../components/container/container";
 import ChiotsComp from "../components/chiots/chiots";
 import Link from "../components/link/link";
 //import Image from "../components/image/image";
-//import Bebes from "../components/chiots/bebes";
+import Bebes from "../components/chiots/bebes";
 import Layout from "../components/layout/layout";
 
 // CSS
@@ -21,8 +21,18 @@ import haley from "../assets/images/haley/1.webp";
 import silverDream from "../assets/images/silver-dream/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
 
-import gs1 from "../assets/images/gabu-sweety/1.jpg";
-import gs2 from "../assets/images/gabu-sweety/2.jpg";
+import gs3101 from "../assets/images/gabu-sweety/IMG3101.jpg";
+import gs3102 from "../assets/images/gabu-sweety/IMG3102.jpg";
+import gs3105 from "../assets/images/gabu-sweety/IMG3105.jpg";
+import gs3106 from "../assets/images/gabu-sweety/IMG3106.jpg";
+import gs3099 from "../assets/images/gabu-sweety/IMG3099.jpg";
+import gs3100 from "../assets/images/gabu-sweety/IMG3100.jpg";
+import gs3095 from "../assets/images/gabu-sweety/IMG3095.jpg";
+import gs3096 from "../assets/images/gabu-sweety/IMG3096.jpg";
+import gs3097 from "../assets/images/gabu-sweety/IMG3097.jpg";
+import gs3098 from "../assets/images/gabu-sweety/IMG3098.jpg";
+import gs3103 from "../assets/images/gabu-sweety/IMG3103.jpg";
+import gs3104 from "../assets/images/gabu-sweety/IMG3104.jpg";
 
 // Markup
 const Chiots = () => {
@@ -82,18 +92,42 @@ const Chiots = () => {
             ( Sweety )"
           />
           <div className={styleComponents.babys}>
-            <p>1 femelle sable-merle</p>
-            <p>1 femelle tricolore</p>
-            <p>2 males tricolore </p>
-            <p>1 mâle sable-merle</p>
-            <p>1 mâle bleu-merle</p>
-            <img src={gs1} alt="" />
-            <img src={gs2} alt="" />
+            <p>Photos des chiots à 4 semaines</p>
+            <Bebes
+              children="Femelle sable-merle réservée Mme Julien"
+              front={gs3101}
+              back={gs3102}
+            />
+            <Bebes
+              children="Femelle tricolore réservée M.Rodrigue"
+              front={gs3105}
+              back={gs3106}
+            />
+            <Bebes
+              children="Mâle sable-merle réservé M.Simard"
+              front={gs3099}
+              back={gs3100}
+            />
+            <Bebes
+              children="Mâle bleu-merle réservé Mme Tremblay"
+              front={gs3095}
+              back={gs3096}
+            />
+            <Bebes
+              children="Mâle tricolore 1 réservé"
+              front={gs3097}
+              back={gs3098}
+            />
+            <Bebes
+              children="Mâle tricolore 2 réservé"
+              front={gs3103}
+              back={gs3104}
+            />
           </div>
 
           <ChiotsComp
-            date="Accouplement à venir fin 2021"
-            infos=""
+            date="Accouplements faits du 15 au 16 novembre"
+            infos="Gestation à confirmer"
             infos2=""
             imgm={gabou}
             nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
@@ -101,8 +135,8 @@ const Chiots = () => {
             nomf="DeJade Just Call me Tina Turner"
           />
           <ChiotsComp
-            date="Accouplement à venir 2022"
-            infos=""
+            date="Accouplements faits du 26 au 29 novembre"
+            infos="Gestation à confirmer"
             infos2=""
             imgm={aiko}
             nomm="DeJade Dream in Black Gold ( Aïko )"
