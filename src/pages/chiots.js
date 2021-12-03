@@ -126,7 +126,7 @@ const Chiots = () => {
           </div>
 
           <ChiotsComp
-            date="Accouplements faits du 15 au 16 novembre"
+            date="Accouplements faits du 26 au 29 novembre "
             infos="Gestation à confirmer"
             infos2=""
             imgm={gabou}
@@ -135,7 +135,7 @@ const Chiots = () => {
             nomf="DeJade Just Call me Tina Turner"
           />
           <ChiotsComp
-            date="Accouplements faits du 26 au 29 novembre"
+            date="Accouplements faits du 15 au 16 novembre"
             infos="Gestation à confirmer"
             infos2=""
             imgm={aiko}
