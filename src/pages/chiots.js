@@ -20,6 +20,8 @@ import aiko from "../assets/images/aiko/1.webp";
 import haley from "../assets/images/haley/1.webp";
 import silverDream from "../assets/images/silver-dream/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
+import Bentley from "../assets/images/bentley/1.webp";
+import gretta from "../assets/images/gretta/1.webp";
 
 import gs3101 from "../assets/images/gabu-sweety/IMG3101.jpg";
 import gs3102 from "../assets/images/gabu-sweety/IMG3102.jpg";
@@ -81,51 +83,6 @@ const Chiots = () => {
           </div>
 
           <ChiotsComp
-            date="Naissance le 3 novembre 2021"
-            infos="Sweet a eue ses 6 bébés par césarienne, tous vivants,
-            2 femelles 4 mâles"
-            infos2="Je contacterai mes clients sur la liste d'attente."
-            imgm={gabou}
-            nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
-            imgf={rhapsodie}
-            nomf="DeJade Sweet Rhapsodie in Blue
-            ( Sweety )"
-          />
-          <div className={styleComponents.babys}>
-            <p>Photos des chiots à 4 semaines</p>
-            <Bebes
-              children="Femelle sable-merle réservée Mme Julien"
-              front={gs3101}
-              back={gs3102}
-            />
-            <Bebes
-              children="Femelle tricolore réservée M.Rodrigue"
-              front={gs3105}
-              back={gs3106}
-            />
-            <Bebes
-              children="Mâle sable-merle réservé M.Simard"
-              front={gs3099}
-              back={gs3100}
-            />
-            <Bebes
-              children="Mâle bleu-merle réservé Mme Tremblay"
-              front={gs3095}
-              back={gs3096}
-            />
-            <Bebes
-              children="Mâle tricolore 1 réservé"
-              front={gs3097}
-              back={gs3098}
-            />
-            <Bebes
-              children="Mâle tricolore 2 réservé"
-              front={gs3103}
-              back={gs3104}
-            />
-          </div>
-
-          <ChiotsComp
             date="Accouplements faits du 26 au 29 novembre "
             infos="Gestation à confirmer"
             infos2=""
@@ -136,8 +93,8 @@ const Chiots = () => {
           />
           <ChiotsComp
             date="Accouplements faits du 15 au 16 novembre"
-            infos="Gestation à confirmer"
-            infos2=""
+            infos="Gestation confirmée"
+            infos2="Naissances prévues mi-janvier 2022"
             imgm={aiko}
             nomm="DeJade Dream in Black Gold ( Aïko )"
             imgf={haley}
@@ -156,10 +113,19 @@ const Chiots = () => {
             date="Accouplement à venir 2022"
             infos=""
             infos2=""
-            imgm={aiko}
-            nomm="DeJade Dream in Black Gold ( Aïko )"
+            imgm={Bentley}
+            nomm="Glasgowhill's DeJade Bentley ( Bentley )"
             imgf={tiBlanche}
             nomf="DeJade Gracious White ( Ti-Blanche )"
+          />
+          <ChiotsComp
+            date="Accouplements prévus juin - juillet 2022"
+            infos=""
+            infos2=""
+            imgm={gabou}
+            nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
+            imgf={gretta}
+            nomf="Glasgowhill's Show Boat ( Gretta )"
           />
           <h2>Tous les chiots de ces portées auront les yeux normaux</h2>
           <div className={styleComponents.contact}>
