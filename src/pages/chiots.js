@@ -93,17 +93,6 @@ const Chiots = () => {
             imgf={tiBlanche}
             nomf="DeJade Gracious White ( Ti-Blanche )"
           />
-
-          <ChiotsComp
-            date="Accouplements prévus juin - juillet 2022"
-            infos=""
-            infos2=""
-            imgm={gabou}
-            nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
-            imgf={gretta}
-            nomf="Glasgowhill's Show Boat ( Gretta )"
-          />
-
           <ChiotsComp
             date="Accouplement prévu février 2022"
             infos=""
@@ -112,6 +101,15 @@ const Chiots = () => {
             nomm="Glasgowhill's DeJade Bentley"
             imgf={softShiny}
             nomf="DeJade Soft Shiny"
+          />
+          <ChiotsComp
+            date="Accouplements prévus juin - juillet 2022"
+            infos=""
+            infos2=""
+            imgm={gabou}
+            nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
+            imgf={gretta}
+            nomf="Glasgowhill's Show Boat ( Gretta )"
           />
 
           <ChiotsComp
