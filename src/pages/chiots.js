@@ -4,7 +4,7 @@ import React from "react";
 import Container from "../components/container/container";
 import ChiotsComp from "../components/chiots/chiots";
 import Link from "../components/link/link";
-//import Image from "../components/image/image";
+import Image from "../components/image/image";
 import Bebes from "../components/chiots/bebes";
 import Layout from "../components/layout/layout";
 
@@ -20,6 +20,8 @@ import aiko from "../assets/images/aiko/1.webp";
 import haley from "../assets/images/haley/1.webp";
 import silverDream from "../assets/images/silver-dream/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
+import bentley from "../assets/images/bentley/1.webp";
+import softShiny from "../assets/images/soft-shiny/1.jpg";
 
 import gs3101 from "../assets/images/gabu-sweety/IMG3101.jpg";
 import gs3102 from "../assets/images/gabu-sweety/IMG3102.jpg";
@@ -33,6 +35,7 @@ import gs3097 from "../assets/images/gabu-sweety/IMG3097.jpg";
 import gs3098 from "../assets/images/gabu-sweety/IMG3098.jpg";
 import gs3103 from "../assets/images/gabu-sweety/IMG3103.jpg";
 import gs3104 from "../assets/images/gabu-sweety/IMG3104.jpg";
+import ha3132 from "../assets/images/haley-aiko/3132.webp";
 
 // Markup
 const Chiots = () => {
@@ -126,32 +129,17 @@ const Chiots = () => {
           </div>
 
           <ChiotsComp
-            date="Accouplements faits du 26 au 29 novembre "
-            infos="Gestation à confirmer"
-            infos2=""
-            imgm={gabou}
-            nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
-            imgf={tinaTurner}
-            nomf="DeJade Just Call me Tina Turner"
-          />
-          <ChiotsComp
-            date="Accouplements faits du 15 au 16 novembre"
-            infos="Gestation à confirmer"
+            date="Un chiot né le 17/01/2022"
+            infos=""
             infos2=""
             imgm={aiko}
             nomm="DeJade Dream in Black Gold ( Aïko )"
             imgf={haley}
             nomf="DeJade White Elegance ( Haley )"
           />
-          <ChiotsComp
-            date="Accouplement à venir 2022"
-            infos=""
-            infos2=""
-            imgm={silverDream}
-            nomm="Ch.DeJade Soft Silver Dream"
-            imgf={thunder}
-            nomf="DeJade Soft Breeze of Thunder"
-          />
+          <h2>Mâle tricolore, réservé.</h2>
+          <Image source={ha3132} alttext="Mâle tricolore " />
+
           <ChiotsComp
             date="Accouplement à venir 2022"
             infos=""
@@ -161,6 +149,27 @@ const Chiots = () => {
             imgf={tiBlanche}
             nomf="DeJade Gracious White ( Ti-Blanche )"
           />
+
+          <ChiotsComp
+            date="Accouplement prévu février 2022"
+            infos=""
+            infos2=""
+            imgm={bentley}
+            nomm="Glasgowhill's DeJade Bentley"
+            imgf={softShiny}
+            nomf="DeJade Soft Shiny"
+          />
+
+          <ChiotsComp
+            date="Accouplement prévu juin - juillet 2022"
+            infos=""
+            infos2=""
+            imgm={silverDream}
+            nomm="GCH.DeJade Soft Silver Dream"
+            imgf={tinaTurner}
+            nomf="CH.DeJade Tina Turner"
+          />
+
           <h2>Tous les chiots de ces portées auront les yeux normaux</h2>
           <div className={styleComponents.contact}>
             <Link to="mailto:info@elevagedejade.com">
