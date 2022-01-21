@@ -14,13 +14,28 @@ import * as styleComponents from "../assets/pagestyles/chiots.module.scss";
 //images
 import gabou from "../assets/images/gabou/1.jpg";
 import tiBlanche from "../assets/images/ti-blanche/1.webp";
+import rhapsodie from "../assets/images/sweety/1.jpg";
 import tinaTurner from "../assets/images/tina-turner/1.jpg";
 import aiko from "../assets/images/aiko/1.webp";
 import haley from "../assets/images/haley/1.webp";
 import silverDream from "../assets/images/silver-dream/1.jpg";
+import thunder from "../assets/images/thunder/1.webp";
 import Bentley from "../assets/images/bentley/1.webp";
 import gretta from "../assets/images/gretta/1.webp";
 import softShiny from "../assets/images/soft-shiny/1.jpg";
+
+import gs3101 from "../assets/images/gabu-sweety/IMG3101.jpg";
+import gs3102 from "../assets/images/gabu-sweety/IMG3102.jpg";
+import gs3105 from "../assets/images/gabu-sweety/IMG3105.jpg";
+import gs3106 from "../assets/images/gabu-sweety/IMG3106.jpg";
+import gs3099 from "../assets/images/gabu-sweety/IMG3099.jpg";
+import gs3100 from "../assets/images/gabu-sweety/IMG3100.jpg";
+import gs3095 from "../assets/images/gabu-sweety/IMG3095.jpg";
+import gs3096 from "../assets/images/gabu-sweety/IMG3096.jpg";
+import gs3097 from "../assets/images/gabu-sweety/IMG3097.jpg";
+import gs3098 from "../assets/images/gabu-sweety/IMG3098.jpg";
+import gs3103 from "../assets/images/gabu-sweety/IMG3103.jpg";
+import gs3104 from "../assets/images/gabu-sweety/IMG3104.jpg";
 import p3132 from "../assets/images/aiko-haley/3132.webp";
 
 // Markup
@@ -68,6 +83,7 @@ const Chiots = () => {
               <b>Aucune réservation avant 2022</b>
             </h2>
           </div>
+
           <ChiotsComp
             date="Accouplements faits du 15 au 16 novembre"
             infos="1 chiot né le 17/01/2022"
@@ -78,7 +94,8 @@ const Chiots = () => {
             nomf="DeJade White Elegance ( Haley )"
           />
           <h2>Mâle tricolore, réservé</h2>
-          <img style={{ width: "100%" }} src={p3132} alt="" />
+          <img style={{ width: "100%" }} src={p3132} />
+
           <ChiotsComp
             date="Accouplement à venir 2022"
             infos=""
