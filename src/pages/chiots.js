@@ -22,19 +22,8 @@ import silverDream from "../assets/images/silver-dream/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
 import bentley from "../assets/images/bentley/1.webp";
 import softShiny from "../assets/images/soft-shiny/1.jpg";
+import gretta from "../assets/images/gretta/1.webp";
 
-import gs3101 from "../assets/images/gabu-sweety/IMG3101.jpg";
-import gs3102 from "../assets/images/gabu-sweety/IMG3102.jpg";
-import gs3105 from "../assets/images/gabu-sweety/IMG3105.jpg";
-import gs3106 from "../assets/images/gabu-sweety/IMG3106.jpg";
-import gs3099 from "../assets/images/gabu-sweety/IMG3099.jpg";
-import gs3100 from "../assets/images/gabu-sweety/IMG3100.jpg";
-import gs3095 from "../assets/images/gabu-sweety/IMG3095.jpg";
-import gs3096 from "../assets/images/gabu-sweety/IMG3096.jpg";
-import gs3097 from "../assets/images/gabu-sweety/IMG3097.jpg";
-import gs3098 from "../assets/images/gabu-sweety/IMG3098.jpg";
-import gs3103 from "../assets/images/gabu-sweety/IMG3103.jpg";
-import gs3104 from "../assets/images/gabu-sweety/IMG3104.jpg";
 import ha3132 from "../assets/images/haley-aiko/3132.webp";
 
 // Markup
@@ -84,52 +73,7 @@ const Chiots = () => {
           </div>
 
           <ChiotsComp
-            date="Naissance le 3 novembre 2021"
-            infos="Sweet a eue ses 6 bébés par césarienne, tous vivants,
-            2 femelles 4 mâles"
-            infos2="Je contacterai mes clients sur la liste d'attente."
-            imgm={gabou}
-            nomm="CH.DeJade Soft Dream in Gold ( Gabou )"
-            imgf={rhapsodie}
-            nomf="DeJade Sweet Rhapsodie in Blue
-            ( Sweety )"
-          />
-          <div className={styleComponents.babys}>
-            <p>Photos des chiots à 4 semaines</p>
-            <Bebes
-              children="Femelle sable-merle réservée Mme Julien"
-              front={gs3101}
-              back={gs3102}
-            />
-            <Bebes
-              children="Femelle tricolore réservée M.Rodrigue"
-              front={gs3105}
-              back={gs3106}
-            />
-            <Bebes
-              children="Mâle sable-merle réservé M.Simard"
-              front={gs3099}
-              back={gs3100}
-            />
-            <Bebes
-              children="Mâle bleu-merle réservé Mme Tremblay"
-              front={gs3095}
-              back={gs3096}
-            />
-            <Bebes
-              children="Mâle tricolore 1 réservé"
-              front={gs3097}
-              back={gs3098}
-            />
-            <Bebes
-              children="Mâle tricolore 2 réservé"
-              front={gs3103}
-              back={gs3104}
-            />
-          </div>
-
-          <ChiotsComp
-            date="Un chiot né le 17/01/2022"
+            date="Un chiot né le 17 janvier 2022"
             infos=""
             infos2=""
             imgm={aiko}
@@ -144,10 +88,20 @@ const Chiots = () => {
             date="Accouplement à venir 2022"
             infos=""
             infos2=""
-            imgm={aiko}
-            nomm="DeJade Dream in Black Gold ( Aïko )"
+            imgm={bentley}
+            nomm="Glasgowhill's DeJade Bentley"
             imgf={tiBlanche}
             nomf="DeJade Gracious White ( Ti-Blanche )"
+          />
+
+          <ChiotsComp
+            date="Accouplements prévus juin - juillet 2022"
+            infos=""
+            infos2=""
+            imgm={gabou}
+            nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
+            imgf={gretta}
+            nomf="Glasgowhill's Show Boat ( Gretta )"
           />
 
           <ChiotsComp
