@@ -75,7 +75,7 @@ const Males = () => {
         </Chiens>
         <Chiens
           img={f6}
-          dname="DeJade Renagane White Élégance"
+          dname="DeJade Renagade White Élégance"
           surname="( Haley )"
           aurl="/albums/haley"
           turl="/tests/haley"
@@ -94,7 +94,7 @@ const Males = () => {
             <b>DMS :</b> Risque faible
           </p>
           <p>
-            <b>MDR1 :</b> normal/normal
+            <b>MDR1 :</b> normal/mutant
           </p>
         </Chiens>
         <Chiens
@@ -140,7 +140,7 @@ const Males = () => {
             <b>MDR1 :</b> normal/mutant
           </p>
         </Chiens>
-        <Chiens
+        {/* <Chiens
           img={f9}
           dname="DeJade Grace Kelly"
           surname="( Eska )"
@@ -164,7 +164,7 @@ const Males = () => {
           <p>
             <b>MDR1 :</b> normal/normal
           </p>
-        </Chiens>
+        </Chiens> */}
         <Chiens
           img={f10}
           dname="Glasgowhill's Show Boat"

@@ -17,6 +17,7 @@ import i10 from "../assets/images/rapsodie/1.jpg";
 import thunder from "../assets/images/thunder/1.webp";
 import bentley from "../assets/images/bentley/1.webp";
 import eska from "../assets/images/eska/1.webp";
+import gretta from "../assets/images/gretta/1.webp";
 
 const CardContainer = styled.div`
   display: flex;
@@ -42,6 +43,11 @@ const Elevage = () => {
           d'informations sur chacun des chiens et plus de photos.
         </p>
         <CardContainer>
+          <Card
+            image={gretta}
+            dname="Glasgowhill's Show Boat( Gretta )"
+            gender="f"
+          />
           <Card
             image={i1}
             dname="CH. DeJade Soft Dream in Gold (Gabou)"
@@ -81,7 +87,7 @@ const Elevage = () => {
             dname="Glasgowhill's DeJade Bentley"
             gender="m"
           />
-          <Card image={eska} dname="DeJade Grace Kelly ( Eska )" gender="f" />
+          {/* <Card image={eska} dname="DeJade Grace Kelly ( Eska )" gender="f" /> */}
         </CardContainer>
       </Container>
     </Layout>

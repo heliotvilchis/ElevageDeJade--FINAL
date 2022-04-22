@@ -12,6 +12,8 @@ import f1 from "../assets/images/ti-blanche/11.jpg";
 import f2 from "../assets/images/ti-blanche/2.jpg";
 import f3 from "../assets/images/ti-blanche/3.jpg";
 
+import eska1 from "../assets/images/eska/1.webp";
+
 // Markup
 const Futurs = () => {
   return (
@@ -24,6 +26,11 @@ const Futurs = () => {
           <img src={f1} alt="" />
           <img src={f2} alt="" />
           <img src={f3} alt="" />
+        </div>
+        <div className={styledCompoents.futurs}>
+          <p>Eska</p>
+          <p>DeJade Grace Kelly</p>
+          <img src={eska1} alt="" />
         </div>
       </Container>
     </Layout>

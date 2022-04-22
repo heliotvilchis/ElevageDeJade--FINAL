@@ -30,6 +30,7 @@ import ci19 from "../assets/images/all-champions/19.jpg";
 import ci20 from "../assets/images/all-champions/20.jpg";
 import ci21 from "../assets/images/all-champions/21.jpg";
 import ci22 from "../assets/images/all-champions/22.webp";
+import ci23 from "../assets/images/all-champions/23.jpg";
 
 // Markup
 const Champions = () => {
@@ -40,17 +41,9 @@ const Champions = () => {
           <h1>Nos Champions</h1>
           <div className={styleComponents.flex}>
             <ChampionsCard
-              image={ci22}
-              dname="CH DeJade Just Call Me Tina Turner"
-            >
-              <p>
-                Pour Tina, ce fut pour elle aussi une magnifique fin de semaine
-                à Miramichi elle a terminé son championnat avec 3 Meilleure des
-                gagnants. Merci aux juges, ainsi qu'à Émily Burdon et son
-                équipe, ainsi qu'à mon transporteur Yannick Bourque qui prend
-                aussi soin de mes chiens.
-              </p>
-            </ChampionsCard>
+              image={ci23}
+              dname="India, CH.DeJade Star of Cassy"
+            ></ChampionsCard>
             <ChampionsCard image={ci1} dname="Ch. DeJade Soft Silver Dream">
               <p>
                 Dream BOB 4X sur 2 championnes dont une grande championne (

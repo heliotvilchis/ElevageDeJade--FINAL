@@ -25,6 +25,9 @@ import softShiny from "../assets/images/soft-shiny/1.jpg";
 import gretta from "../assets/images/gretta/1.webp";
 
 import ha3132 from "../assets/images/haley-aiko/3132.webp";
+import i3123 from "../assets/images/bentley-gretta/3123.jpg";
+import i3047 from "../assets/images/bentley-gretta/3047.jpg";
+import i2388 from "../assets/images/bentley-gretta/2388.jpg";
 
 // Markup
 const Chiots = () => {
@@ -73,45 +76,24 @@ const Chiots = () => {
           </div>
 
           <ChiotsComp
-            date="Un chiot né le 17 janvier 2022"
-            infos=""
-            infos2=""
-            imgm={aiko}
-            nomm="DeJade Dream in Black Gold ( Aïko )"
-            imgf={haley}
-            nomf="DeJade White Elegance ( Haley )"
-          />
-          <h2>Mâle tricolore, réservé.</h2>
-          <Image source={ha3132} alttext="Mâle tricolore " />
-
-          <ChiotsComp
-            date="Accouplement à venir 2022"
-            infos=""
-            infos2=""
-            imgm={bentley}
+            date="Accouplements faits du 10 au 12 avril"
+            infos="Toutes couleurs  prévues, certains de ces chiots seront Normal CEA,
+            CN,DM, MDR1 Normal/Normal DMS Faible risque"
+            infos2="Naissances prévues mi-juin, cette portée est réservée"
+            imgm={i3123}
             nomm="Glasgowhill's DeJade Bentley"
-            imgf={tiBlanche}
-            nomf="DeJade Gracious White ( Ti-Blanche )"
+            imgf={gretta}
+            nomf="Glasgowhill's Showboat"
           />
           <ChiotsComp
-            date="Accouplement prévu février 2022"
-            infos=""
-            infos2=""
-            imgm={bentley}
-            nomm="Glasgowhill's DeJade Bentley"
-            imgf={softShiny}
+            date="Accouplements faits du 11 au 13 avril"
+            infos="Toutes couleurs prévues, tous seront CEA,CN,DM,MDR1 N/N DMS faible risque"
+            infos2="Naissances prévues mi-juin, cette portée est réservée"
+            imgm={i3047}
+            nomm="CH.DeJade Soft Dream in Gold"
+            imgf={i2388}
             nomf="DeJade Soft Shiny"
           />
-          <ChiotsComp
-            date="Accouplements prévus juin - juillet 2022"
-            infos=""
-            infos2=""
-            imgm={gabou}
-            nomm="CH. DeJade Soft Dream in Gold ( Gabou )"
-            imgf={gretta}
-            nomf="Glasgowhill's Show Boat ( Gretta )"
-          />
-
           <ChiotsComp
             date="Accouplement prévu juin - juillet 2022"
             infos=""
@@ -121,8 +103,9 @@ const Chiots = () => {
             imgf={tinaTurner}
             nomf="CH.DeJade Tina Turner"
           />
+          {/* <h2>Mâle tricolore, réservé.</h2>
+          <Image source={ha3132} alttext="Mâle tricolore " /> */}
 
-          <h2>Tous les chiots de ces portées auront les yeux normaux</h2>
           <div className={styleComponents.contact}>
             <Link to="mailto:info@elevagedejade.com">
               info@elevagedejade.com
